@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Spacecraft",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "Weapon",//武器
+        "movementType": "Air"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "Carrier-based Aircraft",//舰载机
+        "movementType": "Air"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "Space Infantry",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+]

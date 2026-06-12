@@ -1,0 +1,689 @@
+[
+	
+	{
+        "name": "Space Zone I",
+        "unitType": "Space Infantry",
+        "movement": 1,
+        "cost": 30,
+        "requiredTech": "External Division Operation",
+        "uniques": [
+        "Unbuildable",
+		"Can instantly construct a [Space Agricultural Zone I] improvement <by consuming this unit>",
+		"Can instantly construct a [Space Industrial Zone I] improvement <by consuming this unit>",
+		"Can instantly construct a [Space Power Generation Zone I] improvement <by consuming this unit>",
+		"Never appears as a Barbarian unit",
+        ]
+    },
+	{
+        "name": "Space Zone II",
+        "unitType": "Space Infantry",
+        "movement": 1,
+        "cost": 30,
+        "requiredTech": "External Division Operation",
+        "uniques": [
+        "Unbuildable",
+		"Can instantly construct a [Space Agricultural Zone II] improvement <by consuming this unit>",
+		"Can instantly construct a [Space Industrial Zone II] improvement <by consuming this unit>",
+		"Can instantly construct a [Space Power Generation Zone II] improvement <by consuming this unit>",
+		"Never appears as a Barbarian unit",
+        ]
+    },
+	
+    {
+        "name": "Research Ship",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "cost": 30,
+        "requiredTech": "Life Support System",
+        "uniques": [
+        "[+1] Sight",
+        "Requires at least [2] population",
+		"[-1] population [in this city]",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [+20 Culture] stats>",
+		"Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Colony Ship",
+        "unitType": "Spacecraft",
+        "movement": 2,
+        "cost": 60,
+        "requiredTech": "Life Support System",
+        "uniques": [
+        "Founds a new city <by consuming this unit>",
+		"Requires at least [2] population",
+		"[-1] population [in this city]",
+		"[-1] Sight",
+		
+		"[This Unit] gains the [Loading Population] status for [4] turn(s) <for all movement> <in [City center] tiles> <for units without [Full Load]> <for units without [Loading Population]> <hidden from users>",
+        "[This Unit] gains the [Full Load] promotion <upon losing the [Loading Population] status> <hidden from users>",
+        "Gain a free [Loading] [in this city] <upon losing the [Loading Population] status> <hidden from users>",
+        "[This Unit] gains the [Offloading Population] status for [4] turn(s) <for all movement> <in [City center] tiles> <for units with [Full Load]> <for units without [Offloading Population]> <hidden from users>",
+        "[This Unit] loses the [Full Load] promotion <upon losing the [Offloading Population] status> <hidden from users>",
+        "Gain a free [Offloading] [in this city] <upon losing the [Offloading Population] status> <hidden from users>",
+		
+		"Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Engineering Ship",
+        "unitType": "Spacecraft",
+        "movement": 2,
+        "cost": 30,
+        "requiredTech": "Space Orientation Positioning",
+        "uniques": [
+        "Requires at least [2] population",
+		"[-1] population [in this city]",
+        "Can build [Capture Net] improvements on tiles",
+        "Can build [Iron Ore Mine] improvements on tiles",
+        "Can build [Rare Metal Mine] improvements on tiles",
+        "Can build [Debris Capture Net] improvements on tiles",
+        "Can build [Focus Ore Mine] improvements on tiles",
+        "Can build [Helium-3 Mine] improvements on tiles",
+        "Can build [Unmanned Mining Station] improvements on tiles",
+        "Can build [Fortress] improvements on tiles",
+        "Can build [Space Biological Farm] improvements on tiles",
+        "Can build [Dark Matter Extractor] improvements on tiles",
+        "Can build [Remove Interstellar Dust] improvements on tiles",
+        "Can build [Remove Asteroid Belt] improvements on tiles",
+        "Can build [Remove Artificial Debris] improvements on tiles",
+        "Can build [Road] improvements on tiles",
+        "[-1] Sight",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Early Frigate",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "strength": 10,
+        "cost": 25,
+        "requiredTech": "Controlled Nuclear Fission",
+        "obsoleteTech": "Space Force Construction",
+        "uniques": [],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Light Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 1,
+        "movement": 3,
+        "strength": 10,
+        "rangedStrength": 8,
+        "cost": 30,
+        "requiredTech": "Space Warfare",
+        "obsoleteTech": "Blockade Battle Line",
+        "uniques": [
+		"[+2] Strength <vs [Ranged] units> <when defending>",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Medium Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 3,
+        "strength": 10,
+        "rangedStrength": 12,
+        "cost": 35,
+        "requiredTech": "Space Warfare",
+        "obsoleteTech": "Blockade Battle Line",
+        "uniques": [
+        "[-2] Strength <vs [Ranged] units> <when defending>",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Early Radar Ship",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "strength": 10,
+        "cost": 30,
+        "requiredTech": "Space Exploration",
+        "obsoleteTech": "Space War",
+        "uniques": [
+        "[+2] Sight",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Mining Ship",
+        "unitType": "Spacecraft",
+        "movement": 2,
+        "cost": 35,
+        "requiredTech": "Deep Space Mining",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[-1] Sight",
+        "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Interstellar Dust] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]> <hidden from users>",
+        "[This Unit] gains the [Full Load] promotion <upon losing the [Mining Interstellar Detritus] status> <hidden from users>",
+        "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Heavy Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 3,
+        "strength": 15,
+        "rangedStrength": 18,
+        "cost": 55,
+        "requiredTech": "Hull Improvement",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[-3] Strength <vs [Ranged] units> <when defending>",
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Rapid-Fire Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 3,
+        "strength": 15,
+        "rangedStrength": 10,
+        "cost": 55,
+        "requiredTech": "Hull Improvement",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[1] additional attacks per turn",
+        "[+5] Strength <vs [Ranged] units> <when defending>",
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Piercing Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 2,
+        "strength": 15,
+        "rangedStrength": 26,
+        "cost": 65,
+        "requiredTech": "Hull Improvement",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[-11] Strength <vs [Ranged] units> <when defending>",
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Line-of-Sight Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 3,
+        "movement": 3,
+        "strength": 15,
+        "rangedStrength": 12,
+        "cost": 55,
+        "requiredTech": "Hull Improvement",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+3] Strength <vs [Ranged] units> <when defending>",
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Radar Ship",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "strength": 15,
+        "cost": 45,
+        "requiredTech": "Space War",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+4] Sight",
+        "Can see over obstacles",
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Frigate",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "strength": 15,
+        "cost": 35,
+        "requiredTech": "Space War",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Mining Vessel",
+        "unitType": "Spacecraft",
+        "movement": 3,
+        "strength": 10,
+        "cost": 50,
+        "requiredTech": "Unmanned Mining Station",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        
+        "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Interstellar Dust] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]> <hidden from users>",
+        "[This Unit] gains the [Full Load] promotion <upon losing the [Mining Interstellar Detritus] status> <hidden from users>",
+        "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
+        
+        "Never appears as a Barbarian unit",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Lock-on Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 3,
+        "movement": 5,
+        "strength": 20,
+        "rangedStrength": 15,
+        "cost": 90,
+        "requiredTech": "Space Force Construction",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+5] Strength <vs [Ranged] units> <when defending>",
+        "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
+        "[+10] Strength <vs [Locked] units> <when attacking>",
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Twin Heavy Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 5,
+        "strength": 20,
+        "rangedStrength": 18,
+        "cost": 100,
+        "requiredTech": "Space Force Construction",
+        "obsoleteTech": "Space Force Construction",
+        "uniques": [
+        "[+2] Strength <vs [Ranged] units> <when defending>",
+        "[1] additional attacks per turn",
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Battleship",
+        "unitType": "Spacecraft",
+        "movement": 5,
+        "strength": 20,
+        "cost": 60,
+        "requiredTech": "Space Force Construction",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Space Paratrooper",
+        "unitType": "Space Infantry",
+        "movement": 1,
+        "strength": 10,
+        "cost": 35,
+        "requiredTech": "Space Force Construction",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[-1] Sight",
+        "May Paradrop to [All] tiles up to [2] tiles away",
+        "Withdraw before melee combat <with [50]% chance>",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Early Laser Ship",
+        "unitType": "Spacecraft",
+        "range": 4,
+        "movement": 5,
+        "strength": 15,
+        "rangedStrength": 12,
+        "cost": 75,
+        "requiredTech": "Laser Technology",
+        "obsoleteTech": "Cluster Charging",
+        "uniques": [
+        "[+3] Strength <vs [Ranged] units> <when defending>",
+        
+        "[+1] Strength <vs [Battle Damage 10%] units> <when attacking>",
+        "[+2] Strength <vs [Battle Damage 20%] units> <when attacking>",
+        "[+3] Strength <vs [Battle Damage 30%] units> <when attacking>",
+        "[+4] Strength <vs [Battle Damage 40%] units> <when attacking>",
+        "[+5] Strength <vs [Battle Damage 50%] units> <when attacking>",
+        "[+6] Strength <vs [Battle Damage 60%] units> <when attacking>",
+        "[+7] Strength <vs [Battle Damage 70%] units> <when attacking>",
+        "[+8] Strength <vs [Battle Damage 80%] units> <when attacking>",
+        "[+9] Strength <vs [Battle Damage 90%] units> <when attacking>",
+        "[+10] Strength <vs [Battle Damage 100%] units> <when attacking>",
+        
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Early Hangar Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 3,
+        "strength": 20,
+        "rangedStrength": 12,
+        "cost": 95,
+        "requiredTech": "War AI",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+8] Strength <vs [Ranged] units> <when defending>",
+        "Can carry [4] [Carrier-based Aircraft] units",
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Medium Artillery Carrier-based Aircraft",
+        "unitType": "Carrier-based Aircraft",
+        "range": 2,
+        "movement": 1,
+        "strength": 5,
+        "rangedStrength": 12,
+        "cost": 15,
+        "requiredTech": "War AI",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        
+        "[+900]% production cost <when below [5] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Dominator",
+        "unitType": "Spacecraft",
+        "range": 3,
+        "movement": 5,
+        "strength": 30,
+        "rangedStrength": 15,
+        "cost": 205,
+        "requiredTech": "Decisive Weapon",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+15] Strength <vs [Ranged] units> <when defending>",
+        "[1] additional attacks per turn",
+        "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
+        "[+10] Strength <vs [Locked] units> <when attacking>",
+        "[+2] Sight",
+        "[+25]% Strength <when defending>",
+        "Armor",
+        
+        "[+900]% production cost <when below [65] [Alloy]>",
+        "Instantly consumes [65] [Alloy]",
+        "[+900]% production cost <when below [20] [Rare Metal]>",
+        "Instantly consumes [20] [Rare Metal]",
+        "[+900]% production cost <when below [15] [Focus Crystal]>",
+        "Instantly consumes [15] [Focus Crystal]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Sentinel Array",
+        "unitType": "Spacecraft",
+        "movement": 1,
+        "strength": 15,
+        "cost": 120,
+        "requiredTech": "Cosmic Megastructure",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+10] Sight",
+        "Can see over obstacles",
+        "Cannot attack",
+        
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [20] [Rare Metal]>",
+        "Instantly consumes [20] [Rare Metal]",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Queen Bee",
+        "unitType": "Spacecraft",
+        "range": 3,
+        "movement": 5,
+        "strength": 30,
+        "rangedStrength": 30,
+        "cost": 195,
+        "requiredTech": "Decisive Weapon",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "Can carry [4] [Carrier-based Aircraft] units",
+        "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
+        "[+10] Strength <vs [Locked] units> <when attacking>",
+        
+        "[+900]% production cost <when below [50] [Alloy]>",
+        "Instantly consumes [50] [Alloy]",
+        "[+900]% production cost <when below [15] [Rare Metal]>",
+        "Instantly consumes [15] [Rare Metal]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Mine-layer",
+        "unitType": "Spacecraft",
+        "movement": 5,
+        "strength": 15,
+        "cost": 80,
+        "requiredTech": "Blockade Battle Line",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "Can build [Minefield] improvements on tiles",
+        
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [5] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Minesweeper",
+        "unitType": "Spacecraft",
+        "movement": 5,
+        "strength": 15,
+        "cost": 80,
+        "requiredTech": "Blockade Battle Line",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "Can build [Remove Minefield] improvements on tiles",
+        
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [5] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Rapid Laser Ship",
+        "unitType": "Spacecraft",
+        "range": 4,
+        "movement": 5,
+        "strength": 15,
+        "rangedStrength": 10,
+        "cost": 75,
+        "requiredTech": "Cluster Charging",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+5] Strength <vs [Ranged] units> <when defending>",
+        "[1] additional attacks per turn",
+        
+        "[+1] Strength <vs [Battle Damage 10%] units> <when attacking>",
+        "[+2] Strength <vs [Battle Damage 20%] units> <when attacking>",
+        "[+3] Strength <vs [Battle Damage 30%] units> <when attacking>",
+        "[+4] Strength <vs [Battle Damage 40%] units> <when attacking>",
+        "[+5] Strength <vs [Battle Damage 50%] units> <when attacking>",
+        "[+6] Strength <vs [Battle Damage 60%] units> <when attacking>",
+        "[+7] Strength <vs [Battle Damage 70%] units> <when attacking>",
+        "[+8] Strength <vs [Battle Damage 80%] units> <when attacking>",
+        "[+9] Strength <vs [Battle Damage 90%] units> <when attacking>",
+        "[+10] Strength <vs [Battle Damage 100%] units> <when attacking>",
+        
+        
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [10] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Focus Laser Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 5,
+        "strength": 15,
+        "rangedStrength": 25,
+        "cost": 80,
+        "requiredTech": "Cluster Charging",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[-10] Strength <vs [Ranged] units> <when defending>",
+        
+        "[-1] Strength <vs [Battle Damage 10%] units> <when attacking>",
+        "[-2] Strength <vs [Battle Damage 20%] units> <when attacking>",
+        "[-3] Strength <vs [Battle Damage 30%] units> <when attacking>",
+        "[-4] Strength <vs [Battle Damage 40%] units> <when attacking>",
+        "[-5] Strength <vs [Battle Damage 50%] units> <when attacking>",
+        "[-6] Strength <vs [Battle Damage 60%] units> <when attacking>",
+        "[-7] Strength <vs [Battle Damage 70%] units> <when attacking>",
+        "[-8] Strength <vs [Battle Damage 80%] units> <when attacking>",
+        "[-9] Strength <vs [Battle Damage 90%] units> <when attacking>",
+        "[-10] Strength <vs [Battle Damage 100%] units> <when attacking>",
+        
+        "[+900]% production cost <when below [10] [Alloy]>",
+        "Instantly consumes [10] [Alloy]",
+        "[+900]% production cost <when below [10] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Radar Carrier-based Aircraft",
+        "unitType": "Carrier-based Aircraft",
+        "movement": 1,
+        "strength": 5,
+        "cost": 15,
+        "requiredTech": "Decisive Weapon",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[+2] Sight",
+        
+        "[+900]% production cost <when below [5] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Interceptor Carrier-based Aircraft",
+        "unitType": "Carrier-based Aircraft",
+        "movement": 1,
+        "strength": 5,
+        "cost": 20,
+        "requiredTech": "Decisive Weapon",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "[50]% chance to intercept air attacks",
+        
+        
+        "[+900]% production cost <when below [5] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Kamikaze Carrier-based Aircraft",
+        "unitType": "Carrier-based Aircraft",
+        "range": 2,
+        "movement": 1,
+        "strength": 5,
+        "rangedStrength": 25,
+        "cost": 30,
+        "requiredTech": "Decisive Weapon",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "Self-destructs when attacking",
+        "Never appears as a Barbarian unit",
+        ],
+        //"attackSound": "xxxxx"
+    },
+	
+	
+	
+	
+]

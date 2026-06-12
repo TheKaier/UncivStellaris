@@ -1,0 +1,81 @@
+[
+    
+    
+    //引擎0
+    
+    //火炮1
+    //激光2
+    //小配件3
+    //大配件4
+    
+    //装甲5
+    {
+        "name": "Tough Alloy Armor",
+        "uniques": [
+        "[+25]% Strength <when defending>",
+        "Armor",
+        
+        "Only available <when above [14] [Tough Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
+        "Instantly consumes [15] [Tough Alloy]",
+        
+        ],
+        "unitTypes": ["Spacecraft"],
+        "column": 5,
+        "row": 1
+    },
+    {
+        "name": "Light Alloy Armor",
+        "uniques": [
+        "[-1] Movement",
+        "Armor",
+        
+        "Only available <when above [14] [Light Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
+        "Instantly consumes [15] [Light Alloy]",
+        
+        ],
+        "unitTypes": ["Spacecraft"],
+        "column": 5,
+        "row": 2
+    },
+    
+    
+    
+    
+    
+    
+    {
+        "name": "Mining Interstellar Detritus",
+        "uniques":["Cannot move"]
+    },
+    {
+        "name": "Full Load",
+        "uniques":["[-1] Movement"]
+    },
+    
+    
+    
+    {
+        "name": "Locked",
+        "uniques":["Locked"]
+    },
+    
+    {
+        "name": "Loading Population",
+        "uniques":[
+        "Cannot move",
+        "[-1] population [in this city]",
+        
+        ]
+    },
+    {
+        "name": "Offloading Population",
+        "uniques":[
+        "Cannot move",
+        "[+1] population [in this city]",
+        
+        ]
+    },
+    
+    
+	
+]

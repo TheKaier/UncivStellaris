@@ -1,0 +1,273 @@
+[//"Triggers a [事件名] event"
+    {
+    "name":"Industrial Capacity Allocation",
+    "text":"",
+    "choices":[
+    /*
+        {
+            "text":"Increase [[Resources] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Resources] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Resources] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Resources] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Resources] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Resources] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Resources] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Resources] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Resources] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Resources] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        */
+        
+        
+        
+        {
+            "text":"Increase [[Iron Ore] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Iron Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Iron Ore] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Iron Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Iron Ore] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Iron Ore] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Iron Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Iron Ore] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Iron Ore] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Iron Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        
+        
+        
+        
+        
+        {
+            "text":"Increase [[Rare Metal Ore] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Rare Metal Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Rare Metal Ore] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Rare Metal Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Rare Metal Ore] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Rare Metal Ore] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Rare Metal Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Rare Metal Ore] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Rare Metal Ore] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Rare Metal Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        {
+            "text":"Increase [[Focus Ore] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Focus Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Focus Ore] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Focus Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Focus Ore] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Focus Ore] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Focus Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Focus Ore] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Focus Ore] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Focus Ore] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        
+        {
+            "text":"Increase [[Interstellar Debris] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Interstellar Debris] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Interstellar Debris] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Interstellar Debris] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Interstellar Debris] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Interstellar Debris] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Interstellar Debris] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Interstellar Debris] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Interstellar Debris] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Interstellar Debris] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        
+        
+        {
+            "text":"Increase [[Light Alloy] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Light Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Light Alloy] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Light Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Light Alloy] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Light Alloy] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Light Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Light Alloy] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Light Alloy] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Light Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        
+        
+        
+        
+        {
+            "text":"Increase [[Tough Alloy] Processing Capacity]",//提高5
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [4]>",//余量有5
+            "Instantly provides [5] [[Tough Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Increase [[Tough Alloy] Processing Capacity]",//提高1
+            "uniques":[
+            "Only available <when number of [[Industrial Capacity] - [[Iron Ore] Processing Capacity] - [[Rare Metal Ore] Processing Capacity] - [[Focus Ore] Processing Capacity] - [[Interstellar Debris] Processing Capacity] - [[Light Alloy] Processing Capacity] - [[Tough Alloy] Processing Capacity]] is more than [0]>",//余量有1
+            "Instantly provides [1] [[Tough Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Tough Alloy] Processing Capacity]",//降低1
+            "uniques":[
+            "Only available <when number of [[Tough Alloy] Processing Capacity] is more than [0]>",
+            "Instantly consumes [1] [[Tough Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        {
+            "text":"Reduce [[Tough Alloy] Processing Capacity]",//降低5
+            "uniques":[
+            "Only available <when number of [[Tough Alloy] Processing Capacity] is more than [4]>",
+            "Instantly consumes [5] [[Tough Alloy] Processing Capacity]",
+            "Triggers a [Industrial Capacity Allocation] event <hidden from users>",
+            ],
+        },
+        
+        
+        {
+            "text":"",//
+            "uniques":[
+            
+            ],
+        },
+        
+        
+        
+        
+        
+        
+    ]
+    },
+]

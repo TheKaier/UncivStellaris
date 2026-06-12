@@ -1,0 +1,153 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[-100]% unhappiness from the number of cities",//城市不扣快乐
+        //"[-100]% Unhappiness from [Population] [in all cities]",//人口不扣快乐
+        "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
+        "[-4] Happiness from each type of luxury resource",//奢侈品不加快乐
+		"[-1 Science] per [2] population [in all cities]",//半人头瓶
+		"[-100]% Strength for cities <when attacking>",//取消初始城市攻击
+        "[-100]% maintenance costs",//单位维护费修正
+        "[-1 Gold] from every [River]",//删除河流给钱
+        "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
+        "[-100]% Golden Age length",//取消黄金时代
+        "[-100]% Culture cost of adopting new Policies",
+        "[+900]% Culture cost of natural border growth [in all cities]",
+        "[+900]% Gold cost of acquiring tiles [in all cities]",
+        
+        //诱骗ai
+        "[-2 Food] from every [Void] <when above [0] [Number of Space Station]>",
+        "[-2 Production] from every [Interstellar Dust] <when above [0] [Number of Space Station]>",
+        "[-2 Production] from every [Asteroid Belt] <when above [0] [Number of Space Station]>",
+        "[-2 Production] from every [Artificial Debris] <when above [0] [Number of Space Station]>",
+        
+        
+        
+        
+        "Triggers a [Industrial Capacity Allocation] event <when number of [Industrial Capacity] is more than [[[Iron Ore] Processing Capacity] + [[Rare Metal Ore] Processing Capacity] + [[Focus Ore] Processing Capacity] + [[Interstellar Debris] Processing Capacity] + [[Light Alloy] Processing Capacity] + [[Tough Alloy] Processing Capacity]]> <for [Human player] Civilizations> <upon turn end>",//有空闲产能
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
+        "Provides [1] [产物] <for every [[Resources] Processing Capacity]> <when number of [Resources] is more than [[[Resources] Processing Capacity] - 1]>",
+        "Provides [-1] [Resources] <for every [[Resources] Processing Capacity]> <when number of [Resources] is more than [[[Resources] Processing Capacity] - 1]>",
+        */
+        
+        
+        
+        "Provides [1] [Alloy] <for every [[Iron Ore] Processing Capacity]> <when number of [Iron Ore] is more than [[[Iron Ore] Processing Capacity] - 1]> <after discovering [Space Metallurgy]>",
+        "Provides [-1] [Iron Ore] <for every [[Iron Ore] Processing Capacity]> <when number of [Iron Ore] is more than [[[Iron Ore] Processing Capacity] - 1]> <after discovering [Space Metallurgy]>",
+        
+        
+        "Provides [1] [Rare Metal] <for every [[Rare Metal Ore] Processing Capacity]> <when number of [Rare Metal Ore] is more than [[[Rare Metal Ore] Processing Capacity] - 1]> <after discovering [Mining Equipment Optimization]>",
+        "Provides [-1] [Rare Metal Ore] <for every [[Rare Metal Ore] Processing Capacity]> <when number of [Rare Metal Ore] is more than [[[Rare Metal Ore] Processing Capacity] - 1]> <after discovering [Mining Equipment Optimization]>",
+        
+        
+        "Provides [1] [Focus Crystal] <for every [[Focus Ore] Processing Capacity]> <when number of [Focus Ore] is more than [[[Focus Ore] Processing Capacity] - 1]> <after discovering [Mining Equipment Optimization]>",
+        "Provides [-1] [Focus Ore] <for every [[Focus Ore] Processing Capacity]> <when number of [Focus Ore] is more than [[[Focus Ore] Processing Capacity] - 1]> <after discovering [Mining Equipment Optimization]>",
+        
+        
+        
+        "Provides [2] [Iron Ore] <for every [[Interstellar Debris] Processing Capacity]> <when number of [Interstellar Debris] is more than [[[Interstellar Debris] Processing Capacity] * 4 - 1]>",
+        "Provides [1] [Rare Metal Ore] <for every [[Interstellar Debris] Processing Capacity]> <when number of [Interstellar Debris] is more than [[[Interstellar Debris] Processing Capacity] * 4 - 1]>",
+        "Provides [-4] [Interstellar Debris] <for every [[Interstellar Debris] Processing Capacity]> <when number of [Interstellar Debris] is more than [[[Interstellar Debris] Processing Capacity] * 4 - 1]>",
+        
+        
+        
+        "Provides [1] [Light Alloy] <for every [[Light Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Light Alloy] Processing Capacity] - 1]> <when number of [Rare Metal] is more than [[[Light Alloy] Processing Capacity] - 1]> <after discovering [Space Station Expansion]>",
+        "Provides [-1] [Alloy] <for every [[Light Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Light Alloy] Processing Capacity] - 1]> <when number of [Rare Metal] is more than [[[Light Alloy] Processing Capacity] - 1]> <after discovering [Space Station Expansion]>",
+        "Provides [-1] [Rare Metal] <for every [[Light Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Light Alloy] Processing Capacity] - 1]> <when number of [Rare Metal] is more than [[[Light Alloy] Processing Capacity] - 1]> <after discovering [Space Station Expansion]>",
+        
+        
+        
+        "Provides [1] [Tough Alloy] <for every [[Tough Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Tough Alloy] Processing Capacity] - 1]> <when number of [Focus Crystal] is more than [[[Tough Alloy] Processing Capacity] - 1]> <after discovering [Miniaturized Base]>",
+        "Provides [-1] [Alloy] <for every [[Tough Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Tough Alloy] Processing Capacity] - 1]> <when number of [Focus Crystal] is more than [[[Tough Alloy] Processing Capacity] - 1]> <after discovering [Miniaturized Base]>",
+        "Provides [-1] [Focus Crystal] <for every [[Tough Alloy] Processing Capacity]> <when number of [Alloy] is more than [[[Tough Alloy] Processing Capacity] - 1]> <when number of [Focus Crystal] is more than [[[Tough Alloy] Processing Capacity] - 1]> <after discovering [Miniaturized Base]>",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        "Provides [1] [Alloy] <for every [Iron Ore]> <for [AI player] Civilizations>",
+        "Provides [-1] [Iron Ore] <for every [Iron Ore]> <for [AI player] Civilizations>",
+        
+        
+        "Provides [1] [Rare Metal] <for every [Rare Metal Ore]> <for [AI player] Civilizations>",
+        "Provides [-1] [Rare Metal Ore] <for every [Rare Metal Ore]> <for [AI player] Civilizations>",
+        
+        
+        "Provides [1] [Focus Crystal] <for every [Focus Ore]> <for [AI player] Civilizations>",
+        "Provides [-1] [Focus Ore] <for every [Focus Ore]> <for [AI player] Civilizations>",
+        
+        
+        
+        "Provides [2] [Iron Ore] <for every [[Interstellar Debris] / 4]> <for [AI player] Civilizations>",
+        "Provides [1] [Rare Metal Ore] <for every [[Interstellar Debris] / 4]>",
+        "Provides [-4] [Interstellar Debris] <for every [[Interstellar Debris] / 4]> <for [AI player] Civilizations>",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    ],
+    "unitUniques": [
+    
+    "[This Unit] takes [10] damage <upon entering a [Minefield] tile>",
+    
+    
+    
+    
+    
+    
+    
+    "Battle Damage 5% <when above [95] HP> <when below [100] HP>",
+    "Battle Damage 10% <when above [90] HP> <when below [95] HP>",
+    "Battle Damage 15% <when above [85] HP> <when below [90] HP>",
+    "Battle Damage 20% <when above [80] HP> <when below [85] HP>",
+    "Battle Damage 25% <when above [75] HP> <when below [80] HP>",
+    "Battle Damage 30% <when above [70] HP> <when below [75] HP>",
+    "Battle Damage 35% <when above [65] HP> <when below [70] HP>",
+    "Battle Damage 40% <when above [60] HP> <when below [65] HP>",
+    "Battle Damage 45% <when above [55] HP> <when below [60] HP>",
+    "Battle Damage 50% <when above [50] HP> <when below [55] HP>",
+    "Battle Damage 55% <when above [45] HP> <when below [50] HP>",
+    "Battle Damage 60% <when above [40] HP> <when below [45] HP>",
+    "Battle Damage 65% <when above [35] HP> <when below [40] HP>",
+    "Battle Damage 70% <when above [30] HP> <when below [35] HP>",
+    "Battle Damage 75% <when above [25] HP> <when below [30] HP>",
+    "Battle Damage 80% <when above [20] HP> <when below [25] HP>",
+    "Battle Damage 85% <when above [15] HP> <when below [20] HP>",
+    "Battle Damage 90% <when above [10] HP> <when below [15] HP>",
+    "Battle Damage 95% <when above [5] HP> <when below [10] HP>",
+    "Battle Damage 100% <when above [0] HP> <when below [5] HP>",
+    
+    ]
+}

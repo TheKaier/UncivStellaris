@@ -1,0 +1,97 @@
+[
+    
+	{
+		"name": "Void",//虚空
+		"type": "Land",
+		"movementCost": 1,
+		"food": 2,
+        "RGB": [188,188,188],
+        "uniques": [
+        
+            
+            
+            
+            ]
+    },
+	{
+		"name": "Interstellar Dust",//星际尘埃
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"production": 2,
+		//"overrideStats": true,
+		//"unbuildable": true,
+		"defenceBonus": 0.05,
+		"occursOn": ["Void"],
+		"uniques": [
+		"Rough terrain",
+		"Vegetation",
+		"Blocks line-of-sight from tiles at same elevation",
+					"[50]% Chance to be destroyed by nukes",
+					
+					"Occurs in groups of [5] to [17] tiles",
+		],
+	},
+	{
+		"name": "Asteroid Belt",//小行星带
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"production": 2,
+		//"overrideStats": true,
+		//"unbuildable": true,
+		"defenceBonus": 0.1,
+		"occursOn": ["Void"],
+		"uniques": [
+		"Rough terrain",
+		"Vegetation",
+		"Blocks line-of-sight from tiles at same elevation",
+					"[25]% Chance to be destroyed by nukes",
+					"Occurs in groups of [9] to [12] tiles",
+		],
+	},
+	{
+		"name": "Artificial Debris",//人造物残骸
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"production": 2,
+		//"overrideStats": true,
+		//"unbuildable": true,
+		"defenceBonus": 0.15,
+		"occursOn": ["Void"],
+		"uniques": [
+		"Rough terrain",
+		"Vegetation",
+		"Blocks line-of-sight from tiles at same elevation",
+					"[15]% Chance to be destroyed by nukes",
+					
+					"Occurs in groups of [2] to [4] tiles",
+		],
+	},
+	/*{
+		"name": "Minefield",//雷区
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		//"overrideStats": true,
+		"occursOn": ["Void"],
+		"uniques": [
+		"Rough terrain",
+		"Blocks line-of-sight from tiles at same elevation",
+					"[90]% Chance to be destroyed by nukes",
+					"Doesn't generate naturally",
+		],
+	},*/
+	
+
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+]

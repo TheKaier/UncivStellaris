@@ -1,0 +1,409 @@
+[
+    {
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 2,
+		"gold": 7,
+		"science": 3,
+		"culture": 1,
+		"cost": 1,
+		"specialistSlots": {"Agricultural Zoning Post": 1, "Industrial Zoning Post": 1, "Power Generation Zoning Post": 1},
+		"uniques": [
+		"Indicates the capital city",
+
+		
+		
+		]
+	},
+	{
+		"name": "UNFPA",//人口署
+		"cost": 1,
+		"uniques": [
+		"[+1] population [in this city] <when number of [Food] is more than [25]> <upon turn start>",
+        "Instantly gain [-25] [Stored Food] <when number of [Food] is more than [25]> <upon turn start>",
+        "Automatically built in all cities where it is buildable",
+        "Unsellable",
+
+		
+		
+		]
+	},
+	{
+	"name": "Industrial Capacity Allocation",
+	"cost": 0,
+	"uniques": [
+	"Can only be built <in [Capital] cities>",
+		"Triggers a [Industrial Capacity Allocation] event",
+		"Remove [Industrial Capacity Allocation] [in this city] <hidden from users>",
+		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+		
+		
+	]
+    },
+	
+	
+	
+	
+    {
+        "name": "Agricultural Zone",
+        "cost": 15,
+        "specialistSlots": {"Agricultural Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    {
+        "name": "Industrial Zone",
+        "cost": 15,
+        "specialistSlots": {"Industrial Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        "Provides [3] [Industrial Capacity]",
+        ]
+    },
+    {
+        "name": "Power Generation Zone",
+        "cost": 15,
+        "specialistSlots": {"Power Generation Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //重复
+    {
+        "name": "[Agricultural Zone]",
+        "cost": 15,
+        "specialistSlots": {"Agricultural Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    {
+        "name": "[Industrial Zone]",
+        "cost": 15,
+        "specialistSlots": {"Industrial Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        "Provides [3] [Industrial Capacity]",
+        ]
+    },
+    {
+        "name": "[Power Generation Zone]",
+        "cost": 15,
+        "specialistSlots": {"Power Generation Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    {
+        "name": "[[Agricultural Zone]]",
+        "cost": 15,
+        "specialistSlots": {"Agricultural Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    {
+        "name": "[[Industrial Zone]]",
+        "cost": 15,
+        "specialistSlots": {"Industrial Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        "Provides [3] [Industrial Capacity]",
+        ]
+    },
+    {
+        "name": "[[Power Generation Zone]]",
+        "cost": 15,
+        "specialistSlots": {"Power Generation Zoning Post": 3},
+        "requiredTech": "Space Capsule Internal Operation",
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    
+    
+    
+    
+    {
+        "name": "Space Zone I",
+        "cost": 30,
+        "requiredTech": "External Division Operation",
+        "uniques": [
+        "Remove [Space Zone I] [in this city]",
+        "Free [Space Zone I] appears",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        ]
+    },
+    {
+        "name": "Monument",
+        "cost": 30,
+        //"maintenance": 1,
+        "culture": 2,
+        "requiredTech": "Infrastructure Expansion",
+        "uniques": []
+    },
+    {
+        "name": "Library",
+        "cost": 40,
+        //"maintenance": 1,
+        "requiredTech": "Infrastructure Expansion",
+        "uniques": [
+        "[+1 Science] per [2] population [in this city]",
+        
+        ]
+    },
+    {
+        "name": "Theater",
+        "cost": 50,
+        "maintenance": 1,
+        "happiness": 4,
+        "requiredTech": "Infrastructure Expansion",
+        "uniques": [
+        
+        ]
+    },
+    {
+        "name": "Dockyard",
+        "cost": 50,
+        "maintenance": 1,
+        "production": 2,
+        "requiredTech": "Hull Improvement",
+        "uniques": [
+        "[+15]% Production when constructing [Spacecraft] units [in this city]",
+        ]
+    },
+    {
+        "name": "Market",
+        "cost": 50,
+        "requiredTech": "Miniaturized Base",
+        "uniques": [
+        "[+2 Gold] per [3] population [in this city]",
+        
+        ]
+    },
+    /*{
+        "name": "Temple",
+        "cost": 100,
+        "maintenance": 1,
+        "faith": 2,
+        "requiredTech": "Miniaturized Base",
+        "uniques": []
+    },*/
+    {
+        "name": "Space Station Armor",
+        "cost": 50,
+        "cityStrength": 5,
+		"cityHealth": 50,
+        "requiredTech": "Miniaturized Base",
+        "uniques": [
+        "[+50]% Strength for cities <when attacking> <in this city>",
+        ]
+    },
+    {
+        "name": "City Hall",
+        "cost": 60,
+        "maintenance": 1,
+        "culture": 3,
+        "happiness": 2,
+        "requiredTech": "Space Diplomacy Preparedness",
+        "uniques": [
+        "[-40]% Culture cost of natural border growth [in this city]",
+        
+        ]
+    },
+    {
+        "name": "Nuclear Fusion Power Generation Zone",
+        "cost": 80,
+        "requiredTech": "Nuclear Fusion Device",
+        "specialistSlots": {"Fusion Power Generation Zoning Post": 3},
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        ]
+    },
+    {
+        "name": "Space Station Expansion",
+        "cost": 60,
+        "happiness": 2,
+        "requiredTech": "Space Station Expansion",
+        "uniques": [
+        
+        "Provides [2] [Space Station Division] <in this city>",
+        ]
+    },
+    {
+        "name": "Space Zone II",
+        "cost": 50,
+        "requiredTech": "Space Station Expansion",
+        "uniques": [
+        "Remove [Space Zone II] [in this city]",
+        "Free [Space Zone II] appears",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        ]
+    },
+    {
+        "name": "Starport",
+        "cost": 60,
+        "maintenance": 2,
+        "production": 2,
+        "cityStrength": 5,
+        "requiredBuilding": "Dockyard",
+        "requiredTech": "Space Force Construction",
+        "uniques": [
+        "[+20]% Production when constructing [Spacecraft] units [in this city]",
+        
+        ]
+    },
+    {
+        "name": "Laser Industrial Zone",
+        "cost": 80,
+        "requiredTech": "Laser Technology",
+        "specialistSlots": {"Laser Industrial Zoning Post": 3},
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        "Provides [7] [Industrial Capacity]",
+        ]
+    },
+    {
+        "name": "Precision Agriculture Zone",
+        "cost": 80,
+        "requiredTech": "Cosmic Megastructure",
+        "specialistSlots": {"Precision Agriculture Zoning Post": 3},
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        
+        ]
+    },
+    {
+        "name": "Academy",
+        "cost": 80,
+        "maintenance": 2,
+        "percentStatBonus": {"science": 33},
+        "requiredBuilding": "Library",
+        "requiredTech": "Cosmic Megastructure",
+        "uniques": [
+        "[+2 Science] per [3] population [in this city]",
+        
+        
+        ]
+    },
+    {
+        "name": "Space Station Cannon",
+        "cost": 60,
+        "maintenance": 1,
+		"cityHealth": 50,
+        "requiredTech": "Blockade Battle Line",
+        "uniques": [
+        "Only available <in cities without a [Space Station Laser Cannon]>",
+        "[+50]% Strength for cities <when attacking> <in this city>",
+        ]
+    },
+    {
+        "name": "Space Station Laser Cannon",
+        "cost": 60,
+        "maintenance": 1,
+        "requiredTech": "Cluster Charging",
+        "uniques": [
+        "Only available <in cities without a [Space Station Cannon]>",
+        "[+100]% Strength for cities <when attacking> <in this city>",
+        ]
+    },
+    {
+        "name": "Comprehensive Laboratory",
+        "cost": 100,
+        "maintenance": 2,
+        "percentStatBonus": {"science": 34},
+        "requiredBuilding": "Academy",
+        "requiredTech": "Cosmology",
+        "uniques": [
+        "[+1 Science, +1 Culture] from every [Rough terrain] <in this city>",
+        
+        
+        ]
+    },
+    {
+        "name": "Observatory",
+        "cost": 100,
+        "maintenance": 2,
+        "culture": 4,
+        "happiness": 3,
+        "percentStatBonus": {"science": 33},
+        "requiredBuilding": "Academy",
+        "requiredTech": "Cosmology",
+        "uniques": [
+        
+        
+        ]
+    },
+    {
+        "name": "Chamber of Commerce",
+        "cost": 100,
+        "gold": 4,
+        "percentStatBonus": {"gold": 50},
+        "requiredBuilding": "Market",
+        "requiredTech": "Cosmology",
+        "uniques": [
+        
+        
+        ]
+    },
+    
+    
+    
+    
+    
+    
+	{
+        "name": "Loading",
+        "cost": 1,
+        "uniques": [
+        "[-1] population [in this city]",
+        "Remove [Loading] [in this city] <hidden from users>",
+        "Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "Offloading",
+        "cost": 1,
+        "uniques": [
+        "[+1] population [in this city]",
+        "Remove [Offloading] [in this city] <hidden from users>",
+        "Unbuildable",
+        "Unsellable",
+        ]
+    },
+    
+    
+]

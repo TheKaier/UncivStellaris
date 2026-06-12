@@ -1,0 +1,152 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+
+	},
+	
+	
+	
+	/*
+	{
+		"name": "Hyacinth",//风信子号
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [72, 61, 139],
+		"innerColor": [255, 215, 0],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Tianjin Si"]
+	},
+	{
+		"name": "Ark",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [0, 104, 183],
+		"innerColor": [255, 255, 255],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Sun"]
+	},
+	*/
+	
+	
+	
+	
+	{
+		"name": "United Nations of Earth",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [58, 144, 227],
+		"innerColor": [255,223,40],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Earth"]
+	},
+	{
+		"name": "Glebsig Foundation",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [12,101,0],
+		"innerColor": [255,223,40],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Lardner"]
+	},
+	{
+		"name": "Iferyx Amalgamated Fleets",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [50, 181, 2],
+		"innerColor": [199, 199, 199],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Iferyx"]
+	},
+	{
+		"name": "Kingdom of Yondarim",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [73, 178, 255],
+		"innerColor": [255, 239, 73],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Yondarim"]
+	},
+	{
+		"name": "Tzynn Empire",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [129,0,0],
+		"innerColor": [197,205,141],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["Tzynn"]
+	},
+	{
+		"name": "Human Federation",
+		"leaderName": "The Unknowable",
+	
+		"outerColor": [129,0,0],
+		"innerColor": [197,205,141],
+
+		"uniqueName": "",
+		"uniques": [
+			
+		], 
+
+		"cities": ["United Star"]
+	},
+	
+	
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [255,255,255],
+        "innerColor": [255,255,255],
+		"uniques": [
+		
+		
+		]
+	},
+
+
+    
+    
+    
+    
+    
+    
+    
+
+]

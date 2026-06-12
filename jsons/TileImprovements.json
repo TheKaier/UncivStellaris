@@ -1,0 +1,377 @@
+[
+	
+	
+	
+	{
+		"name": "Minefield",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Void"],
+		"uniques": ["Can be built outside your borders",
+		]
+	},
+	
+	
+	{
+        "name": "Space Agricultural Zone I",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "food": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [1] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Industrial Zone I",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "production": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [1] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Power Generation Zone I",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "gold": 3,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Only available <within [1] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+    {
+        "name": "Space Agricultural Zone II",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "food": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [2] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Industrial Zone II",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "production": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [2] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Power Generation Zone II",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "gold": 3,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Only available <within [2] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+    
+    
+	{
+		"name": "Remove Minefield",
+		"turnsToBuild": 5,
+		"techRequired": "Blockade Battle Line",
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove Interstellar Dust",
+		"turnsToBuild": 10,
+		"techRequired": "Interstellar Debris Cleaning",
+		"uniques": [
+		"Can be built outside your borders",
+		"Instantly provides [60] [Interstellar Debris]",
+		
+		]
+	},
+	{
+		"name": "Remove Asteroid Belt",
+		"turnsToBuild": 15,
+		"techRequired": "Cluster Charging",
+		"uniques": [
+		"Can be built outside your borders",
+		"Instantly provides [300] [Interstellar Debris]",
+		]
+	},
+	{
+		"name": "Remove Artificial Debris",
+		"turnsToBuild": 15,
+		"techRequired": "Cluster Charging",
+		"uniques": [
+		"Can be built outside your borders",
+		"Instantly provides [125] [Iron Ore]",
+		"Instantly provides [75] [Rare Metal Ore]",
+		"Instantly provides [50] [Focus Ore]",
+		
+		]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+        "name": "Capture Net",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 5,
+        "techRequired": "Interstellar Resource Collection",
+        "uniques": [
+            "Costs [1] [Gold] per turn",
+            "Provides [1] [Interstellar Debris]",
+            "Provides [2] [Interstellar Debris] <in [Interstellar Dust] tiles>",
+            "Provides [1] [Interstellar Debris] <in [Asteroid Belt] tiles>",
+            "Provides [1] [Interstellar Debris] <in [Artificial Debris] tiles>",
+        ]
+    },
+    {
+        "name": "Iron Ore Mine",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 5,
+        "techRequired": "Ore Prospecting",
+        "uniques": [
+            "Costs [1] [Gold] per turn",
+            "Provides [4] [Iron Ore]",
+            "Provides [1] [Iron Ore] <after discovering [Mining Equipment Optimization]>",
+            "Provides [2] [Iron Ore] <after discovering [Cosmology]>",
+            "Can only be built to improve a resource",
+            
+        ]
+    },
+    {
+        "name": "Rare Metal Mine",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 4,
+        "techRequired": "Ore Prospecting",
+        "uniques": [
+            "Costs [1] [Gold] per turn",
+            "Provides [3] [Rare Metal Ore]",
+            "Provides [1] [Rare Metal Ore] <after discovering [Mining Equipment Optimization]>",
+            "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
+            "Can only be built to improve a resource",
+        ]
+    },
+    {
+        "name": "Debris Capture Net",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 7,
+        "techRequired": "Interstellar Debris Cleaning",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Provides [2] [Interstellar Debris]",
+            "Provides [3] [Interstellar Debris] <in [Interstellar Dust] tiles>",
+            "Provides [2] [Interstellar Debris] <in [Asteroid Belt] tiles>",
+            "Provides [1] [Interstellar Debris] <in [Artificial Debris] tiles>",
+            
+            
+            
+        ]
+    },
+    {
+        "name": "Focus Ore Mine",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 7,
+        "techRequired": "Mining Equipment Optimization",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Provides [2] [Focus Ore]",
+            "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
+            "Can only be built to improve a resource",
+        ]
+    },
+    {
+        "name": "Helium-3 Mine",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 7,
+        "techRequired": "Nuclear Fusion Device",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Provides [3] [Helium-3]",
+            "Can only be built to improve a resource",
+            
+            
+        ]
+    },
+    {
+        "name": "Unmanned Mining Station",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 10,
+        "techRequired": "Unmanned Mining Station",
+        "uniques": [
+            "Costs [3] [Gold] per turn",
+            "Provides [6] [Iron Ore] <in [Iron Ore Enrichment Zone] tiles>",
+            "Provides [4] [Rare Metal Ore] <in [Rare Metal Enrichment Zone] tiles>",
+            "Provides [2] [Focus Ore] <in [Focus Ore Enrichment Zone] tiles>",
+            
+            "Provides [2] [Iron Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
+            
+            "Can be built outside your borders",
+            "Gain control over [all] tiles in a [0]-tile radius",
+            
+            
+        ]
+    },
+    {
+        "name": "Fortress",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 5,
+        "techRequired": "Blockade Battle Line",
+        "uniques": [
+        "Can be built outside your borders",
+        "Gives a defensive bonus of [25]%",
+        ]
+    },
+    {
+        "name": "Space Biological Farm",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 7,
+        "food": 6,
+        "techRequired": "Space Species Research",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Can only be built to improve a resource",
+            "Tile provides yield without assigned population",
+        ]
+    },
+    {
+        "name": "Dark Matter Extractor",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 10,
+        "techRequired": "Cosmology",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Provides [3] [Dark Matter]",
+            "Can only be built to improve a resource",
+            
+        ]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"techRequired": "Cosmology",
+		"uniques": [
+		"Can be built outside your borders",
+		"Costs [2] [Gold] per turn",
+		],
+		"shortcutKey": "R",
+        
+	},
+	/*{
+		"name": "Remove Road",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders"]
+	},*/
+	//{
+	//	"name": "Remove Railroad",
+	//	"turnsToBuild": 3,
+	//	"uniques": ["Can be built outside your borders"]
+	//},
+	/*{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"techRequired": "Tech.Electricity",
+		"uniques": [
+		"Can be built outside your borders",
+		],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},*/
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 3,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+
+    // Great Person improvements
+
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",//远古遗迹
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", 
+		"Unbuildable"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",//市中心
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		"Ensures a minimum tile yield of [+2 Food, +2 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable",
+            "Provides [3] [Space Station Division]",
+            "Provides [1] [Number of Space Station]",
+            ],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+]

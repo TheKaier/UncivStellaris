@@ -1,0 +1,39 @@
+[
+	{
+		"name":"Agricultural Zoning Post",//
+		"food":4,
+		"gold":-2,
+		"color": [136,255,100]
+	},
+	{
+		"name":"Industrial Zoning Post",//
+		"production":3,
+		"gold":-2,
+		"color": [182,71,0]
+	},
+	{
+		"name":"Power Generation Zoning Post",//
+		"gold":7,
+		"color": [255,239,73]
+	},
+	{
+		"name":"Precision Agriculture Zoning Post",//
+		"food":7,
+		"gold":-3,
+		"color": [136,255,100]
+	},
+	{
+		"name":"Laser Industrial Zoning Post",//
+		"production":5,
+		"gold":-3,
+		"color": [182,71,0]
+	},
+	{
+		"name":"Fusion Power Generation Zoning Post",//
+		"gold":15,
+		"color": [255,239,73]
+	},
+	
+	
+	
+]
