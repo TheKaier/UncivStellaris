@@ -75,7 +75,38 @@
             "Tile provides yield without assigned population",
         ]
     },
-    
+    {
+        "name": "Space Agricultural Zone III",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "food": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [3] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Industrial Zone III",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "production": 2,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Costs [2] [Gold] per turn",
+            "Only available <within [3] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
+	{
+        "name": "Space Power Generation Zone III",
+        "terrainsCanBeBuiltOn": ["Void"],
+        "gold": 3,
+        "techRequired": "External Division Operation",
+        "uniques": [
+            "Only available <within [3] tiles of a [City center]>",
+            "Tile provides yield without assigned population",
+        ]
+    },
     
 	{
 		"name": "Remove Minefield",
@@ -143,9 +174,9 @@
         "techRequired": "Ore Prospecting",
         "uniques": [
             "Costs [1] [Gold] per turn",
-            "Provides [4] [Iron Ore]",
+            "Provides [2] [Iron Ore]",
             "Provides [1] [Iron Ore] <after discovering [Mining Equipment Optimization]>",
-            "Provides [2] [Iron Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Iron Ore] <after discovering [Cosmology]>",
             "Can only be built to improve a resource",
             
         ]
@@ -157,7 +188,7 @@
         "techRequired": "Ore Prospecting",
         "uniques": [
             "Costs [1] [Gold] per turn",
-            "Provides [3] [Rare Metal Ore]",
+            "Provides [1] [Rare Metal Ore]",
             "Provides [1] [Rare Metal Ore] <after discovering [Mining Equipment Optimization]>",
             "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
             "Can only be built to improve a resource",
@@ -171,8 +202,8 @@
         "uniques": [
             "Costs [2] [Gold] per turn",
             "Provides [2] [Interstellar Debris]",
-            "Provides [3] [Interstellar Debris] <in [Interstellar Dust] tiles>",
-            "Provides [2] [Interstellar Debris] <in [Asteroid Belt] tiles>",
+            "Provides [2] [Interstellar Debris] <in [Interstellar Dust] tiles>",
+            "Provides [1] [Interstellar Debris] <in [Asteroid Belt] tiles>",
             "Provides [1] [Interstellar Debris] <in [Artificial Debris] tiles>",
             
             
@@ -186,7 +217,7 @@
         "techRequired": "Mining Equipment Optimization",
         "uniques": [
             "Costs [2] [Gold] per turn",
-            "Provides [2] [Focus Ore]",
+            "Provides [1] [Focus Ore]",
             "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
             "Can only be built to improve a resource",
         ]
@@ -211,11 +242,11 @@
         "techRequired": "Unmanned Mining Station",
         "uniques": [
             "Costs [3] [Gold] per turn",
-            "Provides [6] [Iron Ore] <in [Iron Ore Enrichment Zone] tiles>",
-            "Provides [4] [Rare Metal Ore] <in [Rare Metal Enrichment Zone] tiles>",
+            "Provides [3] [Iron Ore] <in [Iron Ore Enrichment Zone] tiles>",
+            "Provides [2] [Rare Metal Ore] <in [Rare Metal Enrichment Zone] tiles>",
             "Provides [2] [Focus Ore] <in [Focus Ore Enrichment Zone] tiles>",
             
-            "Provides [2] [Iron Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Iron Ore] <after discovering [Cosmology]>",
             "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
             "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
             
@@ -254,15 +285,31 @@
         "techRequired": "Cosmology",
         "uniques": [
             "Costs [2] [Gold] per turn",
-            "Provides [3] [Dark Matter]",
+            "Provides [1] [Dark Matter]",
             "Can only be built to improve a resource",
             
         ]
     },
 	
 	
-	
-	
+	{
+        "name": "Damaged Stargate",
+        "terrainsCanBeBuiltOn": ["Land"],
+        //"techRequired": "",
+        "uniques": [
+        
+            
+        ]
+    },
+	{
+        "name": "Stargate",
+        "terrainsCanBeBuiltOn": ["Land"],
+        //"techRequired": "",
+        "uniques": [
+        
+            
+        ]
+    },
 	
 	
 	
@@ -280,7 +327,7 @@
 		"techRequired": "Cosmology",
 		"uniques": [
 		"Can be built outside your borders",
-		"Costs [2] [Gold] per turn",
+		"Costs [1] [Gold] per turn",
 		],
 		"shortcutKey": "R",
         

@@ -278,7 +278,7 @@
     
     
     
-    /*
+    
     {
         "name": "Manpower",
         "resourceType": "Strategic",
@@ -289,7 +289,7 @@
         ]
     },
     {
-        "name": "Manpower Cap",
+        "name": "Manpower Max",
         "resourceType": "Strategic",
         "uniques": [
             "Cannot be traded",
@@ -306,7 +306,7 @@
             //"Not shown on world screen"
         ]
     },
-    */
+    
 	{
         "name": "Space Station Division",
         "resourceType": "Strategic",
@@ -326,8 +326,22 @@
 	
 	
 	
-	
-	
+	{
+        "name": "Number of Origin",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+	{
+        "name": "Number of Ethos",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
 	
 	
 	

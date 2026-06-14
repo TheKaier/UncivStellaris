@@ -10,8 +10,8 @@
 		"specialistSlots": {"Agricultural Zoning Post": 1, "Industrial Zoning Post": 1, "Power Generation Zoning Post": 1},
 		"uniques": [
 		"Indicates the capital city",
-
-		
+		"Provides [1] [Number of Origin]",
+		"Provides [3] [Number of Ethos]",
 		
 		]
 	},
@@ -23,9 +23,104 @@
         "Instantly gain [-25] [Stored Food] <when number of [Food] is more than [25]> <upon turn start>",
         "Automatically built in all cities where it is buildable",
         "Unsellable",
-
-		
-		
+		"Provides [10] [Manpower Max] <in cities with [1] [Population]> <hidden from users>",
+        "Provides [20] [Manpower Max] <in cities with [2] [Population]> <hidden from users>",
+        "Provides [30] [Manpower Max] <in cities with [3] [Population]> <hidden from users>",
+        "Provides [40] [Manpower Max] <in cities with [4] [Population]> <hidden from users>",
+        "Provides [50] [Manpower Max] <in cities with [5] [Population]> <hidden from users>",
+        "Provides [60] [Manpower Max] <in cities with [6] [Population]> <hidden from users>",
+        "Provides [70] [Manpower Max] <in cities with [7] [Population]> <hidden from users>",
+        "Provides [80] [Manpower Max] <in cities with [8] [Population]> <hidden from users>",
+        "Provides [90] [Manpower Max] <in cities with [9] [Population]> <hidden from users>",
+        "Provides [100] [Manpower Max] <in cities with [10] [Population]> <hidden from users>",
+        "Provides [110] [Manpower Max] <in cities with [11] [Population]> <hidden from users>",
+        "Provides [120] [Manpower Max] <in cities with [12] [Population]> <hidden from users>",
+        "Provides [130] [Manpower Max] <in cities with [13] [Population]> <hidden from users>",
+        "Provides [140] [Manpower Max] <in cities with [14] [Population]> <hidden from users>",
+        "Provides [150] [Manpower Max] <in cities with [15] [Population]> <hidden from users>",
+        "Provides [160] [Manpower Max] <in cities with [16] [Population]> <hidden from users>",
+        "Provides [170] [Manpower Max] <in cities with [17] [Population]> <hidden from users>",
+        "Provides [180] [Manpower Max] <in cities with [18] [Population]> <hidden from users>",
+        "Provides [190] [Manpower Max] <in cities with [19] [Population]> <hidden from users>",
+        "Provides [200] [Manpower Max] <in cities with [20] [Population]> <hidden from users>",
+        "Provides [210] [Manpower Max] <in cities with [21] [Population]> <hidden from users>",
+        "Provides [220] [Manpower Max] <in cities with [22] [Population]> <hidden from users>",
+        "Provides [230] [Manpower Max] <in cities with [23] [Population]> <hidden from users>",
+        "Provides [240] [Manpower Max] <in cities with [24] [Population]> <hidden from users>",
+        "Provides [250] [Manpower Max] <in cities with [25] [Population]> <hidden from users>",
+        "Provides [260] [Manpower Max] <in cities with [26] [Population]> <hidden from users>",
+        "Provides [270] [Manpower Max] <in cities with [27] [Population]> <hidden from users>",
+        "Provides [280] [Manpower Max] <in cities with [28] [Population]> <hidden from users>",
+        "Provides [290] [Manpower Max] <in cities with [29] [Population]> <hidden from users>",
+        "Provides [300] [Manpower Max] <in cities with [30] [Population]> <hidden from users>",
+        "Provides [310] [Manpower Max] <in cities with [31] [Population]> <hidden from users>",
+        "Provides [320] [Manpower Max] <in cities with [32] [Population]> <hidden from users>",
+        "Provides [330] [Manpower Max] <in cities with [33] [Population]> <hidden from users>",
+        "Provides [340] [Manpower Max] <in cities with [34] [Population]> <hidden from users>",
+        "Provides [350] [Manpower Max] <in cities with [35] [Population]> <hidden from users>",
+        "Provides [360] [Manpower Max] <in cities with [36] [Population]> <hidden from users>",
+        "Provides [370] [Manpower Max] <in cities with [37] [Population]> <hidden from users>",
+        "Provides [380] [Manpower Max] <in cities with [38] [Population]> <hidden from users>",
+        "Provides [390] [Manpower Max] <in cities with [39] [Population]> <hidden from users>",
+        "Provides [400] [Manpower Max] <in cities with [40] [Population]> <hidden from users>",
+        "Provides [410] [Manpower Max] <in cities with [41] [Population]> <hidden from users>",
+        "Provides [420] [Manpower Max] <in cities with [42] [Population]> <hidden from users>",
+        "Provides [430] [Manpower Max] <in cities with [43] [Population]> <hidden from users>",
+        "Provides [440] [Manpower Max] <in cities with [44] [Population]> <hidden from users>",
+        "Provides [450] [Manpower Max] <in cities with [45] [Population]> <hidden from users>",
+        "Provides [460] [Manpower Max] <in cities with [46] [Population]> <hidden from users>",
+        "Provides [470] [Manpower Max] <in cities with [47] [Population]> <hidden from users>",
+        "Provides [480] [Manpower Max] <in cities with [48] [Population]> <hidden from users>",
+        "Provides [490] [Manpower Max] <in cities with [49] [Population]> <hidden from users>",
+        "Provides [500] [Manpower Max] <in cities with [50] [Population]> <hidden from users>",
+		"Provides [1] [Manpower Growth Rate] <in cities with [1] [Population]> <hidden from users>",
+        "Provides [2] [Manpower Growth Rate] <in cities with [2] [Population]> <hidden from users>",
+        "Provides [3] [Manpower Growth Rate] <in cities with [3] [Population]> <hidden from users>",
+        "Provides [4] [Manpower Growth Rate] <in cities with [4] [Population]> <hidden from users>",
+        "Provides [5] [Manpower Growth Rate] <in cities with [5] [Population]> <hidden from users>",
+        "Provides [6] [Manpower Growth Rate] <in cities with [6] [Population]> <hidden from users>",
+        "Provides [7] [Manpower Growth Rate] <in cities with [7] [Population]> <hidden from users>",
+        "Provides [8] [Manpower Growth Rate] <in cities with [8] [Population]> <hidden from users>",
+        "Provides [9] [Manpower Growth Rate] <in cities with [9] [Population]> <hidden from users>",
+        "Provides [10] [Manpower Growth Rate] <in cities with [10] [Population]> <hidden from users>",
+        "Provides [11] [Manpower Growth Rate] <in cities with [11] [Population]> <hidden from users>",
+        "Provides [12] [Manpower Growth Rate] <in cities with [12] [Population]> <hidden from users>",
+        "Provides [13] [Manpower Growth Rate] <in cities with [13] [Population]> <hidden from users>",
+        "Provides [14] [Manpower Growth Rate] <in cities with [14] [Population]> <hidden from users>",
+        "Provides [15] [Manpower Growth Rate] <in cities with [15] [Population]> <hidden from users>",
+        "Provides [16] [Manpower Growth Rate] <in cities with [16] [Population]> <hidden from users>",
+        "Provides [17] [Manpower Growth Rate] <in cities with [17] [Population]> <hidden from users>",
+        "Provides [18] [Manpower Growth Rate] <in cities with [18] [Population]> <hidden from users>",
+        "Provides [19] [Manpower Growth Rate] <in cities with [19] [Population]> <hidden from users>",
+        "Provides [20] [Manpower Growth Rate] <in cities with [20] [Population]> <hidden from users>",
+        "Provides [21] [Manpower Growth Rate] <in cities with [21] [Population]> <hidden from users>",
+        "Provides [22] [Manpower Growth Rate] <in cities with [22] [Population]> <hidden from users>",
+        "Provides [23] [Manpower Growth Rate] <in cities with [23] [Population]> <hidden from users>",
+        "Provides [24] [Manpower Growth Rate] <in cities with [24] [Population]> <hidden from users>",
+        "Provides [25] [Manpower Growth Rate] <in cities with [25] [Population]> <hidden from users>",
+        "Provides [26] [Manpower Growth Rate] <in cities with [26] [Population]> <hidden from users>",
+        "Provides [27] [Manpower Growth Rate] <in cities with [27] [Population]> <hidden from users>",
+        "Provides [28] [Manpower Growth Rate] <in cities with [28] [Population]> <hidden from users>",
+        "Provides [29] [Manpower Growth Rate] <in cities with [29] [Population]> <hidden from users>",
+        "Provides [30] [Manpower Growth Rate] <in cities with [30] [Population]> <hidden from users>",
+        "Provides [31] [Manpower Growth Rate] <in cities with [31] [Population]> <hidden from users>",
+        "Provides [32] [Manpower Growth Rate] <in cities with [32] [Population]> <hidden from users>",
+        "Provides [33] [Manpower Growth Rate] <in cities with [33] [Population]> <hidden from users>",
+        "Provides [34] [Manpower Growth Rate] <in cities with [34] [Population]> <hidden from users>",
+        "Provides [35] [Manpower Growth Rate] <in cities with [35] [Population]> <hidden from users>",
+        "Provides [36] [Manpower Growth Rate] <in cities with [36] [Population]> <hidden from users>",
+        "Provides [37] [Manpower Growth Rate] <in cities with [37] [Population]> <hidden from users>",
+        "Provides [38] [Manpower Growth Rate] <in cities with [38] [Population]> <hidden from users>",
+        "Provides [39] [Manpower Growth Rate] <in cities with [39] [Population]> <hidden from users>",
+        "Provides [40] [Manpower Growth Rate] <in cities with [40] [Population]> <hidden from users>",
+        "Provides [41] [Manpower Growth Rate] <in cities with [41] [Population]> <hidden from users>",
+        "Provides [42] [Manpower Growth Rate] <in cities with [42] [Population]> <hidden from users>",
+        "Provides [43] [Manpower Growth Rate] <in cities with [43] [Population]> <hidden from users>",
+        "Provides [44] [Manpower Growth Rate] <in cities with [44] [Population]> <hidden from users>",
+        "Provides [45] [Manpower Growth Rate] <in cities with [45] [Population]> <hidden from users>",
+        "Provides [46] [Manpower Growth Rate] <in cities with [46] [Population]> <hidden from users>",
+        "Provides [47] [Manpower Growth Rate] <in cities with [47] [Population]> <hidden from users>",
+        "Provides [48] [Manpower Growth Rate] <in cities with [48] [Population]> <hidden from users>",
 		]
 	},
 	{
@@ -40,7 +135,18 @@
 		
 	]
     },
-	
+	{
+	"name": "Complete tutorial",
+	"cost": 0,
+	"uniques": [
+	"Can only be built <in [Capital] cities>",
+		"Triggers a [Complete tutorial] event",
+		"Remove [Complete tutorial] [in this city] <hidden from users>",
+		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+		
+		
+	]
+    },
 	
 	
 	
@@ -193,7 +299,7 @@
     },
     {
         "name": "Dockyard",
-        "cost": 50,
+        "cost": 60,
         "maintenance": 1,
         "production": 2,
         "requiredTech": "Hull Improvement",
@@ -203,7 +309,7 @@
     },
     {
         "name": "Market",
-        "cost": 50,
+        "cost": 60,
         "requiredTech": "Miniaturized Base",
         "uniques": [
         "[+2 Gold] per [3] population [in this city]",
@@ -220,7 +326,7 @@
     },*/
     {
         "name": "Space Station Armor",
-        "cost": 50,
+        "cost": 60,
         "cityStrength": 5,
 		"cityHealth": 50,
         "requiredTech": "Miniaturized Base",
@@ -230,7 +336,7 @@
     },
     {
         "name": "City Hall",
-        "cost": 60,
+        "cost": 70,
         "maintenance": 1,
         "culture": 3,
         "happiness": 2,
@@ -252,7 +358,7 @@
     },
     {
         "name": "Space Station Expansion",
-        "cost": 60,
+        "cost": 70,
         "happiness": 2,
         "requiredTech": "Space Station Expansion",
         "uniques": [
@@ -272,7 +378,7 @@
     },
     {
         "name": "Starport",
-        "cost": 60,
+        "cost": 80,
         "maintenance": 2,
         "production": 2,
         "cityStrength": 5,
@@ -307,7 +413,7 @@
     },
     {
         "name": "Academy",
-        "cost": 80,
+        "cost": 90,
         "maintenance": 2,
         "percentStatBonus": {"science": 33},
         "requiredBuilding": "Library",
@@ -320,7 +426,7 @@
     },
     {
         "name": "Space Station Cannon",
-        "cost": 60,
+        "cost": 70,
         "maintenance": 1,
 		"cityHealth": 50,
         "requiredTech": "Blockade Battle Line",
@@ -331,7 +437,7 @@
     },
     {
         "name": "Space Station Laser Cannon",
-        "cost": 60,
+        "cost": 70,
         "maintenance": 1,
         "requiredTech": "Cluster Charging",
         "uniques": [
@@ -341,7 +447,7 @@
     },
     {
         "name": "Comprehensive Laboratory",
-        "cost": 100,
+        "cost": 120,
         "maintenance": 2,
         "percentStatBonus": {"science": 34},
         "requiredBuilding": "Academy",
@@ -354,7 +460,7 @@
     },
     {
         "name": "Observatory",
-        "cost": 100,
+        "cost": 120,
         "maintenance": 2,
         "culture": 4,
         "happiness": 3,
@@ -368,7 +474,7 @@
     },
     {
         "name": "Chamber of Commerce",
-        "cost": 100,
+        "cost": 120,
         "gold": 4,
         "percentStatBonus": {"gold": 50},
         "requiredBuilding": "Market",
@@ -378,6 +484,87 @@
         
         ]
     },
+    
+    
+    
+    {
+        "name": "Space Zone III",
+        "cost": 85,
+        "requiredTech": "Artificial Strong Force Field",
+        "uniques": [
+        "Remove [Space Zone III] [in this city]",
+        "Free [Space Zone III] appears",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        ]
+    },
+    {
+        "name": "Stargate",
+        "cost": 400,
+        "maintenance": 4,
+        "requiredTech": "Warp Technology",
+        "uniques": [
+        "Creates a [Stargate] improvement on a specific tile",
+        ]
+    },
+    {
+        "name": "Hibernating Pod",
+        "cost": 200,
+        "maintenance": 2,
+        "percentStatBonus": {"food": 10},
+        "requiredBuilding": "Space Station Expansion",
+        "requiredTech": "Artificial Ecology",
+        "uniques": [
+        "[+33]% growth [in this city]",
+        
+        ]
+    },
+    {
+        "name": "Space Station Eco-cycle",
+        "cost": 250,
+        "gold": 2,
+        "food": 4,
+        "percentStatBonus": {"culture": 10},
+        "requiredBuilding": "Space Station Expansion",
+        "requiredTech": "Artificial Ecology",
+        "uniques": [
+        
+        ]
+    },
+    
+    {
+        "name": "Repair Damaged Ring World",
+        "cost": 200,
+        "requiredBuilding": "Space Station Expansion",
+        "requiredTech": "Artificial Ecology",
+        "uniques": [
+        "Only available <in cities with a [Damaged Ring World]>",
+        "Remove [Repair Damaged Ring World] [in this city] <hidden from users>",
+        
+        "Gain a free [Ring World] [in this city] <hidden from users>",
+        ]
+    },
+    {
+        "name": "Damaged Ring World",
+        "cost": 1024,
+        "uniques": [
+        "Provides [2] [Space Station Division]",
+        //"Remove [Damaged Ring World] [in this city] <upon constructing [Repair Damaged Ring World]> <hidden from users>",
+        "Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "Ring World",
+        "cost": 1024,
+        "uniques": [
+        "Provides [5] [Space Station Division]",
+        "Provides [2] [Space Station Division] <in cities without a [Damaged Ring World]>",
+        "Unbuildable",
+        "Unsellable",
+        ]
+    },
+    
+    
     
     
     
@@ -404,6 +591,21 @@
         "Unsellable",
         ]
     },
-    
-    
+    {
+	"name": "Impending Doom",
+	"cost": 1,
+	"uniques": [
+	"Can only be built <in [Capital] cities>",
+		"Unbuildable",
+		"Unsellable",
+		"[-10] population [in this city]",
+		"Nullifies [Science] [in this city]",
+		"Nullifies [Culture] [in this city]",
+		"Nullifies [Gold] [in this city]",
+		"Nullifies [Faith] [in this city]",
+		"Nullifies [Production] [in this city]",
+		"Nullifies [Food] [in this city]",
+		"Nullifies [Happiness] [in this city]",
+	]
+    },
 ]

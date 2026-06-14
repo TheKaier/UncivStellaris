@@ -1,5 +1,102 @@
 [//"Triggers a [事件名] event"
     {
+        "name":"Start the game",
+        "text":"Welcome to UncivStellaris! \n\n This is a module based on Stellaris, If there are BUGs, please join QQ Group 932352906 feedback.",
+        "choices":[
+            {
+                "text":"Start playing UncivStellaris!"
+            },
+            {
+                "text":"Wait, I want to see the tutorial first"
+                "uniques":[
+                "Triggers a [Complete tutorial] event <hidden from users>",
+                
+                
+                
+                
+                ]
+            },
+        ]
+    },
+    {
+        "name":"Complete tutorial",
+        "text":"Welcome to UncivStellaris! \n\n This is a module based on Stellaris, If there are BUGs, please join QQ Group 932352906 feedback.",
+        "choices":[
+            {
+                "text":"Industrial Capacity Allocation"
+                "uniques":[
+                "Triggers a [Tutorial Industrial Capacity Allocation] event <hidden from users>",
+                ]
+            },
+            {
+                "text":"Population and Unit"
+                "uniques":[
+                "Triggers a [Tutorial Population and Unit] event <hidden from users>",
+                ]
+            },
+        ]
+    },
+    {
+        "name":"Tutorial Industrial Capacity Allocation",
+        "text":"Industrial capacity allocation is a core mechanism of this module, through the allocation of Industrial Capacity provided by industrial zoning, The various types of ore mined from the site are processed into resources available to the construction unit and further processed.",
+        "choices":[
+            {
+                "text":"Only when raw materials meet consumption demand, will be processed. So the need for reasonable planning of industrial capacity."
+            },
+            {
+                "text":"Each industrial capacity can be \n\n4 Interstellar detritus processed into 2 Iron Ore and 1 Rare Metal Ore \n 1 Iron Ore processed into 1 Alloy \n 1 Rare Metal Ore processed into 1 Rare Metal \n 1 Focus Ore processed into 1 Focus Crystal \n 1 Alloy and 1 Rare Metal processed into 1 Light Alloy \n 1 Alloy and 1 Focus Crystal processed into 1 Tough Alloy"
+            },
+            {
+                "text":"If you want to see more tutorials, you can build a complete tutorial in the capital"
+            },
+        ]
+    },
+    
+    {
+        "name":"Tutorial Population and Unit",
+        "text":"The population-unit linkage is a core mechanism of the module, with human capacity as a quantification of the labour available to the country, with a ceiling and a limited rate of recovery",
+        "choices":[
+            {
+                "text":"The amount of food required for population growth is fixed, with a specific value of 25"
+            },
+            {
+                "text":"10 Manpower Max and 1 Manpower Growth Rate per population"
+            },
+            {
+                "text":"Upper limit of Manpower per unit and Manpower Max"
+            },
+            {
+                "text":"If you want to see more tutorials, you can build a complete tutorial in the capital"
+            },
+        ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
     "name":"Industrial Capacity Allocation",
     "text":"",
     "choices":[
@@ -255,9 +352,14 @@
             ],
         },
         
-        
         {
-            "text":"",//
+                "text":"What is this"
+                "uniques":[
+                "Triggers a [Tutorial Industrial Capacity Allocation] event <hidden from users>",
+                ]
+            },
+        {
+            "text":"Quit",//
             "uniques":[
             
             ],

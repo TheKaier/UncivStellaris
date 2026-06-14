@@ -289,7 +289,7 @@
     {
         "columnNumber": 7,
         "era": "Space Era",
-        "techCost": 250,
+        "techCost": 300,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -330,10 +330,10 @@
             }
         ]
     },
-    /*{
+    {
         "columnNumber": 8,
         "era": "Space Era",
-        "techCost": 100,
+        "techCost": 500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -359,7 +359,7 @@
                 "uniques": []
             }
         ]
-    },*/
+    },
 
     
 

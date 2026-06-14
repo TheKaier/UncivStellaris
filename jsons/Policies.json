@@ -1,3 +1,361 @@
 [
+    {
+        "name": "Origin",
+        "era": "Space Era",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Unavailable",
+],
+        "policies": [
+            
+    {
+        "name": "Prosperous Unification",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "[+1] population [in capital]",
+        "[+1 Food, +1 Culture, +1 Production, +1 Gold] [in all cities] <for [25] turns>",
+        
+        ],
+        "row": 1,
+        "column": 1
+    },
+    {
+        "name": "Stellar Steps",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "Free [Damaged Stargate Builder] appears",
+        
+        
+        ],
+        "row": 1,
+        "column": 3
+    },
+    {
+        "name": "Lost Planet",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "[+15]% [Food] [in capital]",
+        "[+15]% [Production] [in capital]",
+        ],
+        "row": 1,
+        "column": 5
+    },
+    {
+        "name": "Impending Doom",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        "[+50]% [Food] [in capital] <for [50] turns>",
+        "[+50]% [Production] [in capital] <for [50] turns>",
+        "[-20]% [Food] [in capital] <for [45] turns>",
+        "[-20]% [Production] [in capital] <for [45] turns>",
+        "[-15]% [Food] [in capital] <for [35] turns>",
+        "[-15]% [Production] [in capital] <for [35] turns>",
+        "[-15]% [Food] [in capital] <for [15] turns>",
+        "[-15]% [Production] [in capital] <for [15] turns>",
+        "Gain a free [Impending Doom] [in capital] <when number of [turns] is equal to [51]> <upon turn start>",
+        ],
+        "row": 1,
+        "column": 7
+    },
+    {
+        "name": "Shattered Ring",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "Gain a free [Damaged Ring World] [in capital]",
+        
+        
+        ],
+        "row": 1,
+        "column": 9
+    },
+    {
+        "name": "Void Dwellers",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "[+20]% Production when constructing [Colony Ship] units [in all cities]",
+        "[+20]% Production when constructing [Research Ship] units [in all cities]",
+        "[+20]% Production when constructing [Engineering Ship] units [in all cities]",
+        ],
+        "row": 1,
+        "column": 11
+    },
+    {
+        "name": "Life-Seeded",
+        "uniques": [
+        "Only available <when above [0] [Number of Origin]>",
+        "Provides [-1] [Number of Origin]",
+        
+        
+        "[+50]% growth [in capital]",
+        "[+66]% [Production] [in capital]",
+        "[-33]% [Production] [in all cities]",
+        
+        ],
+        "row": 1,
+        "column": 13
+    },
+
+            {
+                "name": "Origin Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+    
+    {
+        "name": "Ethos",
+        "era": "Space Era",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Unavailable",
+],
+        "policies": [
+    {
+        "name": "Authoritarianism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Authoritarianism]> <before adopting [Extreme Egalitarianism]> <before adopting [Egalitarianism]>",
+            
+            
+            "[+1 Science] per [2] population [in all cities]",
+            "[+10]% Unhappiness from [Population] [in all cities]",
+        ],
+        "row": 2,
+        "column": 3
+    },
+    {
+        "name": "Egalitarianism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Egalitarianism]> <before adopting [Extreme Authoritarianism]> <before adopting [Authoritarianism]>",
+            "[+4 Happiness]",
+            
+        ],
+        "row": 4,
+        "column": 7
+    },
+    {
+        "name": "Xenophobia",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Xenophobia]> <before adopting [Extreme Xenophilia]> <before adopting [Xenophilia]>",
+            "[+20]% growth [in all cities]",
+        ],
+        "row": 2,
+        "column": 5
+    },
+    {
+        "name": "Xenophilia",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Xenophilia]> <before adopting [Extreme Xenophobia]> <before adopting [Xenophobia]>",
+            "[+15]% [Gold] [in all cities]",
+            
+        ],
+        "row": 4,
+        "column": 5
+    },
+    {
+        "name": "Militarism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Militarism]> <before adopting [Extreme Pacifism]> <before adopting [Pacifism]>",
+            "[+7]% Strength <for [All] units>",
+            
+        ],
+        "row": 2,
+        "column": 7
+    },
+    {
+        "name": "Pacifism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Pacifism]> <before adopting [Extreme Militarism]> <before adopting [Militarism]>",
+            "[-10]% Unhappiness from [Population] [in all cities]",
+            
+        ],
+        "row": 4,
+        "column": 3
+    },
+    {
+        "name": "Materialism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Materialism]> <before adopting [Extreme Spiritualism]> <before adopting [Spiritualism]>",
+            "[+20]% [Science] [in all cities]",
+            
+        ],
+        "row": 3,
+        "column": 7
+    },
+    {
+        "name": "Spiritualism",
+        "uniques": [
+            "Only available <when above [0] [Number of Ethos]>",
+            "Provides [-1] [Number of Ethos]",
+            "Only available <before adopting [Extreme Spiritualism]> <before adopting [Extreme Materialism]> <before adopting [Materialism]>",
+            "[+20]% [Culture] [in all cities]",
+            
+        ],
+        "row": 3,
+        "column": 3
+    },
+    
+    
+    
+    
+    
+    {
+        "name": "Extreme Authoritarianism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Authoritarianism]> <before adopting [Extreme Egalitarianism]> <before adopting [Egalitarianism]>",
+            "[+1 Science] per [2] population [in all cities]",
+            "[+1 Production] per [4] population [in all cities]",
+            "[+15]% Unhappiness from [Population] [in all cities]",
+            
+        ],
+        "row": 1,
+        "column": 1
+    },
+    {
+        "name": "Extreme Egalitarianism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Egalitarianism]> <before adopting [Extreme Authoritarianism]> <before adopting [Authoritarianism]>",
+            "[+6 Happiness]",
+            
+        ],
+        "row": 5,
+        "column": 9
+    },
+    {
+        "name": "Extreme Xenophobia",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Xenophobia]> <before adopting [Extreme Xenophilia]> <before adopting [Xenophilia]>",
+            
+            "[+35]% growth [in all cities]",
+            
+        ],
+        "row": 1,
+        "column": 5
+    },
+    {
+        "name": "Extreme Xenophilia",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Xenophilia]> <before adopting [Extreme Xenophobia]> <before adopting [Xenophobia]>",
+            "[+25]% [Gold] [in all cities]",
+            
+        ],
+        "row": 5,
+        "column": 5
+    },
+    {
+        "name": "Extreme Militarism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Militarism]> <before adopting [Extreme Pacifism]> <before adopting [Pacifism]>",
+            
+            "[+15]% Strength <for [All] units>",
+        ],
+        "row": 1,
+        "column": 9
+    },
+    {
+        "name": "Extreme Pacifism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Pacifism]> <before adopting [Extreme Militarism]> <before adopting [Militarism]>",
+            "[-15]% Unhappiness from [Population] [in all cities]",
+            
+            
+        ],
+        "row": 5,
+        "column": 1
+    },
+    {
+        "name": "Extreme Materialism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Materialism]> <before adopting [Extreme Spiritualism]> <before adopting [Spiritualism]>",
+            
+            "[+30]% [Science] [in all cities]",
+        ],
+        "row": 3,
+        "column": 9
+    },
+    {
+        "name": "Extreme Spiritualism",
+        "uniques": [
+            "Only available <when above [1] [Number of Ethos]>",
+            "Provides [-2] [Number of Ethos]",
+            "Only available <before adopting [Spiritualism]> <before adopting [Extreme Materialism]> <before adopting [Materialism]>",
+            
+            "[+30]% [Culture] [in all cities]",
+        ],
+        "row": 3,
+        "column": 1
+    },
+    
+    
+    
+    
+    
+    
+            {
+                "name": "Ethos Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
     
 ]

@@ -12,14 +12,32 @@
         "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
         "[-100]% Golden Age length",//取消黄金时代
         "[-100]% Culture cost of adopting new Policies",
+        
+        
         "[+900]% Culture cost of natural border growth [in all cities]",
         "[+900]% Gold cost of acquiring tiles [in all cities]",
+        
+        
+        
+        
+        
+        
         
         //诱骗ai
         "[-2 Food] from every [Void] <when above [0] [Number of Space Station]>",
         "[-2 Production] from every [Interstellar Dust] <when above [0] [Number of Space Station]>",
         "[-2 Production] from every [Asteroid Belt] <when above [0] [Number of Space Station]>",
         "[-2 Production] from every [Artificial Debris] <when above [0] [Number of Space Station]>",
+        
+        
+        
+        
+        
+        "Adopt [Origin]",
+        "Adopt [Ethos]",
+        
+        
+        "Triggers a [Start the game] event <when number of [turns] is equal to [1]> <for [Human player] Civilizations> <upon turn start>",
         
         
         
@@ -111,7 +129,9 @@
         
         
         
-        
+        //人力机制
+        "Provides [1] [Manpower] <for every [Manpower Growth Rate]>",
+        "Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
         
         
         
@@ -119,6 +139,15 @@
         
     ],
     "unitUniques": [
+    
+    "[This Unit] gains the [Loading Stargate Warp] status for [1] turn(s) <for all movement> <for units without [Loading Stargate Warp]> <for units without [Loading Stargate Warp]> <in [Stargate] tiles>",
+        "[This Unit] gains the [Offloading Stargate Warp] status for [1] turn(s) <upon losing the [Loading Stargate Warp] status>",
+    
+    
+    
+    
+    
+    
     
     "[This Unit] takes [10] damage <upon entering a [Minefield] tile>",
     

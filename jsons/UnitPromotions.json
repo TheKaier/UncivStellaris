@@ -2,7 +2,22 @@
     
     
     //引擎0
-    
+    {
+        "name": "Warp Engine",
+        "uniques": [
+        "[This Unit] gains the [Loading Warp] status for [1] turn(s) <for all movement> <for units without [Loading Warp]> <for units without [Loading Warp]> <hidden from users>",
+        "[This Unit] gains the [Offloading Warp] status for [1] turn(s) <upon losing the [Loading Warp] status> <hidden from users>",
+        "Engine",
+        
+        "Only available <when above [19] [Helium-3]> <when above [4] [Focus Crystal]>  <when above [4] [Rare Metal]> <in [City center] tiles> <for [non-[Engine]] units>",
+        "Instantly consumes [20] [Helium-3]",
+        "Instantly consumes [5] [Focus Crystal]",
+        "Instantly consumes [5] [Rare Metal]",
+        ],
+        "unitTypes": ["Spacecraft"],
+        "column": 1,
+        "row": 1
+    },
     //火炮1
     //激光2
     //小配件3
@@ -58,6 +73,17 @@
         "name": "Locked",
         "uniques":["Locked"]
     },
+    {
+        "name": "Be Torn",
+        "uniques":[
+        "Cannot move",
+        "[-25]% Strength <when defending>",
+        
+        ]
+    },
+    
+    
+    
     
     {
         "name": "Loading Population",
@@ -75,7 +101,35 @@
         
         ]
     },
-    
-    
+    {
+        "name": "Loading Warp",
+        "uniques":[
+        "Cannot move",
+        
+        ]
+    },
+    {
+        "name": "Offloading Warp",
+        "uniques":[
+        //"Cannot move",
+        "May Paradrop to [All] tiles up to [20] tiles away",
+        
+        ]
+    },
+    {
+        "name": "Loading Stargate Warp",
+        "uniques":[
+        "Cannot move",
+        
+        ]
+    },
+    {
+        "name": "Offloading Stargate Warp",
+        "uniques":[
+        //"Cannot move",
+        "May Paradrop to [Stargate] tiles up to [20] tiles away",
+        
+        ]
+    },
 	
 ]
