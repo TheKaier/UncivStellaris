@@ -52,7 +52,9 @@
         "[+1] Sight",
         "Requires at least [2] population",
 		"[-1] population [in this city]",
-		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [+20 Culture] stats>",
+        "Gain [10] [Science] <for all movement> <in [City center] tiles>",
+        "[This Unit] gains the [Research Anomaly] status for [6] turn(s) <for all movement> <in [City center] tiles> <for units without [Research Anomaly]> <hidden from users>",
+        "[This Unit] gains the [Anomaly Completion] promotion <upon losing the [Research Anomaly] status> <hidden from users>",
 		"Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
@@ -104,6 +106,23 @@
         "Can build [Remove Artificial Debris] improvements on tiles",
         "Can build [Road] improvements on tiles",
         "[-1] Sight",
+        "Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [1] [Influence]> <when number of [Consumption of Influence] is less than [11]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [2] [Influence]> <when number of [Consumption of Influence] is more than [10]> <when number of [Consumption of Influence] is less than [21]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [3] [Influence]> <when number of [Consumption of Influence] is more than [20]> <when number of [Consumption of Influence] is less than [31]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [4] [Influence]> <when number of [Consumption of Influence] is more than [30]> <when number of [Consumption of Influence] is less than [41]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [5] [Influence]> <when number of [Consumption of Influence] is more than [40]> <when number of [Consumption of Influence] is less than [51]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [6] [Influence]> <when number of [Consumption of Influence] is more than [50]> <when number of [Consumption of Influence] is less than [65]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [7] [Influence]> <when number of [Consumption of Influence] is more than [60]> <when number of [Consumption of Influence] is less than [71]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [8] [Influence]> <when number of [Consumption of Influence] is more than [70]> <when number of [Consumption of Influence] is less than [81]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [9] [Influence]> <when number of [Consumption of Influence] is more than [80]> <when number of [Consumption of Influence] is less than [91]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [10] [Influence]> <when number of [Consumption of Influence] is more than [90]> <when number of [Consumption of Influence] is less than [101]>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [11] [Influence]> <when number of [Consumption of Influence] is more than [100]> <when number of [Consumption of Influence] is less than [111]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [12] [Influence]> <when number of [Consumption of Influence] is more than [110]> <when number of [Consumption of Influence] is less than [121]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [13] [Influence]> <when number of [Consumption of Influence] is more than [120]> <when number of [Consumption of Influence] is less than [131]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [14] [Influence]> <when number of [Consumption of Influence] is more than [130]> <when number of [Consumption of Influence] is less than [141]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [15] [Influence]> <when number of [Consumption of Influence] is more than [140]> <when number of [Consumption of Influence] is less than [151]> <hidden from users>",
+		"Gain control over [all] tiles in a [0]-tile radius <in tiles adjacent to [your] tiles> <costs [16] [Influence]> <when number of [Consumption of Influence] is more than [150]> <hidden from users>",
+		
         "Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
@@ -119,9 +138,9 @@
         "uniques": [
         "[+50]% Strength <when attacking>",
         
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -137,9 +156,9 @@
         "obsoleteTech": "Blockade Battle Line",
         "uniques": [
 		"[+2] Strength <vs [Ranged] units> <when defending>",
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -155,9 +174,9 @@
         "obsoleteTech": "Blockade Battle Line",
         "uniques": [
         "[-2] Strength <vs [Ranged] units> <when defending>",
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -172,9 +191,9 @@
         "uniques": [
         "[+2] Sight",
         
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         "Never appears as a Barbarian unit",
         
         
@@ -195,9 +214,9 @@
         "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
         "Never appears as a Barbarian unit",
         
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -216,9 +235,9 @@
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -238,9 +257,9 @@
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -261,9 +280,9 @@
         "[+900]% production cost <when below [10] [Rare Metal]>",
         "Instantly consumes [10] [Rare Metal]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -282,9 +301,9 @@
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         
         ],
         //"attackSound": "xxxxx"
@@ -303,9 +322,9 @@
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         "Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
@@ -324,9 +343,9 @@
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -345,9 +364,9 @@
         "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
         
         
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         "Never appears as a Barbarian unit",
         
         ],
@@ -375,9 +394,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -400,9 +419,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -422,9 +441,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -441,9 +460,9 @@
         "May Paradrop to [All] tiles up to [2] tiles away",
         "Withdraw before melee combat <with [50]% chance>",
         
-        "[+900]% production cost <when below [5] [Manpower]>",
-        "Consumes [5] [Manpower Max]",
-        "Instantly consumes [5] [Manpower]",
+        "[+900]% production cost <when below [10] [Manpower]>",
+        "Consumes [10] [Manpower Max]",
+        "Instantly consumes [10] [Manpower]",
         "Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
@@ -478,9 +497,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -502,9 +521,9 @@
         "Instantly consumes [15] [Alloy]",
         
         "Never appears as a Barbarian unit",
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -554,9 +573,9 @@
         
         "Never appears as a Barbarian unit",
         
-        "[+900]% production cost <when below [30] [Manpower]>",
-        "Consumes [30] [Manpower Max]",
-        "Instantly consumes [30] [Manpower]",
+        "[+900]% production cost <when below [70] [Manpower]>",
+        "Consumes [70] [Manpower Max]",
+        "Instantly consumes [70] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -578,9 +597,9 @@
         "[+900]% production cost <when below [20] [Rare Metal]>",
         "Instantly consumes [20] [Rare Metal]",
         "Never appears as a Barbarian unit",
-        "[+900]% production cost <when below [30] [Manpower]>",
-        "Consumes [30] [Manpower Max]",
-        "Instantly consumes [30] [Manpower]",
+        "[+900]% production cost <when below [70] [Manpower]>",
+        "Consumes [70] [Manpower Max]",
+        "Instantly consumes [70] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -605,9 +624,9 @@
         "Instantly consumes [15] [Rare Metal]",
         
         "Never appears as a Barbarian unit",
-        "[+900]% production cost <when below [30] [Manpower]>",
-        "Consumes [30] [Manpower Max]",
-        "Instantly consumes [30] [Manpower]",
+        "[+900]% production cost <when below [70] [Manpower]>",
+        "Consumes [70] [Manpower Max]",
+        "Instantly consumes [70] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -630,9 +649,9 @@
         "Instantly consumes [15] [Helium-3]",
         
         "Never appears as a Barbarian unit",
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -653,9 +672,9 @@
         "Instantly consumes [5] [Focus Crystal]",
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
-        "[+900]% production cost <when below [10] [Manpower]>",
-        "Consumes [10] [Manpower Max]",
-        "Instantly consumes [10] [Manpower]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
         "Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
@@ -693,9 +712,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -730,9 +749,9 @@
         "[+900]% production cost <when below [15] [Helium-3]>",
         "Instantly consumes [15] [Helium-3]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -807,9 +826,9 @@
         "[+900]% production cost <when below [10] [Rare Metal]>",
         "Instantly consumes [10] [Rare Metal]",
         
-        "[+900]% production cost <when below [15] [Manpower]>",
-        "Consumes [15] [Manpower Max]",
-        "Instantly consumes [15] [Manpower]",
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -835,9 +854,9 @@
         //"Instantly consumes [5] [Focus Crystal]",
         "[+900]% production cost <when below [20] [Helium-3]>",
         //"Instantly consumes [20] [Helium-3]",
-        "[+900]% production cost <when below [20] [Manpower]>",
-        "Consumes [20] [Manpower Max]",
-        "Instantly consumes [20] [Manpower]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
         
         ],
         //"attackSound": "xxxxx"
@@ -866,9 +885,9 @@
         "[+900]% production cost <when below [20] [Helium-3]>",
         //"Instantly consumes [20] [Helium-3]",
         
-        "[+900]% production cost <when below [20] [Manpower]>",
-        "Consumes [20] [Manpower Max]",
-        "Instantly consumes [20] [Manpower]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -896,9 +915,9 @@
         "[+900]% production cost <when below [20] [Helium-3]>",
         //"Instantly consumes [20] [Helium-3]",
         
-        "[+900]% production cost <when below [20] [Manpower]>",
-        "Consumes [20] [Manpower Max]",
-        "Instantly consumes [20] [Manpower]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -926,9 +945,9 @@
         "[+900]% production cost <when below [20] [Helium-3]>",
         //"Instantly consumes [20] [Helium-3]",
         
-        "[+900]% production cost <when below [20] [Manpower]>",
-        "Consumes [20] [Manpower Max]",
-        "Instantly consumes [20] [Manpower]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -953,9 +972,9 @@
         "[+900]% production cost <when below [20] [Helium-3]>",
         //"Instantly consumes [20] [Helium-3]",
         
-        "[+900]% production cost <when below [20] [Manpower]>",
-        "Consumes [20] [Manpower Max]",
-        "Instantly consumes [20] [Manpower]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
         ],
         //"attackSound": "xxxxx"
     },
@@ -986,12 +1005,12 @@
         "name": "Stargate Builder",
         "unitType": "Space Infantry",
         "movement": 1,
-        "cost": 300,
+        "cost": 150,
         //"requiredTech": "Warp Technology",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
         "Unbuildable",
-		"Can instantly construct a [Stargate] improvement <by consuming this unit>",
+		"Can instantly construct a [Stargate] improvement <in [Damaged Stargate] tiles> <by consuming this unit>",
 		"Never appears as a Barbarian unit",
         ]
     },

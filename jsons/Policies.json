@@ -255,7 +255,7 @@
             "Only available <when above [1] [Number of Ethos]>",
             "Provides [-2] [Number of Ethos]",
             "Only available <before adopting [Egalitarianism]> <before adopting [Extreme Authoritarianism]> <before adopting [Authoritarianism]>",
-            "[+6 Happiness]",
+            "[+8 Happiness]",
             
         ],
         "row": 5,
@@ -353,7 +353,690 @@
     
     
     
+    {
+        "name": "Tradition",
+        "era": "Space Era",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Unavailable",
+],
+        "policies": [
+            
     
+    {
+        "name": "Discovery",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Comment []",
+            "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 1
+    },
+    {
+        "name": "Map the Stars",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+1] Sight <for [Research Ship] units>",
+            "[+1] Movement <for [Research Ship] units>",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        ],
+        "requires": ["Discovery"],
+        "row": 2,
+        "column": 1
+    },
+    {
+        "name": "To Boldly Go",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Comment [Unlock Building Scientific Temple]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Map the Stars"],
+        "row": 3,
+        "column": 1
+    },
+    {
+        "name": "Databank Uplinks",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+2 Science, -1 Gold] from every [Science Zoning Post]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["To Boldly Go"],
+        "row": 4,
+        "column": 1
+    },
+    {
+        "name": "Robotic Explorers",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            
+            "Free [Colony Ship] appears",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Databank Uplinks"],
+        "row": 5,
+        "column": 1
+    },
+    {
+        "name": "Planetary Survey Corps",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            
+            "[+1 Science] per [2] population [in this city]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Robotic Explorers"],
+        "row": 6,
+        "column": 1
+    },
+    {
+        "name": "Expansion",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 3
+    },
+    {
+        "name": "Colony Fever",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+5]% [Production] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Expansion"],
+        "row": 2,
+        "column": 3
+    },
+    {
+        "name": "Reach for the Stars",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [-10] [Consumption of Influence]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Colony Fever"],
+        "row": 3,
+        "column": 3
+    },
+    {
+        "name": "A New Life",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Gain a free [A New Life] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Reach for the Stars"],
+        "row": 4,
+        "column": 3
+    },
+    {
+        "name": "Galactic Ambition",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [-10] [Empire Scale Penalty]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["A New Life"],
+        "row": 5,
+        "column": 3
+    },
+    {
+        "name": "Faster Growth",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "[+20]% growth [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Galactic Ambition"],
+        "row": 6,
+        "column": 3
+    },
+    {
+        "name": "Supremacy",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 5
+    },
+    {
+        "name": "Fleet Logistics",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [30] [Manpower Max]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Supremacy"],
+        "row": 2,
+        "column": 5
+    },
+    {
+        "name": "War Doctrines",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+5]% Strength <for [Spacecraft] units>",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Fleet Logistics"],
+        "row": 3,
+        "column": 5
+    },
+    {
+        "name": "Fleet Rally Point",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [5] [Manpower Growth Rate]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["War Doctrines"],
+        "row": 4,
+        "column": 5
+    },
+    {
+        "name": "War Economy",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+20]% Strength <for [Spacecraft] units> <vs cities>",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Fleet Rally Point"],
+        "row": 5,
+        "column": 5
+    },
+    {
+        "name": "Strategic Mobility",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "[+1] Movement <for [Spacecraft] units>",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["War Economy"],
+        "row": 6,
+        "column": 5
+    },
+    {
+        "name": "Prosperity",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 7
+    },
+    {
+        "name": "Construction Templates",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+10]% Production when constructing [All] buildings [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Prosperity"],
+        "row": 2,
+        "column": 7
+    },
+    {
+        "name": "Standardized Patterns",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[-10]% maintenance cost for [all] buildings [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Construction Templates"],
+        "row": 3,
+        "column": 7
+    },
+    {
+        "name": "Planetary Automation",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+1 Food, +1 Production, +1 Gold] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Standardized Patterns"],
+        "row": 4,
+        "column": 7
+    },
+    {
+        "name": "Refined Profits",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[-15]% maintenance cost for [all] buildings [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Planetary Automation"],
+        "row": 5,
+        "column": 7
+    },
+    {
+        "name": "Greater Good",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "Provides [1] [Space Station Division]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Refined Profits"],
+        "row": 6,
+        "column": 7
+    },
+    {
+        "name": "Harmony",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 9
+    },
+    {
+        "name": "Mind and Body",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[-10]% Unhappiness from [Population] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Harmony"],
+        "row": 2,
+        "column": 9
+    },
+    {
+        "name": "Kinship",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [-20] [City Scale Coefficient]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Mind and Body"],
+        "row": 3,
+        "column": 9
+    },
+    {
+        "name": "Harmonious Directives",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+15]% [Culture] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Kinship"],
+        "row": 4,
+        "column": 9
+    },
+    {
+        "name": "The Greater Good",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+5 Happiness]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Harmonious Directives"],
+        "row": 5,
+        "column": 9
+    },
+    {
+        "name": "The Circle of Life",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "[+20]% growth [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["The Greater Good"],
+        "row": 6,
+        "column": 9
+    },
+    {
+        "name": "Domination",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 11
+    },
+    {
+        "name": "Colonial Viceroys",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [1] [Influence]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Domination"],
+        "row": 2,
+        "column": 11
+    },
+    {
+        "name": "Judgment Corps",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+1 Happiness] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Colonial Viceroys"],
+        "row": 3,
+        "column": 11
+    },
+    {
+        "name": "Slave Legions",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+2 Production, +1 Gold] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Judgment Corps"],
+        "row": 4,
+        "column": 11
+    },
+    {
+        "name": "Land Appropriation",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+1] population [in capital] <upon conquering a city>",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Slave Legions"],
+        "row": 5,
+        "column": 11
+    },
+    {
+        "name": "Royal Prerogative",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "Provides [-15] [Empire Scale Penalty]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Land Appropriation"],
+        "row": 6,
+        "column": 11
+    },
+    /*
+    {
+        "name": "Diplomacy",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 13
+    },
+    {
+        "name": "Diplomatic Grants",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Diplomacy"],
+        "row": 2,
+        "column": 13
+    },
+    {
+        "name": "The Federation",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Diplomatic Grants"],
+        "row": 3,
+        "column": 13
+    },
+    {
+        "name": "Entente Coordination",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["The Federation"],
+        "row": 4,
+        "column": 13
+    },
+    {
+        "name": "Direct Diplomacy",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Entente Coordination"],
+        "row": 5,
+        "column": 13
+    },
+    {
+        "name": "Eminent Diplomats",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Direct Diplomacy"],
+        "row": 6,
+        "column": 13
+    },
+    */
+    {
+        "name": "Mercantile",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 15
+    },
+    {
+        "name": "Marketplace of Better Ideas",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+15]% [Gold] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Mercantile"],
+        "row": 2,
+        "column": 15
+    },
+    {
+        "name": "Trickle Up Economics",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+2 Gold] from every [Power Generation Zoning Post]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Marketplace of Better Ideas"],
+        "row": 3,
+        "column": 15
+    },
+    {
+        "name": "Commercial Enterprise",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+2 Gold] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Trickle Up Economics"],
+        "row": 4,
+        "column": 15
+    },
+    {
+        "name": "Adaptive Economic Policies",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [2] [Alloy]",
+            "Provides [1] [Rare Metal]",
+            "Provides [1] [Focus Crystal]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Commercial Enterprise"],
+        "row": 5,
+        "column": 15
+    },
+    {
+        "name": "Insider Trading",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "[-10]% maintenance cost for [all] buildings [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Adaptive Economic Policies"],
+        "row": 6,
+        "column": 15
+    },
+    {
+        "name": "Adaptability",
+        "uniques": [
+        "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",,
+        "Only available <when above [0] [Number of Tradition Branch]>",
+            "Provides [-1] [Number of Tradition Branch]",
+        ],
+        //"requires": ["Legalism"],
+        "row": 1,
+        "column": 17
+    },
+    {
+        "name": "Recycling",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[-15]% maintenance cost for [all] buildings [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Adaptability"],
+        "row": 2,
+        "column": 17
+    },
+    {
+        "name": "Survival of the Fittest",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+25]% Strength for cities",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Recycling"],
+        "row": 3,
+        "column": 17
+    },
+    {
+        "name": "Environmental Diversification",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "[+10]% [Happiness] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Survival of the Fittest"],
+        "row": 4,
+        "column": 17
+    },
+    {
+        "name": "Adaptive Ecology",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [1] [Number of Tradition]",
+            "Provides [1] [Space Station Division]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Environmental Diversification"],
+        "row": 5,
+        "column": 17
+    },
+    {
+        "name": "Appropriation",
+        "uniques": [
+            "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
+            "Provides [2] [Number of Tradition]",
+            "[-10]% Unhappiness from [Population] [in all cities]",
+            //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
+        ],
+        "requires": ["Adaptive Ecology"],
+        "row": 6,
+        "column": 17
+    },
+    
+
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
     
     
     

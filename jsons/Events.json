@@ -372,4 +372,53 @@
         
     ]
     },
+
+
+
+
+    {
+        "name":"Anomaly Completion",
+        "text":"Our science ship has surveyed this area.",
+        "choices":[
+            {
+            "text":"Signs of Life",
+            "uniques":[
+
+            ],
+            },
+            {
+            "text":"Ancient Shipyard",
+            "uniques":[
+
+            ],
+            },
+            {
+            "text":"Grounded",
+            "uniques":[
+
+            ],
+            },
+            {
+            "text":"Asteroid Mining",
+            "uniques":[
+
+            ],
+            },
+            {
+            "text":"Space Debris",
+            "uniques":[
+
+            ],
+            },
+        ]
+    },
+
+
+
+
+
+
+
+
+
 ]

@@ -132,4 +132,38 @@
         ]
     },
 	
+    {
+        "name": "Research Anomaly",
+        "uniques":[
+        "Cannot move",
+        "[-2] Sight",
+        ]
+    },
+    {
+        "name": "Anomaly Completion",
+        "uniques":[
+        "Triggers a [Anomaly Completion] event",
+        "Doing so will consume this opportunity to choose a Promotion"
+        
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

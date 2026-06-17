@@ -278,7 +278,14 @@
     
     
     
-    
+    {
+        "name": "Number of Population",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
     {
         "name": "Manpower",
         "resourceType": "Strategic",
@@ -342,15 +349,119 @@
             "Not shown on world screen"
         ]
     },
+	{
+        "name": "Number of Tradition",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Number of Tradition Branch",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+	{
+        "name": "Value required for the next tradition",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
 	
-	
-	
-	
-	
-	
-	
-	
-	
+	{
+        "name": "Influence",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Stockpiled",
+        ]
+    },
+	{
+        "name": "Consumption of Influence",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+	{
+        "name": "Empire Scale",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            //"Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Empire Scale Penalty",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+	{
+        "name": "Population Scale",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Territory Scale",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "City Scale",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Population Scale Coefficient",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Territory Scale Coefficient",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "City Scale Coefficient",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "RN1",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
 ]
 
 

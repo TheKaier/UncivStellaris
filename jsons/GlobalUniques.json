@@ -17,13 +17,25 @@
         "[+900]% Culture cost of natural border growth [in all cities]",
         "[+900]% Gold cost of acquiring tiles [in all cities]",
         
+        //
+        //快乐惩罚临时
+        "[-50]% growth [in all cities] <when below [0] [Happiness]>",
+        "[-50]% growth [in all cities] <when below [-10] [Happiness]>",
+        "[-25]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-25]% [Production] [in all cities] <when below [-20] [Happiness]>",
+        "[-15]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "[-15]% Strength <for [All] units> <when below [-20] [Happiness]>",
+        "[-15]% Strength <for [All] units> <when below [-40] [Happiness]>",
+        "[-25]% [Culture] [in all cities] <when below [-10] [Happiness]>",
+        "[-25]% [Culture] [in all cities] <when below [-20] [Happiness]>",
+        "Rebel units may spawn <when below [-10] [Happiness]>",
+        //
+        //
+        
+        "Provides [1] [RN1] <for every [([turns] * 1274 * [[Asteroid Belt] Tiles] + [Science] * 2498 * [[Void] Tiles] + [Gold] * 1966 * [[Void] Tiles] + [Culture] * 4976 * [[Interstellar Dust] Tiles] + [Happiness] * 1049 * [[City center] Tiles] + 2107 * [[Barbarian encampment] Tiles]) % 10000]>",
         
         
-        
-        
-        
-        
-        //诱骗ai
+        //诱骗ai拍城
         "[-2 Food] from every [Void] <when above [0] [Number of Space Station]>",
         "[-2 Production] from every [Interstellar Dust] <when above [0] [Number of Space Station]>",
         "[-2 Production] from every [Asteroid Belt] <when above [0] [Number of Space Station]>",
@@ -32,17 +44,49 @@
         
         
         
-        
+        //政策开门
         "Adopt [Origin]",
         "Adopt [Ethos]",
+        "Adopt [Tradition]",
+        //"Adopt [Ascension]",
+        
+        //人力机制
+        "Provides [1] [Manpower Growth Rate] <for every [Number of Population]>",
+        "Provides [10] [Manpower Max] <for every [Number of Population]>",
+        "Provides [1] [Manpower] <for every [Manpower Growth Rate]>",
+        "Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
+        
+        //传统文化计算
+        "Provides [1] [Value required for the next tradition] <for every [10 + [Number of Tradition] ^ 2.2 * 5]>",
+        
+        //帝国规模计算
+        "Provides [1] [Empire Scale] <for every [[Population Scale] * [Population Scale Coefficient] / 100 + [Territory Scale] * [Territory Scale Coefficient] / 100 + [City Scale] * [City Scale Coefficient] / 100]>",
+        
+        "Provides [2] [Population Scale] <for every [Number of Population]>",//转换人口规模
+        
+        "Provides [100] [Population Scale Coefficient]",//设置初始值
+        "Provides [100] [Territory Scale Coefficient]",
+        "Provides [100] [City Scale Coefficient]",
+        //帝国规模惩罚
+        "Provides [100] [Empire Scale Penalty]",
+        "[-1]% [Culture] [in all cities] <for every [([Empire Scale] - 100) * [Empire Scale Penalty] / 1000]> <when number of [Empire Scale] is more than [100]>",
+        "[-1]% [Science] [in all cities] <for every [([Empire Scale] - 100) * [Empire Scale Penalty] / 1000]> <when number of [Empire Scale] is more than [100]>",
+        //影响力计算
+        "Provides [100] [Consumption of Influence]",
+        //舰队投射
+        //(增长*10-上限)/规模
+        "Provides [1] [Influence] <when number of [([Number of Population] * 10 - [Manpower Max]) / [Empire Scale]] is more than [0.49999]>",
+        "Provides [1] [Influence] <when number of [([Number of Population] * 10 - [Manpower Max]) / [Empire Scale]] is more than [0.99999]>",
         
         
+        
+        //开始游戏
         "Triggers a [Start the game] event <when number of [turns] is equal to [1]> <for [Human player] Civilizations> <upon turn start>",
         
         
         
-        
-        "Triggers a [Industrial Capacity Allocation] event <when number of [Industrial Capacity] is more than [[[Iron Ore] Processing Capacity] + [[Rare Metal Ore] Processing Capacity] + [[Focus Ore] Processing Capacity] + [[Interstellar Debris] Processing Capacity] + [[Light Alloy] Processing Capacity] + [[Tough Alloy] Processing Capacity]]> <for [Human player] Civilizations> <upon turn end>",//有空闲产能
+        //提示空闲产能
+        "Triggers a [Industrial Capacity Allocation] event <when number of [Industrial Capacity] is more than [[[Iron Ore] Processing Capacity] + [[Rare Metal Ore] Processing Capacity] + [[Focus Ore] Processing Capacity] + [[Interstellar Debris] Processing Capacity] + [[Light Alloy] Processing Capacity] + [[Tough Alloy] Processing Capacity]]> <for [Human player] Civilizations> <upon turn end>",
         
         
         
@@ -129,9 +173,6 @@
         
         
         
-        //人力机制
-        "Provides [1] [Manpower] <for every [Manpower Growth Rate]>",
-        "Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
         
         
         

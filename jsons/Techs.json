@@ -22,7 +22,7 @@
     {
         "columnNumber": 1,
         "era": "Space Era",
-        "techCost": 10,
+        "techCost": 15,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -59,7 +59,7 @@
     {
         "columnNumber": 2,
         "era": "Space Era",
-        "techCost": 20,
+        "techCost": 22,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -119,7 +119,7 @@
     {
         "columnNumber": 3,
         "era": "Space Era",
-        "techCost": 30,
+        "techCost": 34,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -156,7 +156,7 @@
     {
         "columnNumber": 4,
         "era": "Space Era",
-        "techCost": 50,
+        "techCost": 56,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -211,7 +211,7 @@
     {
         "columnNumber": 5,
         "era": "Space Era",
-        "techCost": 100,
+        "techCost": 115,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -252,7 +252,7 @@
     {
         "columnNumber": 6,
         "era": "Space Era",
-        "techCost": 200,
+        "techCost": 240,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -289,7 +289,7 @@
     {
         "columnNumber": 7,
         "era": "Space Era",
-        "techCost": 300,
+        "techCost": 350,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -333,7 +333,7 @@
     {
         "columnNumber": 8,
         "era": "Space Era",
-        "techCost": 500,
+        "techCost": 700,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [

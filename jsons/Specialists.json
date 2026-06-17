@@ -33,7 +33,12 @@
 		"gold":15,
 		"color": [255,239,73]
 	},
-	
+	{
+		"name":"Science Zoning Post",//
+		"science":2,
+		"gold":-1,
+		"color": [37,135,255]
+	},
 	
 	
 ]
