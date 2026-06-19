@@ -59,13 +59,13 @@
 		"occursOn": ["Void"],
 		"uniques": [
 		"Rough terrain",
-		//"Vegetation",
-		//"Blocks line-of-sight from tiles at same elevation",
+		"Vegetation",
+		"Blocks line-of-sight from tiles at same elevation",
 					"[15]% Chance to be destroyed by nukes",
 					
-					//"Occurs in groups of [1] to [1] tiles",
+					"Occurs in groups of [1] to [2] tiles",
 					"Must be adjacent to [6] [Void] tiles",
-					"Must be adjacent to [0] [Artificial Debris] tiles",
+					//"Must be adjacent to [0] [Artificial Debris] tiles",
 		],
 	},
 	/*{

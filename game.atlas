@@ -270,6 +270,20 @@ TileSets/FantasyHex/Tiles/Stargate
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Stargate
+  rotate: false
+  xy: 1516, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Stargate
+  rotate: false
+  xy: 1516, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 UnitIcons/Stargate Builder
   rotate: false
   xy: 1516, 355
@@ -362,6 +376,20 @@ ImprovementIcons/Damaged Stargate
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Damaged Stargate
+  rotate: false
+  xy: 1032, 140
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Damaged Stargate
+  rotate: false
+  xy: 1032, 140
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Damaged Stargate
   rotate: false
   xy: 1032, 140
   size: 64, 64
@@ -844,9 +872,72 @@ ResourceIcons/舰队规模
   orig: 24, 24
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Ancient ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Artificial Debris
   rotate: false
   xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ancient ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Artificial Debris
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Ancient ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Artificial Debris
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/City ruins
+  rotate: false
+  xy: 1696, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ancient ruins2
+  rotate: false
+  xy: 1768, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -858,7 +949,70 @@ TileSets/FantasyHex/Tiles/Artificial Debris2
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/City ruins2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ancient ruins2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Artificial Debris2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City ruins2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Ancient ruins2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Artificial Debris2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/City ruins2
+  rotate: false
+  xy: 1768, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Asteroid Belt
+  rotate: false
+  xy: 1840, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Asteroid Belt
+  rotate: false
+  xy: 1840, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Asteroid Belt
   rotate: false
   xy: 1840, 440
   size: 64, 64
@@ -879,7 +1033,49 @@ TileSets/FantasyHex/Tiles/City center
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Barbarian encampment
+  rotate: false
+  xy: 1912, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 1912, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Barbarian encampment
+  rotate: false
+  xy: 1912, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/City center
+  rotate: false
+  xy: 1912, 440
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Dark Matter
+  rotate: false
+  xy: 1228, 332
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dark Matter
+  rotate: false
+  xy: 1228, 332
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Dark Matter
   rotate: false
   xy: 1228, 332
   size: 64, 64
@@ -893,7 +1089,35 @@ TileSets/FantasyHex/Tiles/Dark Matter2
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Dark Matter2
+  rotate: false
+  xy: 1104, 168
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Dark Matter2
+  rotate: false
+  xy: 1104, 168
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Focus Ore Enrichment Zone
+  rotate: false
+  xy: 1200, 260
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Focus Ore Enrichment Zone
+  rotate: false
+  xy: 1200, 260
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Focus Ore Enrichment Zone
   rotate: false
   xy: 1200, 260
   size: 64, 64
@@ -907,7 +1131,35 @@ TileSets/FantasyHex/Tiles/Helium-3 Enrichment Zone
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Helium-3 Enrichment Zone
+  rotate: false
+  xy: 1032, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Helium-3 Enrichment Zone
+  rotate: false
+  xy: 1032, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Interstellar Dust
+  rotate: false
+  xy: 1104, 96
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Interstellar Dust
+  rotate: false
+  xy: 1104, 96
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Interstellar Dust
   rotate: false
   xy: 1104, 96
   size: 64, 64
@@ -921,7 +1173,35 @@ TileSets/FantasyHex/Tiles/Iron Ore Enrichment Zone
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Iron Ore Enrichment Zone
+  rotate: false
+  xy: 1300, 332
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Iron Ore Enrichment Zone
+  rotate: false
+  xy: 1300, 332
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Rare Metal Enrichment Zone
+  rotate: false
+  xy: 1272, 260
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rare Metal Enrichment Zone
+  rotate: false
+  xy: 1272, 260
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Rare Metal Enrichment Zone
   rotate: false
   xy: 1272, 260
   size: 64, 64
@@ -935,6 +1215,20 @@ TileSets/FantasyHex/Tiles/Space Biological Settlement
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Space Biological Settlement
+  rotate: false
+  xy: 1372, 336
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Space Biological Settlement
+  rotate: false
+  xy: 1372, 336
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Space Biological Settlement2
   rotate: false
   xy: 1444, 355
@@ -942,7 +1236,35 @@ TileSets/FantasyHex/Tiles/Space Biological Settlement2
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Space Biological Settlement2
+  rotate: false
+  xy: 1444, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Space Biological Settlement2
+  rotate: false
+  xy: 1444, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Void
+  rotate: false
+  xy: 1588, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Void
+  rotate: false
+  xy: 1588, 355
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Void
   rotate: false
   xy: 1588, 355
   size: 64, 64

@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Leisurely Times",//轻松
-		"baseHappiness": 15,
-		"extraHappinessPerLuxury": 1,
+		"baseHappiness": 12,
+		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 0.75,
 		"unitSupplyBase": 5,
@@ -30,7 +30,7 @@
 	},
 	{
 		"name": "Fair and Just",//公平
-		"baseHappiness": 10,
+		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Under Slight Pressure",
-		"baseHappiness": 10,
+		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -88,7 +88,7 @@
 	},
 	{
 		"name": "Godlike",
-		"baseHappiness": 10,
+		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,

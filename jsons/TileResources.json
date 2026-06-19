@@ -5,62 +5,72 @@
 	
     {
         "name": "Iron Ore Enrichment Zone",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "revealedBy": "Ore Prospecting",
         "improvedBy": ["Iron Ore Mine","Unmanned Mining Station"],
         "terrainsCanBeFoundOn": ["Void","Interstellar Dust","Asteroid Belt"],
         "uniques": [
-            "Generated on every [50] tiles <in [{Featureless} {Void}] tiles>",
-            "Generated on every [25] tiles <in [Interstellar Dust] tiles>",
-            "Generated on every [25] tiles <in [Asteroid Belt] tiles>",
+            "Generated on every [80] tiles <in [{Featureless} {Void}] tiles>",
+            "Generated on every [40] tiles <in [Interstellar Dust] tiles>",
+            "Generated on every [40] tiles <in [Asteroid Belt] tiles>",
+            "Cannot be traded",
+            "Not shown on world screen"
         ]
     },
     {
         "name": "Rare Metal Enrichment Zone",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "revealedBy": "Ore Prospecting",
         "improvedBy": ["Rare Metal Mine","Unmanned Mining Station"],
         "terrainsCanBeFoundOn": ["Void","Interstellar Dust","Asteroid Belt"],
         "uniques": [
-            "Generated on every [60] tiles <in [{Featureless} {Void}] tiles>",
-            "Generated on every [30] tiles <in [Interstellar Dust] tiles>",
-            "Generated on every [30] tiles <in [Asteroid Belt] tiles>",
+            "Generated on every [90] tiles <in [{Featureless} {Void}] tiles>",
+            "Generated on every [50] tiles <in [Interstellar Dust] tiles>",
+            "Generated on every [50] tiles <in [Asteroid Belt] tiles>",
+            "Cannot be traded",
+            "Not shown on world screen"
         ]
     },
     {
         "name": "Helium-3 Enrichment Zone",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "revealedBy": "Nuclear Fusion Device",
         "improvedBy": ["Helium-3 Mine"],
         "terrainsCanBeFoundOn": ["Void","Interstellar Dust","Asteroid Belt"],
         "uniques": [
-            "Generated on every [75] tiles <in [{Featureless} {Void}] tiles>",
-            "Generated on every [45] tiles <in [Interstellar Dust] tiles>",
-            "Generated on every [35] tiles <in [Asteroid Belt] tiles>",
+            "Generated on every [100] tiles <in [{Featureless} {Void}] tiles>",
+            "Generated on every [70] tiles <in [Interstellar Dust] tiles>",
+            "Generated on every [50] tiles <in [Asteroid Belt] tiles>",
+            "Cannot be traded",
+            "Not shown on world screen"
         ]
     },
     {
         "name": "Focus Ore Enrichment Zone",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "revealedBy": "Mining Equipment Optimization",
         "improvedBy": ["Focus Ore Mine","Unmanned Mining Station"],
         "terrainsCanBeFoundOn": ["Void","Interstellar Dust","Asteroid Belt"],
         "uniques": [
-            "Generated on every [60] tiles <in [{Featureless} {Void}] tiles>",
+            "Generated on every [100] tiles <in [{Featureless} {Void}] tiles>",
             "Generated on every [45] tiles <in [Interstellar Dust] tiles>",
-            "Generated on every [30] tiles <in [Asteroid Belt] tiles>",
+            "Generated on every [60] tiles <in [Asteroid Belt] tiles>",
+            "Cannot be traded",
+            "Not shown on world screen"
         ]
     },
     {
         "name": "Space Biological Settlement",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "revealedBy": "Space Species Research",
         "improvedBy": ["Space Biological Farm"],
         "terrainsCanBeFoundOn": ["Void","Interstellar Dust","Asteroid Belt"],
         "uniques": [
-            "Generated on every [40] tiles <in [{Featureless} {Void}] tiles>",
-            "Generated on every [70] tiles <in [Interstellar Dust] tiles>",
-            "Generated on every [70] tiles <in [Asteroid Belt] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Void}] tiles>",
+            "Generated on every [90] tiles <in [Interstellar Dust] tiles>",
+            "Generated on every [140] tiles <in [Asteroid Belt] tiles>",
+            "Cannot be traded",
+            "Not shown on world screen"
         ]
     },
     
@@ -79,7 +89,7 @@
             "Cannot be traded",
             "Stockpiled",
             //"Not shown on world screen"
-            "Generated on every [100] tiles <in [Void] tiles>",
+            "Generated on every [300] tiles <in [Void] tiles>",
             
             
             

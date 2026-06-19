@@ -377,37 +377,61 @@
 
 
     {
-        "name":"Anomaly Completion",
+        "name":"Anomaly Completion",//人造物残骸
         "text":"Our science ship has surveyed this area.",
         "choices":[
             {
             "text":"Signs of Life",
             "uniques":[
-
+                "Only available <when number of [[RN1] % 10] is less than [6]>",
+                "Only available <when number of [RN1] is less than [10000]>",
+                "Only available <when number of [RN1] is more than [0]>",
+                "[+1] population [in capital]",
             ],
             },
             {
             "text":"Ancient Shipyard",
             "uniques":[
-
+                "Only available <when number of [[RN1] % 10] is less than [6]>",
+                "Only available <when number of [RN1] is less than [20000]>",
+                "Only available <when number of [RN1] is more than [10000]>",
+                "Free [Frigate] appears",
             ],
             },
             {
             "text":"Grounded",
             "uniques":[
-
+                "Only available <when number of [[RN1] % 10] is less than [6]>",
+                "Only available <when number of [RN1] is less than [30000]>",
+                "Only available <when number of [RN1] is more than [20000]>",
+                "Free [Mining Ship] appears",
+                "Instantly provides [80] [Influence]",
             ],
             },
+        ]
+    },
+    {
+        "name":"[Anomaly Completion]",//小行星带
+        "text":"Our science ship has surveyed this area.",
+        "choices":[
             {
             "text":"Asteroid Mining",
             "uniques":[
-
+                "Only available <when number of [[RN1] % 10] is less than [6]>",
+                "Only available <when number of [RN1] is less than [40000]>",
+                "Only available <when number of [RN1] is more than [30000]>",
+                "Instantly provides [50] [Iron Ore]",
+		        "Instantly provides [30] [Rare Metal Ore]",
+		        "Instantly provides [30] [Focus Ore]",
             ],
             },
             {
             "text":"Space Debris",
             "uniques":[
-
+                "Only available <when number of [[RN1] % 10] is less than [6]>",
+                "Only available <when number of [RN1] is less than [50000]>",
+                "Only available <when number of [RN1] is more than [40000]>",
+                "Free [Space Zone II] appears",
             ],
             },
         ]

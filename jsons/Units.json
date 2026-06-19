@@ -7,7 +7,8 @@
         "cost": 30,
         "requiredTech": "External Division Operation",
         "uniques": [
-        "Unbuildable",
+        //"Unbuildable",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
 		"Can instantly construct a [Space Agricultural Zone I] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Industrial Zone I] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Power Generation Zone I] improvement <by consuming this unit>",
@@ -18,10 +19,11 @@
         "name": "Space Zone II",
         "unitType": "Space Infantry",
         "movement": 1,
-        "cost": 40,
+        "cost": 50,
         "requiredTech": "External Division Operation",
         "uniques": [
-        "Unbuildable",
+        //"Unbuildable",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
 		"Can instantly construct a [Space Agricultural Zone II] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Industrial Zone II] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Power Generation Zone II] improvement <by consuming this unit>",
@@ -32,10 +34,11 @@
         "name": "Space Zone III",
         "unitType": "Space Infantry",
         "movement": 1,
-        "cost": 70,
+        "cost": 85,
         "requiredTech": "Artificial Strong Force Field",
         "uniques": [
-        "Unbuildable",
+        //"Unbuildable",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
 		"Can instantly construct a [Space Agricultural Zone III] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Industrial Zone III] improvement <by consuming this unit>",
 		"Can instantly construct a [Space Power Generation Zone III] improvement <by consuming this unit>",
@@ -52,10 +55,12 @@
         "[+1] Sight",
         "Requires at least [2] population",
 		"[-1] population [in this city]",
-        "Gain [10] [Science] <for all movement> <in [City center] tiles>",
-        "[This Unit] gains the [Research Anomaly] status for [6] turn(s) <for all movement> <in [City center] tiles> <for units without [Research Anomaly]> <hidden from users>",
-        "[This Unit] gains the [Anomaly Completion] promotion <upon losing the [Research Anomaly] status> <hidden from users>",
-		"Never appears as a Barbarian unit",
+        "Gain [7] [Science] <for all movement> <in [City center] tiles> <after discovering [Cosmic Megastructure]>",
+        "[This Unit] gains the [Research Anomaly] status for [6] turn(s) <for all movement> <in [Artificial Debris] tiles> <for units without [Research Anomaly]> <hidden from users>",
+        "[This Unit] gains the [Anomaly Completion] promotion <upon losing the [Research Anomaly] status> <in [Artificial Debris] tiles> <hidden from users>",
+		"[This Unit] gains the [Research Anomaly] status for [6] turn(s) <for all movement> <in [Asteroid Belt] tiles> <for units without [Research Anomaly]> <hidden from users>",
+        "[This Unit] gains the [Anomaly Completion] promotion <upon losing the [Research Anomaly] status> <in [Asteroid Belt] tiles> <hidden from users>",
+        "Never appears as a Barbarian unit",
         ],
         //"attackSound": "xxxxx"
     },
@@ -136,7 +141,7 @@
         "requiredTech": "Controlled Nuclear Fission",
         "obsoleteTech": "Space Force Construction",
         "uniques": [
-        "[+50]% Strength <when attacking>",
+        "[+50]% Strength <when attacking> <after discovering [Space War]>",
         
         "[+900]% production cost <when below [10] [Manpower]>",
         "Consumes [10] [Manpower Max]",
@@ -459,7 +464,7 @@
         "[-1] Sight",
         "May Paradrop to [All] tiles up to [2] tiles away",
         "Withdraw before melee combat <with [50]% chance>",
-        
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "[+900]% production cost <when below [10] [Manpower]>",
         "Consumes [10] [Manpower Max]",
         "Instantly consumes [10] [Manpower]",
@@ -519,7 +524,7 @@
         
         "[+900]% production cost <when below [15] [Alloy]>",
         "Instantly consumes [15] [Alloy]",
-        
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Never appears as a Barbarian unit",
         "[+900]% production cost <when below [25] [Manpower]>",
         "Consumes [25] [Manpower Max]",

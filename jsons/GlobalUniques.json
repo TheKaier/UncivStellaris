@@ -31,7 +31,7 @@
         "Rebel units may spawn <when below [-10] [Happiness]>",
         //
         //
-        
+        //随机数计算
         "Provides [1] [RN1] <for every [([turns] * 1274 * [[Asteroid Belt] Tiles] + [Science] * 2498 * [[Void] Tiles] + [Gold] * 1966 * [[Void] Tiles] + [Culture] * 4976 * [[Interstellar Dust] Tiles] + [Happiness] * 1049 * [[City center] Tiles] + 2107 * [[Barbarian encampment] Tiles]) % 10000]>",
         
         
@@ -53,8 +53,8 @@
         //人力机制
         "Provides [1] [Manpower Growth Rate] <for every [Number of Population]>",
         "Provides [10] [Manpower Max] <for every [Number of Population]>",
-        "Provides [1] [Manpower] <for every [Manpower Growth Rate]>",
-        "Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
+        "Provides [1] [Manpower] <for every [Manpower Growth Rate]> <when number of [Manpower] is less than [Manpower Max]>",
+        //"Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
         
         //传统文化计算
         "Provides [1] [Value required for the next tradition] <for every [10 + [Number of Tradition] ^ 2.2 * 5]>",
@@ -180,16 +180,16 @@
         
     ],
     "unitUniques": [
-    
+    //跃迁
     "[This Unit] gains the [Loading Stargate Warp] status for [1] turn(s) <for all movement> <for units without [Loading Stargate Warp]> <for units without [Loading Stargate Warp]> <in [Stargate] tiles>",
         "[This Unit] gains the [Offloading Stargate Warp] status for [1] turn(s) <upon losing the [Loading Stargate Warp] status>",
     
     
     
+    //蛮族削弱
+    "[-25]% Strength <for [Barbarians] Civilizations>",
     
-    
-    
-    
+    //踩地雷
     "[This Unit] takes [10] damage <upon entering a [Minefield] tile>",
     
     
@@ -197,7 +197,7 @@
     
     
     
-    
+    //损伤
     "Battle Damage 5% <when above [95] HP> <when below [100] HP>",
     "Battle Damage 10% <when above [90] HP> <when below [95] HP>",
     "Battle Damage 15% <when above [85] HP> <when below [90] HP>",

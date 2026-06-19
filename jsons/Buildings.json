@@ -212,7 +212,7 @@
     
     
     
-    {
+    /*{
         "name": "Space Zone I",
         "cost": 30,
         "requiredTech": "External Division Operation",
@@ -221,13 +221,14 @@
         "Free [Space Zone I] appears",
         "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         ]
-    },
+    },*/
     {
         "name": "Monument",
         "cost": 30,
         //"maintenance": 1,
         "culture": 2,
-        "requiredTech": "Infrastructure Expansion",
+        "happiness": 1,
+        "requiredTech": "Space Capsule Internal Operation",
         "uniques": []
     },
     {
@@ -245,6 +246,7 @@
         "cost": 60,
         "maintenance": 1,
         "happiness": 4,
+        "culture": 1,
         "requiredTech": "Infrastructure Expansion",
         "uniques": [
         
@@ -256,6 +258,7 @@
         "maintenance": 1,
         "production": 2,
         "culture": 1,
+        "happiness": 2,
         "requiredTech": "Hull Improvement",
         "uniques": [
         "[+15]% Production when constructing [Spacecraft] units [in this city]",
@@ -283,6 +286,7 @@
         "cost": 60,
         "cityStrength": 5,
 		"cityHealth": 50,
+        "happiness": 1,
         "requiredTech": "Miniaturized Base",
         "uniques": [
         "[+50]% Strength for cities <when attacking> <in this city>",
@@ -292,8 +296,8 @@
         "name": "City Hall",
         "cost": 70,
         "maintenance": 1,
-        "culture": 1,
-        "happiness": 3,
+        "culture": 3,
+        "happiness": 2,
         "requiredTech": "Space Diplomacy Preparedness",
         "uniques": [
         "[-40]% Culture cost of natural border growth [in this city]",
@@ -320,7 +324,7 @@
         "Provides [2] [Space Station Division] <in this city>",
         ]
     },
-    {
+    /*{
         "name": "Space Zone II",
         "cost": 50,
         "requiredTech": "Space Station Expansion",
@@ -329,13 +333,13 @@
         "Free [Space Zone II] appears",
         "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         ]
-    },
+    },*/
     {
         "name": "Starport",
         "cost": 80,
         "maintenance": 2,
         "production": 2,
-        "happiness": 1,
+        "happiness": 2,
         "cityStrength": 5,
         "requiredBuilding": "Dockyard",
         "requiredTech": "Space Force Construction",
@@ -370,6 +374,7 @@
         "name": "Academy",
         "cost": 90,
         "maintenance": 2,
+        "happiness": 2,
         "percentStatBonus": {"science": 33},
         "requiredBuilding": "Library",
         "requiredTech": "Space Station Expansion",
@@ -443,7 +448,7 @@
     
     
     
-    {
+    /*{
         "name": "Space Zone III",
         "cost": 85,
         "requiredTech": "Artificial Strong Force Field",
@@ -452,7 +457,7 @@
         "Free [Space Zone III] appears",
         "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         ]
-    },
+    },*/
     {
         "name": "Repair Damaged Stargate",
         "cost": 200,
