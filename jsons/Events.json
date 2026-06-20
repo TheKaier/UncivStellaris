@@ -34,6 +34,12 @@
                 "Triggers a [Tutorial Population and Unit] event <hidden from users>",
                 ]
             },
+            {
+                "text":"Research Ship Research Anomaly"
+                "uniques":[
+                "Triggers a [Tutorial Research Ship Research Anomaly] event <hidden from users>",
+                ]
+            },
         ]
     },
     {
@@ -70,7 +76,16 @@
             },
         ]
     },
-    
+    {
+        "name":"Tutorial Research Ship Research Anomaly",
+        "text":"",
+        "choices":[
+            {
+                "text":"Research ships can study anomalous phenomena in the universe. Move the research ship to asteroid belts and artificial debris to research anomalies. Anomaly research can be repeated, and events have a certain probability."
+            },
+            
+        ]
+    },
     
     
     
@@ -408,6 +423,12 @@
                 "Instantly provides [80] [Influence]",
             ],
             },
+            {
+            "text":"Quit",//
+            "uniques":[
+            
+            ],
+        },
         ]
     },
     {
@@ -434,6 +455,12 @@
                 "Free [Space Zone II] appears",
             ],
             },
+            {
+            "text":"Quit",//
+            "uniques":[
+            
+            ],
+        },
         ]
     },
 

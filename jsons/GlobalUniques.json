@@ -6,7 +6,7 @@
         "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
         "[-4] Happiness from each type of luxury resource",//奢侈品不加快乐
 		"[-1 Science] per [2] population [in all cities]",//半人头瓶
-		"[-100]% Strength for cities <when attacking>",//取消初始城市攻击
+		"[-25]% Strength for cities <when attacking>",//取消初始城市攻击
         "[-100]% maintenance costs",//单位维护费修正
         "[-1 Gold] from every [River]",//删除河流给钱
         "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
@@ -17,7 +17,13 @@
         "[+900]% Culture cost of natural border growth [in all cities]",
         "[+900]% Gold cost of acquiring tiles [in all cities]",
         
-        //
+        //初始化人力
+        "Instantly provides [25] [Manpower]",
+
+
+
+
+
         //快乐惩罚临时
         "[-50]% growth [in all cities] <when below [0] [Happiness]>",
         "[-50]% growth [in all cities] <when below [-10] [Happiness]>",
@@ -48,8 +54,8 @@
         "Adopt [Origin]",
         "Adopt [Ethos]",
         "Adopt [Tradition]",
-        //"Adopt [Ascension]",
-        
+        "Adopt [Ascension]",
+        "Adopt [Trait]",
         //人力机制
         "Provides [1] [Manpower Growth Rate] <for every [Number of Population]>",
         "Provides [10] [Manpower Max] <for every [Number of Population]>",

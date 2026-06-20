@@ -383,7 +383,30 @@
             "Not shown on world screen"
         ]
     },
-	
+	{
+        "name": "Number of Ascension",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Available Ascension Perk Slots",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
+    {
+        "name": "Trait Points",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
+    },
 	{
         "name": "Influence",
         "resourceType": "Strategic",

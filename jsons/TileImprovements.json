@@ -416,6 +416,7 @@
             "Unpillagable", "Irremovable", "Unbuildable",
             "Provides [3] [Space Station Division]",
             "Provides [1] [Number of Space Station]",
+            "Provides [2] [Space Station Division] <in [Habitable Planet] tiles>",
             ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},

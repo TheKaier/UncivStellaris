@@ -52,23 +52,98 @@
         "column": 5,
         "row": 2
     },
+    //护盾6
+    {
+        "name": "Kinetic Shield",
+        "uniques": [
+        "[+33]% Strength <when defending> <vs [Artillery] units>",
+        "Shield",
+        
+        "Only available <when above [19] [Focus Crystal]> <in [City center] tiles> <for [non-[Armor]] units>",
+        "Instantly consumes [20] [Focus Crystal]",
+        
+        ],
+        "unitTypes": ["Spacecraft"],
+        "column": 6,
+        "row": 1
+    },
     
-    
-    
-    
-    
-    
+    //熟练10
+    {
+        "name": "Experienced",
+        "uniques":[
+        "[+10]% Strength <when attacking>",
+        
+        ],
+        "unitTypes": ["Spacecraft","Space Infantry"],
+        "column": 10,
+        "row": 1
+    },
+    {
+        "name": "Veteran",
+        "uniques":[
+        "[+10]% Strength <when attacking>",
+        "[+5]% Strength <when defending>",
+        ],
+        "unitTypes": ["Spacecraft","Space Infantry"],
+        "prerequisites": ["Experienced"],
+        "column": 11,
+        "row": 1
+    },
+    {
+        "name": "Elite",
+        "uniques":[
+        "[+10]% Strength <when attacking>",
+        "[+5]% Strength <when defending>",
+        ],
+        "unitTypes": ["Spacecraft","Space Infantry"],
+        "prerequisites": ["Veteran"],
+        "column": 12,
+        "row": 1
+    },
+
+
+
+
+
+
+
+
     {
         "name": "Mining Interstellar Detritus",
         "uniques":["Cannot move"]
     },
     {
-        "name": "Full Load",
-        "uniques":["[-1] Movement"]
+        "name": "Mining Iron Ore",
+        "uniques":["Cannot move"]
     },
-    
-    
-    
+    {
+        "name": "Mining Rare Metal Ore",
+        "uniques":["Cannot move"]
+    },
+    {
+        "name": "Mining Focus Ore",
+        "uniques":["Cannot move"]
+    },
+    {
+        "name": "Full Load Iron Ore",
+        "uniques":["[-1] Movement","Full Load"]
+    },
+    {
+        "name": "Full Load Rare Metal Ore",
+        "uniques":["[-1] Movement","Full Load"]
+    },
+    {
+        "name": "Full Load Focus Ore",
+        "uniques":["[-1] Movement","Full Load"]
+    },
+    {
+        "name": "Full Load",
+        "uniques":["[-1] Movement","Full Load"]
+    },
+
+
+
     {
         "name": "Locked",
         "uniques":["Locked"]
@@ -81,7 +156,14 @@
         
         ]
     },
-    
+    {
+        "name": "Be Stasis",
+        "uniques":[
+        "Cannot move",
+        "[-3] Movement"
+        
+        ]
+    },
     
     
     
@@ -142,11 +224,12 @@
     {
         "name": "Anomaly Completion",
         "uniques":[
-        "Triggers a [Anomaly Completion] event",
+        "Triggers a [Anomaly Completion] event <when number of [[RN1] % 10] is less than [6]>",
         "Doing so will consume this opportunity to choose a Promotion"
         
         ]
     },
+    
 
 
 

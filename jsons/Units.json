@@ -160,6 +160,7 @@
         "requiredTech": "Space Warfare",
         "obsoleteTech": "Blockade Battle Line",
         "uniques": [
+        "Artillery",
 		"[+2] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Manpower]>",
         "Consumes [10] [Manpower Max]",
@@ -178,6 +179,7 @@
         "requiredTech": "Space Warfare",
         "obsoleteTech": "Blockade Battle Line",
         "uniques": [
+        "Artillery",
         "[-2] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Manpower]>",
         "Consumes [10] [Manpower Max]",
@@ -215,6 +217,8 @@
         "uniques": [
         "[-1] Sight",
         "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Interstellar Dust] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]> <hidden from users>",
+        "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Interstellar Dust] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]>",
+        "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Asteroid Belt] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]>",
         "[This Unit] gains the [Full Load] promotion <upon losing the [Mining Interstellar Detritus] status> <hidden from users>",
         "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
         "Never appears as a Barbarian unit",
@@ -236,6 +240,7 @@
         "requiredTech": "Hull Improvement",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[-3] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
@@ -257,6 +262,7 @@
         "requiredTech": "Hull Improvement",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[1] additional attacks per turn",
         "[+5] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Alloy]>",
@@ -279,6 +285,7 @@
         "requiredTech": "Hull Improvement",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[-11] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
@@ -302,6 +309,7 @@
         "requiredTech": "Hull Improvement",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[+3] Strength <vs [Ranged] units> <when defending>",
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
@@ -364,11 +372,15 @@
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
         
-        "[This Unit] gains the [Mining Interstellar Detritus] status for [4] turn(s) <for all movement> <in [Interstellar Dust] tiles> <for units without [Full Load]> <for units without [Mining Interstellar Detritus]> <hidden from users>",
-        "[This Unit] gains the [Full Load] promotion <upon losing the [Mining Interstellar Detritus] status> <hidden from users>",
-        "[This Unit] loses the [Full Load] promotion <costs [-15] [Interstellar Debris]> <for units with [Full Load]> <in [City center] tiles> <hidden from users>",
-        
-        
+        "[This Unit] gains the [Mining Iron Ore] status for [4] turn(s) <for all movement> <in [Iron Ore Enrichment Zone] tiles> <for units without [Full Load Iron Ore]> <for units without [Mining Iron Ore]>",
+        "[This Unit] gains the [Mining Rare Metal Ore] status for [5] turn(s) <for all movement> <in [Rare Metal Enrichment Zone] tiles> <for units without [Full Load Rare Metal Ore]> <for units without [Mining Rare Metal Ore]>",
+        "[This Unit] gains the [Mining Focus Ore] status for [6] turn(s) <for all movement> <in [Focus Ore Enrichment Zone] tiles> <for units without [Full Load Focus Ore]> <for units without [Mining Focus Ore]>",
+        "[This Unit] gains the [Full Load Iron Ore] promotion <upon losing the [Mining Iron Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Iron Ore] promotion <costs [-10] [Iron Ore]> <for units with [Full Load Iron Ore]> <in [City center] tiles> <hidden from users>",
+        "[This Unit] gains the [Full Load Rare Metal Ore] promotion <upon losing the [Mining Rare Metal Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Rare Metal Ore] promotion <costs [-10] [Rare Metal Ore]> <for units with [Full Load Rare Metal Ore]> <in [City center] tiles> <hidden from users>",
+        "[This Unit] gains the [Full Load Focus Ore] promotion <upon losing the [Mining Focus Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Focus Ore] promotion <costs [-10] [Focus Ore]> <for units with [Full Load Focus Ore]> <in [City center] tiles> <hidden from users>",
         "[+900]% production cost <when below [10] [Manpower]>",
         "Consumes [10] [Manpower Max]",
         "Instantly consumes [10] [Manpower]",
@@ -388,6 +400,7 @@
         "requiredTech": "Space Force Construction",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[+5] Strength <vs [Ranged] units> <when defending>",
         "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
         "[+10] Strength <vs [Locked] units> <when attacking>",
@@ -416,6 +429,7 @@
         "requiredTech": "Space Force Construction",
         //"obsoleteTech": "Space Force Construction",
         "uniques": [
+        "Artillery",
         "[+2] Strength <vs [Ranged] units> <when defending>",
         "[1] additional attacks per turn",
         
@@ -483,6 +497,7 @@
         "requiredTech": "Laser Technology",
         "obsoleteTech": "Cluster Charging",
         "uniques": [
+        "Laser",
         "[+3] Strength <vs [Ranged] units> <when defending>",
         
         "[+1] Strength <vs [Battle Damage 10%] units> <when attacking>",
@@ -519,6 +534,7 @@
         "requiredTech": "War AI",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[+8] Strength <vs [Ranged] units> <when defending>",
         "Can carry [4] [Carrier-based Aircraft] units",
         
@@ -543,7 +559,7 @@
         "requiredTech": "War AI",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
-        
+        "Artillery",
         "[+900]% production cost <when below [5] [Focus Crystal]>",
         "Instantly consumes [5] [Focus Crystal]",
         "Never appears as a Barbarian unit",
@@ -561,6 +577,7 @@
         "requiredTech": "Decisive Weapon",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[+15] Strength <vs [Ranged] units> <when defending>",
         "[1] additional attacks per turn",
         "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
@@ -619,6 +636,7 @@
         "requiredTech": "Decisive Weapon",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "Can carry [4] [Carrier-based Aircraft] units",
         "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
         "[+10] Strength <vs [Locked] units> <when attacking>",
@@ -695,6 +713,7 @@
         "requiredTech": "Cluster Charging",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Laser",
         "[+5] Strength <vs [Ranged] units> <when defending>",
         "[1] additional attacks per turn",
         
@@ -734,6 +753,7 @@
         "requiredTech": "Cluster Charging",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Laser",
         "[-10] Strength <vs [Ranged] units> <when defending>",
         
         "[-1] Strength <vs [Battle Damage 10%] units> <when attacking>",
@@ -824,6 +844,7 @@
         "requiredTech": "Artificial Strong Force Field",
         //"obsoleteTech": "xxxxxxx",
         "uniques": [
+        "Artillery",
         "[Target Unit] gains the [Be Torn] status for [2] turn(s) <upon damaging a [Spacecraft] unit>",
         
         "[+900]% production cost <when below [15] [Alloy]>",
@@ -849,6 +870,7 @@
         //"obsoleteTech": "xxxxxxxxxx",
         "promotions": ["Warp Engine"],
         "uniques": [
+        "Artillery",
         "[-1] Strength <vs [Ranged] units> <when defending>",
         
         "[+900]% production cost <when below [30] [Alloy]>",
@@ -878,6 +900,7 @@
         //"obsoleteTech": "xxxxxxxxxx",
         "promotions": ["Warp Engine"],
         "uniques": [
+        "Artillery",
         "[+7] Strength <vs [Ranged] units> <when defending>",
         "[1] additional attacks per turn",
         
@@ -908,6 +931,7 @@
         //"obsoleteTech": "xxxxxxxxxx",
         "promotions": ["Warp Engine"],
         "uniques": [
+        "Artillery",
         "[+15] Strength <vs [Ranged] units> <when defending>",
         "[3] additional attacks per turn",
         
@@ -938,6 +962,7 @@
         //"obsoleteTech": "xxxxxxxxxx",
         "promotions": ["Warp Engine"],
         "uniques": [
+        "Artillery",
         "[+13] Strength <vs [Ranged] units> <when defending>",
         "[1] additional attacks per turn",
         
@@ -983,11 +1008,168 @@
         ],
         //"attackSound": "xxxxx"
     },
-	
-	
-	
-	
-	
+	{
+        "name": "Kinetic Shield Piercing Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 4,
+        "strength": 25,
+        "rangedStrength": 26,
+        "cost": 170,
+        "requiredTech": "Shield Generator",
+        //"obsoleteTech": "xxxxxxxxxx",
+        "promotions": ["Kinetic Shield"],
+        "uniques": [
+        "Artillery",
+        "[-1] Strength <vs [Ranged] units> <when defending>",
+        
+        "[+900]% production cost <when below [30] [Alloy]>",
+        "Instantly consumes [30] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        "[+900]% production cost <when below [20] [Focus Crystal]>",
+        //"Instantly consumes [5] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+	{
+        "name": "Kinetic Shield Gravitational Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 4,
+        "strength": 25,
+        "rangedStrength": 20,
+        "cost": 220,
+        "requiredTech": "Shield Generator",
+        //"obsoleteTech": "xxxxxxxxxx",
+        "promotions": ["Kinetic Shield"],
+        "uniques": [
+        "Artillery",
+        "[+5] Strength <vs [Ranged] units> <when defending>",
+        
+        "[Target Unit] gains the [Be Torn] status for [2] turn(s) <upon damaging a [Spacecraft] unit>",
+        
+        "[+900]% production cost <when below [30] [Alloy]>",
+        "Instantly consumes [30] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        "[+900]% production cost <when below [20] [Focus Crystal]>",
+        //"Instantly consumes [5] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+	{
+        "name": "Kinetic Shield Twin Heavy Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 6,
+        "strength": 25,
+        "rangedStrength": 18,
+        "cost": 180,
+         "requiredTech": "Shield Generator",
+        //"obsoleteTech": "xxxxxxxxxx",
+        "promotions": ["Kinetic Shield"],
+        "uniques": [
+        "Artillery",
+        "[+7] Strength <vs [Ranged] units> <when defending>",
+        "[1] additional attacks per turn",
+        
+        "[+900]% production cost <when below [30] [Alloy]>",
+        "Instantly consumes [30] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        "[+900]% production cost <when below [20] [Focus Crystal]>",
+        //"Instantly consumes [5] [Focus Crystal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+	{
+        "name": "Stasis Artillery Ship",
+        "unitType": "Spacecraft",
+        "range": 2,
+        "movement": 4,
+        "strength": 25,
+        "rangedStrength": 20,
+        "cost": 220,
+        "requiredTech": "Battlefield Modification",
+        //"obsoleteTech": "xxxxxxxxxx",
+        //"promotions": [""],
+        "uniques": [
+        "Artillery",
+        "[+5] Strength <vs [Ranged] units> <when defending>",
+        
+        "[Target Unit] gains the [Be Stasis] status for [2] turn(s) <upon damaging a [Spacecraft] unit>",
+        
+        "[+900]% production cost <when below [30] [Alloy]>",
+        "Instantly consumes [30] [Alloy]",
+        "[+900]% production cost <when below [10] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        "[+900]% production cost <when below [15] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
+        
+        ],
+        //"attackSound": "xxxxx"
+    },
+	{
+        "name": "Lock-on Laser Ship",
+        "unitType": "Spacecraft",
+        "range": 4,
+        "movement": 6,
+        "strength": 20,
+        "rangedStrength": 10,
+        "cost": 115,
+        "requiredTech": "Precision Sensor",
+        //"obsoleteTech": "xxxxxxx",
+        "uniques": [
+        "Laser",
+        "[+10] Strength <vs [Ranged] units> <when defending>",
+        "[1] additional attacks per turn",
+        "[Target Unit] gains the [Locked] status for [1] turn(s) <upon damaging a [Military] unit>",
+        "[+5] Strength <vs [Locked] units> <when attacking>",
+        "[+1] Strength <vs [Battle Damage 10%] units> <when attacking>",
+        "[+2] Strength <vs [Battle Damage 20%] units> <when attacking>",
+        "[+3] Strength <vs [Battle Damage 30%] units> <when attacking>",
+        "[+4] Strength <vs [Battle Damage 40%] units> <when attacking>",
+        "[+5] Strength <vs [Battle Damage 50%] units> <when attacking>",
+        "[+6] Strength <vs [Battle Damage 60%] units> <when attacking>",
+        "[+7] Strength <vs [Battle Damage 70%] units> <when attacking>",
+        "[+8] Strength <vs [Battle Damage 80%] units> <when attacking>",
+        "[+9] Strength <vs [Battle Damage 90%] units> <when attacking>",
+        "[+10] Strength <vs [Battle Damage 100%] units> <when attacking>",
+        
+        
+        "[+900]% production cost <when below [15] [Alloy]>",
+        "Instantly consumes [15] [Alloy]",
+        "[+900]% production cost <when below [10] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
 	
 	
 	

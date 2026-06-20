@@ -13,6 +13,7 @@
 		"Provides [1] [Number of Origin]",
 		"Provides [3] [Number of Ethos]",
 		"Provides [7] [Number of Tradition Branch]",
+        "Provides [2] [Trait Points]",
 		]
 	},
 	{
@@ -225,7 +226,7 @@
     {
         "name": "Monument",
         "cost": 30,
-        //"maintenance": 1,
+        "maintenance": 1,
         "culture": 2,
         "happiness": 1,
         "requiredTech": "Space Capsule Internal Operation",
@@ -234,7 +235,7 @@
     {
         "name": "Library",
         "cost": 40,
-        //"maintenance": 1,
+        "maintenance": 1,
         "requiredTech": "Infrastructure Expansion",
         "uniques": [
         "[+1 Science] per [2] population [in this city]",
@@ -244,7 +245,7 @@
     {
         "name": "Theater",
         "cost": 60,
-        "maintenance": 1,
+        "maintenance": 2,
         "happiness": 4,
         "culture": 1,
         "requiredTech": "Infrastructure Expansion",
@@ -295,7 +296,7 @@
     {
         "name": "City Hall",
         "cost": 70,
-        "maintenance": 1,
+        "maintenance": 2,
         "culture": 3,
         "happiness": 2,
         "requiredTech": "Space Diplomacy Preparedness",
@@ -408,7 +409,7 @@
     {
         "name": "Comprehensive Laboratory",
         "cost": 120,
-        "maintenance": 2,
+        "maintenance": 3,
         "percentStatBonus": {"science": 34},
         "requiredBuilding": "Academy",
         "requiredTech": "Space Species Research",
@@ -421,7 +422,7 @@
     {
         "name": "Observatory",
         "cost": 120,
-        "maintenance": 2,
+        "maintenance": 3,
         "culture": 4,
         "happiness": 4,
         "percentStatBonus": {"science": 33},
@@ -482,7 +483,7 @@
     {
         "name": "Hibernating Pod",
         "cost": 200,
-        "maintenance": 2,
+        "maintenance": 3,
         "happiness": 2,
         "percentStatBonus": {"food": 10},
         "requiredBuilding": "Space Station Expansion",
@@ -539,13 +540,41 @@
         "Unsellable",
         ]
     },
+    {
+        "name": "Precision Industrial Zone",
+        "cost": 120,
+        "requiredTech": "Precision Sensor",
+        "specialistSlots": {"Precision Industrial Zoning Post": 3},
+        "uniques": [
+        "Only available <when above [0] [Space Station Division]>",
+        "Consumes [1] [Space Station Division]",
+        "Provides [7] [Industrial Capacity]",
+        ]
+    },
+    {
+        "name": "Space Station Kinetic Shield",
+        "cost": 120,
+		"cityHealth": 50,
+        "happiness": 1,
+        "culture": 1,
+        "maintenance": 3,
+        "requiredTech": "Shield Generator",
+        "uniques": [
+        "[+33]% Strength for cities <when defending> <vs [Artillery] units> <in this city>",
+        ]
+    },
     
     
     
     
     
-    
-    
+
+
+
+
+
+
+
     
 	{
         "name": "Loading",

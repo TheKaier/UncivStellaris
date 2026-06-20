@@ -360,7 +360,36 @@
             }
         ]
     },
-
+    {
+        "columnNumber": 9,
+        "era": "Space Era",
+        "techCost": 1000,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Shield Generator",
+                "row": 2,
+                "quote": "",
+                "prerequisites": ["Artificial Strong Force Field","Warp Technology"],
+                "uniques": []
+            },
+            {
+                "name": "Battlefield Modification",
+                "row": 3,
+                "quote": "",
+                "prerequisites": ["Artificial Strong Force Field","Warp Technology"],
+                "uniques": []
+            },
+            {
+                "name": "Precision Sensor",
+                "row": 5,
+                "quote": "",
+                "prerequisites": ["Artificial Ecology","Warp Technology"],
+                "uniques": []
+            }
+        ]
+    },
     
 
     /*{

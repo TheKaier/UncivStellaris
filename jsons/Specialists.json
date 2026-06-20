@@ -40,5 +40,10 @@
 		"color": [37,135,255]
 	},
 	
-	
+	{
+		"name":"Precision Industrial Zoning Post",//
+		"production":4,
+		"gold":-1,
+		"color": [182,71,0]
+	},
 ]

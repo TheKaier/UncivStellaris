@@ -14,6 +14,26 @@
             ]
     },
 	{
+		"name": "Habitable Planet",//宜居星球
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"overrideStats": true,
+		"movementCost": 1,
+		"unbuildable": true,
+		"occursOn": ["Void"],
+		"uniques": ["Rare feature",
+					"Only [All Road] improvements may be built on this tile",
+					"Always Fertility [1] for Map Generation",
+					"Must be adjacent to [0] [Habitable Planet] tiles",
+					"Must be adjacent to [0] [Interstellar Dust] tiles",
+					"Must be adjacent to [0] [Asteroid Belt] tiles",
+					"Must be adjacent to [0] [Artificial Debris] tiles",
+					
+				],
+        
+	},
+	{
 		"name": "Interstellar Dust",//星际尘埃
 		"type": "TerrainFeature",
 		"movementCost": 2,
