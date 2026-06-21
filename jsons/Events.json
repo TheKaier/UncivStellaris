@@ -66,7 +66,7 @@
                 "text":"The amount of food required for population growth is fixed, with a specific value of 25"
             },
             {
-                "text":"10 Manpower Max and 1 Manpower Growth Rate per population"
+                "text":"5 Manpower Max and 0.5 Manpower Growth Rate per population"
             },
             {
                 "text":"Upper limit of Manpower per unit and Manpower Max"
@@ -78,12 +78,47 @@
     },
     {
         "name":"Tutorial Research Ship Research Anomaly",
-        "text":"",
+        "text":"Research ships can study anomalous phenomena in the universe. Move the research ship to asteroid belts and artificial debris to research anomalies. Anomaly research can be repeated, and events have a certain probability.",
         "choices":[
             {
-                "text":"Research ships can study anomalous phenomena in the universe. Move the research ship to asteroid belts and artificial debris to research anomalies. Anomaly research can be repeated, and events have a certain probability."
+                "text":"Signs of Life"
+                "uniques":[
+                "Comment [Occurs on Artificial Debris. Investigation grants +1 Population on capital.]",
+                ]
             },
-            
+            {
+                "text":"Ancient Shipyard"
+                "uniques":[
+                "Comment [Occurs on Artificial Debris. Investigation grants 1 Frigate.]",
+                ]
+            },
+            {
+                "text":"Grounded"
+                "uniques":[
+                "Comment [Occurs on Artificial Debris. Investigation grants 1 Mining Ship; Xenophobe empires gain 80 Influence.]",
+                ]
+            },
+            {
+                "text":"Asteroid Mining"
+                "uniques":[
+                "Comment [Occurs on Asteroid Belt. Investigation grants a large amount of Minerals.Occurs on Asteroid Belt. Investigation grants a large amount of Minerals.]",
+                ]
+            },
+            {
+                "text":"Space Debris"
+                "uniques":[
+                "Comment [Occurs on Asteroid Belt. Investigation allows placement of one free Space Zone II.]",
+                ]
+            },
+            /*{
+                "text":""
+                "uniques":[
+                "Comment []",
+                ]
+            },*/
+            {
+                "text":"If you want to see more tutorials, you can build a complete tutorial in the capital"
+            },
         ]
     },
     

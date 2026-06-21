@@ -6,56 +6,56 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Academy
   rotate: false
-  xy: 1500, 512
+  xy: 1636, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Agricultural Zone
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Precision Agriculture Zone
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/[Agricultural Zone]
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/[[Agricultural Zone]]
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Agricultural Zone I
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Agricultural Zone II
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Agricultural Zone III
   rotate: false
-  xy: 1364, 250
+  xy: 1772, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -76,7 +76,7 @@ BuildingIcons/City Hall
   index: -1
 BuildingIcons/Comprehensive Laboratory
   rotate: false
-  xy: 1716, 512
+  xy: 606, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -90,322 +90,336 @@ BuildingIcons/Dockyard
   index: -1
 BuildingIcons/Industrial Zone
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Laser Industrial Zone
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Precision Industrial Zone
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/[Industrial Zone]
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/[[Industrial Zone]]
+  rotate: false
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Industrial Zone I
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Industrial Zone II
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Industrial Zone III
   rotate: false
-  xy: 948, 620
+  xy: 1220, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Nuclear Fusion Power Generation Zone
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Power Generation Zone
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/[Power Generation Zone]
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/[[Power Generation Zone]]
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Power Generation Zone I
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Power Generation Zone II
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Power Generation Zone III
   rotate: false
-  xy: 276, 484
+  xy: 412, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Repair Damaged Ring World
   rotate: false
-  xy: 1254, 104
+  xy: 1470, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Repair Damaged Stargate
   rotate: false
-  xy: 1254, 104
+  xy: 1470, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Space Station Cannon
+BuildingIcons/Space Station Armor
   rotate: false
-  xy: 684, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Station Laser Cannon
-  rotate: false
-  xy: 684, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Station Expansion
-  rotate: false
-  xy: 820, 484
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Zone I
-  rotate: false
-  xy: 820, 484
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Zone II
-  rotate: false
-  xy: 820, 484
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Zone III
-  rotate: false
-  xy: 820, 484
+  xy: 820, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Space Station Kinetic Shield
   rotate: false
-  xy: 684, 212
+  xy: 820, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-BuildingIcons/Stargate
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Stargate
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Stargate
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Stargate
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/Minimal/Tiles/Stargate
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-UnitIcons/Stargate Builder
-  rotate: false
-  xy: 1470, 67
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Starport
-  rotate: false
-  xy: 956, 484
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Theater
+BuildingIcons/Space Station Cannon
   rotate: false
   xy: 956, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/Space Station Laser Cannon
+  rotate: false
+  xy: 956, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space Station Expansion
+  rotate: false
+  xy: 1092, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space Zone I
+  rotate: false
+  xy: 1092, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space Zone II
+  rotate: false
+  xy: 1092, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space Zone III
+  rotate: false
+  xy: 1092, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stargate
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Stargate
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Stargate
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Stargate
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Minimal/Tiles/Stargate
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Stargate Builder
+  rotate: false
+  xy: 616, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Starport
+  rotate: false
+  xy: 1092, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Theater
+  rotate: false
+  xy: 1092, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 EmojiIcons/Culture
   rotate: false
-  xy: 546, 64
+  xy: 1988, 512
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 546, 64
+  xy: 1988, 512
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EmojiIcons/Food
   rotate: false
-  xy: 586, 64
+  xy: 1804, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 586, 64
+  xy: 1804, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EmojiIcons/Gold
   rotate: false
-  xy: 626, 64
+  xy: 1804, 16
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 626, 64
+  xy: 1804, 16
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EmojiIcons/Science
   rotate: false
-  xy: 502, 60
+  xy: 1758, 247
   size: 36, 36
   orig: 36, 36
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 502, 60
+  xy: 1758, 247
   size: 36, 36
   orig: 36, 36
   offset: 0, 0
   index: -1
 ImprovementIcons/Capture Net
   rotate: false
-  xy: 1608, 512
+  xy: 1880, 512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Damaged Stargate
   rotate: false
-  xy: 1634, 355
+  xy: 1876, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Damaged Stargate
   rotate: false
-  xy: 1634, 355
+  xy: 1876, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Damaged Stargate
   rotate: false
-  xy: 1634, 355
+  xy: 1876, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Damaged Stargate
   rotate: false
-  xy: 1634, 355
+  xy: 1876, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 UnitIcons/Damaged Stargate Builder
   rotate: false
-  xy: 1634, 355
+  xy: 1876, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/Dark Matter Extractor
   rotate: false
-  xy: 606, 104
+  xy: 714, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -419,98 +433,98 @@ ImprovementIcons/Debris Capture Net
   index: -1
 ImprovementIcons/Focus Ore Mine
   rotate: false
-  xy: 714, 104
+  xy: 930, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Helium-3 Mine
   rotate: false
-  xy: 714, 104
+  xy: 930, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Iron Ore Mine
   rotate: false
-  xy: 714, 104
+  xy: 930, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Quarry
   rotate: false
-  xy: 714, 104
+  xy: 930, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Rare Metal Mine
   rotate: false
-  xy: 714, 104
+  xy: 930, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fortress
   rotate: false
-  xy: 822, 104
+  xy: 1038, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Minefield
   rotate: false
-  xy: 1900, 620
+  xy: 412, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Artificial Debris
   rotate: false
-  xy: 1146, 104
+  xy: 1362, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Asteroid Belt
   rotate: false
-  xy: 1146, 104
+  xy: 1362, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Interstellar Dust
   rotate: false
-  xy: 1146, 104
+  xy: 1362, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Minefield
   rotate: false
-  xy: 1146, 104
+  xy: 1362, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Space Biological Farm
   rotate: false
-  xy: 1932, 512
+  xy: 1578, 114
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Unmanned Mining Station
   rotate: false
-  xy: 1362, 34
+  xy: 1852, 404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Glebsig Foundation
   rotate: false
-  xy: 676, 620
+  xy: 812, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -524,21 +538,21 @@ NationIcons/Human Federation
   index: -1
 NationIcons/Iferyx Amalgamated Fleets
   rotate: false
-  xy: 948, 756
+  xy: 1220, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Kingdom of Yondarim
   rotate: false
-  xy: 1492, 892
+  xy: 1764, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Tzynn Empire
   rotate: false
-  xy: 1092, 348
+  xy: 1228, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -550,51 +564,79 @@ NationIcons/United Nations of Earth
   orig: 256, 256
   offset: 0, 0
   index: -1
+PolicyIcons/Adaptive
+  rotate: false
+  xy: 1844, 59
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Agrarian
+  rotate: false
+  xy: 1844, 22
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Arcology Project
   rotate: false
-  xy: 322, 30
+  xy: 1024, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Authoritarianism
   rotate: false
-  xy: 1614, 73
+  xy: 760, 38
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
 PolicyIcons/Colossus Project
   rotate: false
-  xy: 1688, 287
+  xy: 1084, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
+PolicyIcons/Conservational
+  rotate: false
+  xy: 1758, 210
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Cosmogenesis
   rotate: false
-  xy: 1688, 219
+  xy: 1144, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Defender of the Galaxy
   rotate: false
-  xy: 1688, 151
+  xy: 1204, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
+PolicyIcons/Docile
+  rotate: false
+  xy: 1881, 83
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Egalitarianism
   rotate: false
-  xy: 1706, 361
+  xy: 826, 42
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
 PolicyIcons/Enigmatic Engineering
   rotate: false
-  xy: 1748, 293
+  xy: 1264, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
@@ -622,154 +664,245 @@ PolicyIcons/Extreme Pacifism
   index: -1
 PolicyIcons/Extreme Spiritualism
   rotate: false
-  xy: 1500, 427
+  xy: 1960, 427
   size: 76, 77
   orig: 76, 77
   offset: 0, 0
   index: -1
 PolicyIcons/Extreme Xenophilia
   rotate: false
-  xy: 1584, 427
+  xy: 1636, 291
   size: 76, 77
   orig: 76, 77
   offset: 0, 0
   index: -1
 PolicyIcons/Extreme Xenophobia
   rotate: false
-  xy: 1668, 427
+  xy: 1720, 291
   size: 76, 77
   orig: 76, 77
   offset: 0, 0
   index: -1
+PolicyIcons/Extremely Adaptive
+  rotate: false
+  xy: 1881, 46
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Galactic Force Projection
   rotate: false
-  xy: 1748, 225
+  xy: 1324, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Galactic Nemesis
   rotate: false
-  xy: 1748, 157
+  xy: 1384, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Galactic Wonders
   rotate: false
-  xy: 1808, 306
+  xy: 1444, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Grasp the Void
   rotate: false
-  xy: 1808, 238
+  xy: 1504, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Imperial Prerogative
   rotate: false
-  xy: 1808, 170
+  xy: 1988, 552
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
+PolicyIcons/Industrious
+  rotate: false
+  xy: 1881, 9
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Intelligent
+  rotate: false
+  xy: 1918, 83
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Lord of War
   rotate: false
-  xy: 1868, 310
+  xy: 1564, 36
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Master Builders
   rotate: false
-  xy: 1868, 242
+  xy: 1624, 46
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Mastery of Nature
   rotate: false
-  xy: 1868, 174
+  xy: 1684, 25
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Materialism
   rotate: false
-  xy: 1772, 374
+  xy: 1626, 225
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
 PolicyIcons/Militarism
   rotate: false
-  xy: 1838, 378
+  xy: 1692, 225
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
+PolicyIcons/Nonadaptive
+  rotate: false
+  xy: 1918, 46
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/One Vision
   rotate: false
-  xy: 1928, 312
+  xy: 1744, 25
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Pacifism
   rotate: false
-  xy: 1896, 446
+  xy: 1686, 159
   size: 58, 58
   orig: 58, 58
+  offset: 0, 0
+  index: -1
+PolicyIcons/Rapid Breeders
+  rotate: false
+  xy: 1918, 9
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Resilient
+  rotate: false
+  xy: 1955, 102
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Slow Breeders
+  rotate: false
+  xy: 1955, 65
+  size: 29, 29
+  orig: 29, 29
   offset: 0, 0
   index: -1
 PolicyIcons/Spiritualism
   rotate: false
-  xy: 1962, 446
+  xy: 1686, 93
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
+PolicyIcons/Strong
+  rotate: false
+  xy: 1955, 28
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Synthetic Evolution
   rotate: false
-  xy: 1928, 244
+  xy: 1752, 120
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/Technological Ascendancy
   rotate: false
-  xy: 1928, 176
+  xy: 1812, 164
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
 PolicyIcons/The Flesh is Weak
   rotate: false
-  xy: 382, 30
+  xy: 1812, 96
   size: 52, 60
   orig: 52, 60
+  offset: 0, 0
+  index: -1
+PolicyIcons/Thrifty
+  rotate: false
+  xy: 1992, 102
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Unruly
+  rotate: false
+  xy: 1992, 65
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Very Strong
+  rotate: false
+  xy: 1992, 28
+  size: 29, 29
+  orig: 29, 29
   offset: 0, 0
   index: -1
 PolicyIcons/Voidborne
   rotate: false
-  xy: 442, 36
+  xy: 1872, 120
   size: 52, 60
   orig: 52, 60
   offset: 0, 0
   index: -1
+PolicyIcons/Wasteful
+  rotate: false
+  xy: 1624, 9
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PolicyIcons/Weak
+  rotate: false
+  xy: 826, 5
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
 PolicyIcons/Xenophilia
   rotate: false
-  xy: 1904, 380
+  xy: 892, 38
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
   index: -1
 PolicyIcons/Xenophobia
   rotate: false
-  xy: 256, 26
+  xy: 958, 38
   size: 58, 58
   orig: 58, 58
   offset: 0, 0
@@ -783,14 +916,14 @@ ResourceIcons/Alloy
   index: -1
 ResourceIcons/Consumption of Influence
   rotate: false
-  xy: 442, 4
+  xy: 794, 6
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 ResourceIcons/Influence
   rotate: false
-  xy: 442, 4
+  xy: 794, 6
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
@@ -804,399 +937,399 @@ ResourceIcons/Dark Matter
   index: -1
 ResourceIcons/Focus Crystal
   rotate: false
-  xy: 1824, 516
+  xy: 822, 108
   size: 100, 96
   orig: 100, 96
   offset: 0, 0
   index: -1
 ResourceIcons/Focus Ore
   rotate: false
-  xy: 676, 756
+  xy: 812, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Focus Ore Enrichment Zone
   rotate: false
-  xy: 676, 756
+  xy: 812, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Helium-3
   rotate: false
-  xy: 812, 620
+  xy: 948, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Helium-3 Enrichment Zone
   rotate: false
-  xy: 812, 620
+  xy: 948, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Industrial Capacity
   rotate: false
-  xy: 1084, 892
+  xy: 1356, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Interstellar Debris
   rotate: false
-  xy: 1220, 892
+  xy: 1492, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Iron Ore
   rotate: false
-  xy: 1084, 620
+  xy: 1356, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Iron Ore Enrichment Zone
   rotate: false
-  xy: 1084, 620
+  xy: 1356, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Light Alloy
   rotate: false
-  xy: 1356, 620
+  xy: 1628, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Manpower
   rotate: false
-  xy: 1764, 892
+  xy: 1900, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Manpower Growth Rate
   rotate: false
-  xy: 1628, 620
+  xy: 140, 364
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Manpower Max
   rotate: false
-  xy: 1764, 756
+  xy: 140, 228
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Number of Population
   rotate: false
-  xy: 666, 70
+  xy: 760, 4
   size: 26, 26
   orig: 26, 26
   offset: 0, 0
   index: -1
 ResourceIcons/Rare Metal
   rotate: false
-  xy: 930, 104
+  xy: 1146, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Rare Metal Enrichment Zone
   rotate: false
-  xy: 1038, 104
+  xy: 1254, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Rare Metal Ore
   rotate: false
-  xy: 1038, 104
+  xy: 1254, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Space Biological Settlement
   rotate: false
-  xy: 1364, 142
+  xy: 1744, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tough Alloy
   rotate: false
-  xy: 1092, 484
+  xy: 1228, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/舰队规模
   rotate: false
-  xy: 474, 4
+  xy: 2020, 323
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ancient ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Artificial Debris
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ancient ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Artificial Debris
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Ancient ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Artificial Debris
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/City ruins
   rotate: false
-  xy: 1752, 440
+  xy: 1804, 304
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ancient ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Artificial Debris2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ancient ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Artificial Debris2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Ancient ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Artificial Debris2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/City ruins2
   rotate: false
-  xy: 1824, 444
+  xy: 1876, 332
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Asteroid Belt
   rotate: false
-  xy: 1490, 355
+  xy: 1876, 260
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Asteroid Belt
   rotate: false
-  xy: 1490, 355
+  xy: 1876, 260
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Asteroid Belt
   rotate: false
-  xy: 1490, 355
+  xy: 1876, 260
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbarian encampment
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Barbarian encampment
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Barbarian encampment
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/City center
   rotate: false
-  xy: 1562, 355
+  xy: 1804, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dark Matter
   rotate: false
-  xy: 1472, 283
+  xy: 1960, 355
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dark Matter
   rotate: false
-  xy: 1472, 283
+  xy: 1960, 355
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Dark Matter
   rotate: false
-  xy: 1472, 283
+  xy: 1960, 355
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dark Matter2
   rotate: false
-  xy: 1472, 211
+  xy: 1948, 283
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dark Matter2
   rotate: false
-  xy: 1472, 211
+  xy: 1948, 283
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Dark Matter2
   rotate: false
-  xy: 1472, 211
+  xy: 1948, 283
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Focus Ore Enrichment Zone
   rotate: false
-  xy: 1544, 283
+  xy: 1948, 211
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Focus Ore Enrichment Zone
   rotate: false
-  xy: 1544, 283
+  xy: 1948, 211
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Focus Ore Enrichment Zone
   rotate: false
-  xy: 1544, 283
+  xy: 1948, 211
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Habitable Planet
   rotate: false
-  xy: 1364, 358
+  xy: 1500, 222
   size: 118, 118
   orig: 118, 118
   offset: 0, 0
@@ -1210,147 +1343,147 @@ TileSets/FantasyHex/Tiles/Habitable Planet2
   index: -1
 TileSets/FantasyHex/Tiles/Helium-3 Enrichment Zone
   rotate: false
-  xy: 1544, 211
+  xy: 1948, 139
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Helium-3 Enrichment Zone
   rotate: false
-  xy: 1544, 211
+  xy: 1948, 139
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Helium-3 Enrichment Zone
   rotate: false
-  xy: 1544, 211
+  xy: 1948, 139
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Interstellar Dust
   rotate: false
-  xy: 1616, 283
+  xy: 256, 20
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Interstellar Dust
   rotate: false
-  xy: 1616, 283
+  xy: 256, 20
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Interstellar Dust
   rotate: false
-  xy: 1616, 283
+  xy: 256, 20
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Iron Ore Enrichment Zone
   rotate: false
-  xy: 1616, 211
+  xy: 328, 26
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Iron Ore Enrichment Zone
   rotate: false
-  xy: 1616, 211
+  xy: 328, 26
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Iron Ore Enrichment Zone
   rotate: false
-  xy: 1616, 211
+  xy: 328, 26
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rare Metal Enrichment Zone
   rotate: false
-  xy: 1472, 139
+  xy: 400, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rare Metal Enrichment Zone
   rotate: false
-  xy: 1472, 139
+  xy: 400, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Rare Metal Enrichment Zone
   rotate: false
-  xy: 1472, 139
+  xy: 400, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Space Biological Settlement
   rotate: false
-  xy: 1544, 139
+  xy: 472, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Space Biological Settlement
   rotate: false
-  xy: 1544, 139
+  xy: 472, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Space Biological Settlement
   rotate: false
-  xy: 1544, 139
+  xy: 472, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Space Biological Settlement2
   rotate: false
-  xy: 1616, 139
+  xy: 544, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Space Biological Settlement2
   rotate: false
-  xy: 1616, 139
+  xy: 544, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Space Biological Settlement2
   rotate: false
-  xy: 1616, 139
+  xy: 544, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Void
   rotate: false
-  xy: 1542, 67
+  xy: 688, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Void
   rotate: false
-  xy: 1542, 67
+  xy: 688, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/Minimal/Tiles/Void
   rotate: false
-  xy: 1542, 67
+  xy: 688, 32
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1369,310 +1502,345 @@ UnitIcons/Colony Ship
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Dominator
+UnitIcons/Early Frigate
   rotate: false
   xy: 404, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Early Frigate
+UnitIcons/Early Hangar Ship
   rotate: false
   xy: 540, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Early Hangar Ship
+UnitIcons/Early Laser Ship
   rotate: false
   xy: 4, 92
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Early Laser Ship
+UnitIcons/Early Radar Ship
   rotate: false
   xy: 404, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Early Radar Ship
+UnitIcons/Engineering Ship
   rotate: false
   xy: 540, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Engineering Ship
+UnitIcons/Experimental Giant Ship I
   rotate: false
   xy: 676, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Focus Laser Ship
+UnitIcons/Experimental Giant Ship II
   rotate: false
   xy: 540, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Focus Laser Ship
+  rotate: false
+  xy: 676, 756
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Frigate
   rotate: false
-  xy: 812, 892
+  xy: 676, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Gravitational Artillery Ship
   rotate: false
-  xy: 812, 756
+  xy: 948, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Heavy Artillery Ship
   rotate: false
-  xy: 948, 892
+  xy: 812, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Interceptor Carrier-based Aircraft
+UnitIcons/Hull Size 10
+  rotate: false
+  xy: 1220, 892
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Hull Size 12
+  rotate: false
+  xy: 1084, 620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Hull Size 3
+  rotate: false
+  xy: 1084, 892
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Hull Size 5
+  rotate: false
+  xy: 948, 620
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Hull Size 7
   rotate: false
   xy: 1084, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Kamikaze Carrier-based Aircraft
-  rotate: false
-  xy: 1220, 756
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Kinetic Shield Gravitational Artillery Ship
-  rotate: false
-  xy: 1356, 892
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Kinetic Shield Piercing Artillery Ship
-  rotate: false
-  xy: 1220, 620
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Kinetic Shield Twin Heavy Artillery Ship
+UnitIcons/Interceptor Carrier-based Aircraft
   rotate: false
   xy: 1356, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Light Artillery Ship
+UnitIcons/Kamikaze Carrier-based Aircraft
   rotate: false
   xy: 1492, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Line-of-Sight Artillery Ship
+UnitIcons/Kinetic Shield Gravitational Artillery Ship
   rotate: false
   xy: 1628, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Lock-on Artillery Ship
+UnitIcons/Kinetic Shield Piercing Artillery Ship
   rotate: false
   xy: 1492, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Lock-on Laser Ship
+UnitIcons/Kinetic Shield Twin Heavy Artillery Ship
   rotate: false
   xy: 1628, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Medium Artillery Carrier-based Aircraft
+UnitIcons/Light Artillery Ship
+  rotate: false
+  xy: 1764, 756
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Line-of-Sight Artillery Ship
   rotate: false
   xy: 1900, 892
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Medium Artillery Ship
+UnitIcons/Lock-on Artillery Ship
   rotate: false
   xy: 1764, 620
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Mine-layer
+UnitIcons/Lock-on Laser Ship
   rotate: false
   xy: 1900, 756
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Minesweeper
-  rotate: false
-  xy: 140, 364
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Mining Ship
-  rotate: false
-  xy: 140, 228
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Mining Vessel
+UnitIcons/Medium Artillery Carrier-based Aircraft
   rotate: false
   xy: 140, 92
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Piercing Artillery Ship
+UnitIcons/Medium Artillery Ship
+  rotate: false
+  xy: 276, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Mine-layer
   rotate: false
   xy: 276, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Queen Bee
-  rotate: false
-  xy: 412, 484
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Radar Carrier-based Aircraft
+UnitIcons/Minesweeper
   rotate: false
   xy: 276, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Radar Ship
+UnitIcons/Mining Ship
   rotate: false
   xy: 412, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Rapid Laser Ship
+UnitIcons/Mining Vessel
   rotate: false
   xy: 548, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Rapid-Fire Artillery Ship
-  rotate: false
-  xy: 412, 212
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Research Ship
+UnitIcons/Piercing Artillery Ship
   rotate: false
   xy: 548, 348
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Sentinel Array
+UnitIcons/Radar Carrier-based Aircraft
   rotate: false
   xy: 684, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Space Paratrooper
+UnitIcons/Radar Ship
   rotate: false
   xy: 548, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Rapid Laser Ship
+  rotate: false
+  xy: 684, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Rapid-Fire Artillery Ship
+  rotate: false
+  xy: 820, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Research Ship
+  rotate: false
+  xy: 684, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Sentinel Array
+  rotate: false
+  xy: 820, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Space Paratrooper
+  rotate: false
+  xy: 956, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Space Zone I
-  rotate: false
-  xy: 820, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Space Zone II
-  rotate: false
-  xy: 820, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Space Zone III
-  rotate: false
-  xy: 820, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Stasis Artillery Ship
-  rotate: false
-  xy: 820, 212
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Twin Heavy Artillery Ship
   rotate: false
   xy: 956, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Warp Cruiser
+UnitIcons/Space Zone II
+  rotate: false
+  xy: 956, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Space Zone III
+  rotate: false
+  xy: 956, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Stasis Artillery Ship
   rotate: false
   xy: 1228, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Warp Piercing Artillery Ship
-  rotate: false
-  xy: 1092, 212
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Warp Quadruple Rapid-Fire Artillery Ship
-  rotate: false
-  xy: 1228, 348
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Warp Twin Heavy Artillery Ship
+UnitIcons/Twin Heavy Artillery Ship
   rotate: false
   xy: 1364, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Warp Cruiser
+  rotate: false
+  xy: 1364, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Warp Piercing Artillery Ship
+  rotate: false
+  xy: 1500, 484
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Warp Quadruple Rapid-Fire Artillery Ship
+  rotate: false
+  xy: 1364, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Warp Twin Heavy Artillery Ship
+  rotate: false
+  xy: 1500, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Warp Twin Line-of-Sight Artillery Ship
   rotate: false
-  xy: 1228, 212
+  xy: 1636, 484
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

@@ -7,10 +7,20 @@
                    ]
     },
     {
+        "name": "Custom Ship",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
         "name": "Weapon",//武器
         "movementType": "Air"
         "uniques": [
-        
+        "Unbuildable",
+        "Self-destructs when attacking",
+            "Never appears as a Barbarian unit",
+            "[This Unit] takes [100] damage <upon turn end>",
                    ]
     },
     {

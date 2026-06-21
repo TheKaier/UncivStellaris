@@ -1,28 +1,508 @@
 [
     
     
-    //引擎0
+    //引擎1
+    {
+        "name": "Nuclear Fission Engine",
+        "uniques": [
+        "Engine",
+        "[+2] Movement",
+        "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <when above [14] [Refit Capacity]>",
+        "Instantly consumes [15] [Refit Capacity]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 1,
+        "row": 1
+    },
+    {
+        "name": "Dual Nuclear Fission Engine",
+        "uniques": [
+        "Engine",
+        "[+5] Movement",
+        "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <when above [49] [Refit Capacity]>",
+        "Instantly consumes [50] [Refit Capacity]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 1,
+        "row": 2
+    },
+    {
+        "name": "Nuclear Fusion Engine",
+        "uniques": [
+        "Engine",
+        "[+4] Movement",
+        "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <when above [29] [Refit Capacity]>",
+        "Instantly consumes [30] [Refit Capacity]",
+        "Only available <when above [14] [Helium-3]>",
+        "Instantly consumes [15] [Helium-3]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 1,
+        "row": 3
+    },
+    {
+        "name": "Dual Nuclear Fusion Engine",
+        "uniques": [
+        "Engine",
+        "[+8] Movement",
+        "[This Unit] gains the [Deduct 5 Hull Spaces] promotion",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]} {non-[4 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <when above [79] [Refit Capacity]>",
+        "Instantly consumes [80] [Refit Capacity]",
+        "Only available <when above [24] [Helium-3]>",
+        "Instantly consumes [25] [Helium-3]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 1,
+        "row": 4
+    },
     {
         "name": "Warp Engine",
         "uniques": [
+        
+        "Engine",
+        "[+5] Movement",
         "[This Unit] gains the [Loading Warp] status for [1] turn(s) <for all movement> <for units without [Loading Warp]> <for units without [Loading Warp]> <hidden from users>",
         "[This Unit] gains the [Offloading Warp] status for [1] turn(s) <upon losing the [Loading Warp] status> <hidden from users>",
-        "Engine",
-        
-        "Only available <when above [19] [Helium-3]> <when above [4] [Focus Crystal]>  <when above [4] [Rare Metal]> <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <in [City center] tiles> <for [non-[Engine]] units>",
+        "Only available <when above [79] [Refit Capacity]>",
+        "Instantly consumes [80] [Refit Capacity]",
+        "Only available <when above [19] [Helium-3]> <when above [4] [Focus Crystal]>  <when above [4] [Rare Metal]>",
         "Instantly consumes [20] [Helium-3]",
         "Instantly consumes [5] [Focus Crystal]",
         "Instantly consumes [5] [Rare Metal]",
         ],
-        "unitTypes": ["Spacecraft"],
+        "unitTypes": ["Custom Ship"],
         "column": 1,
+        "row": 5
+    },
+    //火炮2
+    {
+        "name": "Light Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Light Artillery] appears <for [1] movement>",
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [4] [Refit Capacity]>",
+            "Instantly consumes [5] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
         "row": 1
     },
-    //火炮1
-    //激光2
-    //小配件3
-    //大配件4
+    {
+        "name": "Medium Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Medium Artillery] appears <for [1] movement>",
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [9] [Refit Capacity]>",
+            "Instantly consumes [10] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 2
+    },
+    {
+        "name": "Heavy Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Heavy Artillery] appears <for [2] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [19] [Refit Capacity]>",
+            "Instantly consumes [20] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 3
+    },
+    {
+        "name": "Rapid-Fire Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Rapid-Fire Artillery] appears <for [1] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [19] [Refit Capacity]>",
+            "Instantly consumes [20] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 4
+    },
+    {
+        "name": "Piercing Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Piercing Artillery] appears <for [3] movement>",
+            "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [29] [Refit Capacity]>",
+            "Instantly consumes [30] [Refit Capacity]",
+             "Only available <when above [9] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 5
+    },
+    {
+        "name": "Line-of-Sight Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Line-of-Sight Artillery] appears <for [2] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [19] [Refit Capacity]>",
+            "Instantly consumes [20] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 6
+    },
+    {
+        "name": "Lock-on Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Lock-on Artillery] appears <for [3] movement>",
+            "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [29] [Refit Capacity]>",
+            "Instantly consumes [30] [Refit Capacity]",
+            "Only available <when above [9] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 7
+    },
+    {
+        "name": "Gravity Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Gravity Artillery] appears <for [4] movement>",
+            "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [79] [Refit Capacity]>",
+            "Instantly consumes [80] [Refit Capacity]",
+            "Only available <when above [9] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 8
+    },
+    {
+        "name": "Stasis Artillery",
+        "uniques": [
+            "Weapon",
+            "Free [Stasis Artillery] appears <for [4] movement>",
+            "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [79] [Refit Capacity]>",
+            "Instantly consumes [80] [Refit Capacity]",
+            "Only available <when above [9] [Rare Metal]>",
+        "Instantly consumes [10] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 2,
+        "row": 9
+    },
     
+
+
+
+
+
+
+
+
+
+    //激光3
+    {
+        "name": "Early Laser",
+        "uniques": [
+            "Weapon",
+            "Free [Early Laser] appears <for [3] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [14] [Refit Capacity]>",
+            "Instantly consumes [15] [Refit Capacity]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 3,
+        "row": 1
+    },
+    {
+        "name": "Rapid Laser",
+        "uniques": [
+            "Weapon",
+            "Free [Rapid Laser] appears <for [2] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [24] [Refit Capacity]>",
+            "Instantly consumes [25] [Refit Capacity]",
+            "Only available <when above [9] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 3,
+        "row": 2
+    },
+    {
+        "name": "Focus Laser",
+        "uniques": [
+            "Weapon",
+            "Free [Focus Laser] appears <for [4] movement>",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [29] [Refit Capacity]>",
+            "Instantly consumes [30] [Refit Capacity]",
+            "Only available <when above [9] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 3,
+        "row": 3
+    },
+    {
+        "name": "Lock-on Laser",
+        "uniques": [
+            "Weapon",
+            "Free [Lock-on Laser] appears <for [3] movement>",
+            "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles> <for [non-[Weapon]] units>",
+            "Only available <when above [49] [Refit Capacity]>",
+            "Instantly consumes [50] [Refit Capacity]",
+            "Only available <when above [9] [Focus Crystal]>",
+        "Instantly consumes [10] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 3,
+        "row": 4
+    },
+
+
+
+
+    //配件4
+    {
+        "name": "Radar",
+        "uniques": [
+            "Components",
+            "[+2] Sight",
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [4] [Refit Capacity]>",
+            "Instantly consumes [5] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 1
+    },
+    {
+        "name": "Deep Radar",
+        "uniques": [
+            "Components",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [9] [Refit Capacity]>",
+            "Instantly consumes [10] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 2
+    },
+    {
+        "name": "Mining Equipment",
+        "uniques": [
+            "Components",
+            "[This Unit] gains the [Mining Iron Ore] status for [4] turn(s) <for all movement> <in [Iron Ore Enrichment Zone] tiles> <for units without [Full Load Iron Ore]> <for units without [Mining Iron Ore]>",
+        "[This Unit] gains the [Mining Rare Metal Ore] status for [5] turn(s) <for all movement> <in [Rare Metal Enrichment Zone] tiles> <for units without [Full Load Rare Metal Ore]> <for units without [Mining Rare Metal Ore]>",
+        "[This Unit] gains the [Mining Focus Ore] status for [6] turn(s) <for all movement> <in [Focus Ore Enrichment Zone] tiles> <for units without [Full Load Focus Ore]> <for units without [Mining Focus Ore]>",
+        "[This Unit] gains the [Full Load Iron Ore] promotion <upon losing the [Mining Iron Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Iron Ore] promotion <costs [-10] [Iron Ore]> <for units with [Full Load Iron Ore]> <in [City center] tiles> <hidden from users>",
+        "[This Unit] gains the [Full Load Rare Metal Ore] promotion <upon losing the [Mining Rare Metal Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Rare Metal Ore] promotion <costs [-10] [Rare Metal Ore]> <for units with [Full Load Rare Metal Ore]> <in [City center] tiles> <hidden from users>",
+        "[This Unit] gains the [Full Load Focus Ore] promotion <upon losing the [Mining Focus Ore] status> <hidden from users>",
+        "[This Unit] loses the [Full Load Focus Ore] promotion <costs [-10] [Focus Ore]> <for units with [Full Load Focus Ore]> <in [City center] tiles> <hidden from users>",
+        
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [24] [Refit Capacity]>",
+            "Instantly consumes [25] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 3
+    },
+    {
+        "name": "Early Interceptor",
+        "uniques": [
+            "Components",
+            "[25]% chance to intercept air attacks",
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [9] [Refit Capacity]>",
+            "Instantly consumes [10] [Refit Capacity]",
+            "Only available <when above [4] [Rare Metal]>",
+        "Instantly consumes [5] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 4
+    },
+    {
+        "name": "Interceptor",
+        "uniques": [
+            "Components",
+            "[50]% chance to intercept air attacks",
+            "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
+            "Only available <for [non-[0 Remaining Hull Spaces]] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [14] [Refit Capacity]>",
+            "Instantly consumes [15] [Refit Capacity]",
+            "Only available <when above [4] [Rare Metal]>",
+        "Instantly consumes [5] [Rare Metal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 5
+    },
+    {
+        "name": "4-Slot Hangar",
+        "uniques": [
+            "Components",
+            "Can carry [4] [Carrier-based Aircraft] units",
+            "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [39] [Refit Capacity]>",
+            "Instantly consumes [40] [Refit Capacity]"
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 6
+    },
+    {
+        "name": "Sentinel Array Core",
+        "uniques": [
+            "Components",
+            "[+20] Sight",
+        "Can see over obstacles",
+        "Cannot attack",
+            "[This Unit] gains the [Deduct 5 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]} {non-[3 Remaining Hull Spaces]} {non-[4 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [99] [Refit Capacity]>",
+            "Instantly consumes [100] [Refit Capacity]",
+            "Only available <when above [19] [Focus Crystal]>",
+        "Instantly consumes [20] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 7
+    },
+    {
+        "name": "Mine-Laying Equipment",
+        "uniques": [
+            "Components",
+            "Can build [Minefield] improvements on tiles",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [29] [Refit Capacity]>",
+            "Instantly consumes [30] [Refit Capacity]",
+            "Only available <when above [4] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 8
+    },
+    {
+        "name": "Minesweeping Equipment",
+        "uniques": [
+            "Components",
+            "Can build [Remove Minefield] improvements on tiles",
+            "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
+            "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]}] units> <hidden from users>",
+            "Only available <in [City center] tiles>",
+            "Only available <when above [29] [Refit Capacity]>",
+            "Instantly consumes [30] [Refit Capacity]",
+            "Only available <when above [4] [Focus Crystal]>",
+        "Instantly consumes [5] [Focus Crystal]",
+        ],
+        "unitTypes": ["Custom Ship"],
+        "column": 4,
+        "row": 9
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //装甲5
     {
         "name": "Tough Alloy Armor",
@@ -30,25 +510,25 @@
         "[+25]% Strength <when defending>",
         "Armor",
         
-        "Only available <when above [14] [Tough Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
-        "Instantly consumes [15] [Tough Alloy]",
+        "Only available <when above [4] [Tough Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
+        "Instantly consumes [5] [Tough Alloy]",
         
         ],
-        "unitTypes": ["Spacecraft"],
+        "unitTypes": ["Spacecraft","Custom Ship"],
         "column": 5,
         "row": 1
     },
     {
         "name": "Light Alloy Armor",
         "uniques": [
-        "[-1] Movement",
+        "[+1] Movement",
         "Armor",
         
-        "Only available <when above [14] [Light Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
-        "Instantly consumes [15] [Light Alloy]",
+        "Only available <when above [4] [Light Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
+        "Instantly consumes [5] [Light Alloy]",
         
         ],
-        "unitTypes": ["Spacecraft"],
+        "unitTypes": ["Spacecraft","Custom Ship"],
         "column": 5,
         "row": 2
     },
@@ -58,12 +538,16 @@
         "uniques": [
         "[+33]% Strength <when defending> <vs [Artillery] units>",
         "Shield",
-        
-        "Only available <when above [19] [Focus Crystal]> <in [City center] tiles> <for [non-[Armor]] units>",
+
+        "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
+        "Only available <in [City center] tiles> <for [non-[Shield]] units>",
+        "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",
+        "Only available <when above [59] [Refit Capacity]>",
+        "Instantly consumes [60] [Refit Capacity]",
+        "Only available <when above [19] [Focus Crystal]>",
         "Instantly consumes [20] [Focus Crystal]",
-        
         ],
-        "unitTypes": ["Spacecraft"],
+        "unitTypes": ["Custom Ship"],
         "column": 6,
         "row": 1
     },
@@ -101,9 +585,6 @@
         "column": 12,
         "row": 1
     },
-
-
-
 
 
 
@@ -235,6 +716,881 @@
 
 
 
+    {
+        "name": "30 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [29 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [28 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [27 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [26 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [25 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>"
+        ]
+    },
+    {
+        "name": "29 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [28 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [27 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [26 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [25 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "28 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [27 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [26 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [25 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "27 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [26 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [25 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "26 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [25 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "25 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [24 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "24 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [23 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "23 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [22 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "22 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [21 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "21 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [20 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "20 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [19 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "19 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [18 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "18 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [17 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "17 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [16 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "16 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [15 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "15 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [14 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "14 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [13 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "13 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [12 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "12 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [11 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "11 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [10 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "10 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [9 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 10 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "9 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [8 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 9 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "8 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [7 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 8 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "7 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [6 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 7 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "6 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [5 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 6 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "5 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [4 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 5 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "4 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [3 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 4 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [5 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "3 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [2 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 3 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [4 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [5 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "2 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [1 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 2 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [3 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [4 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [5 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "1 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] gains the [0 Remaining Hull Spaces] promotion <upon gaining the [Deduct 1 Hull Spaces] promotion> <hidden from users>",
+            "[This Unit] loses the [2 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [3 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [4 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [5 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
+    {
+        "name": "0 Remaining Hull Spaces",
+        "uniques": [
+            "[This Unit] loses the [1 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [2 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [3 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [4 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [5 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [6 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [7 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [8 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [9 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [10 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [11 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [12 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [13 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [14 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [15 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [16 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [17 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [18 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [19 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [20 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [21 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [22 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [23 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [24 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [25 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [26 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [27 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [28 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [29 Remaining Hull Spaces] promotion <hidden from users>",
+            "[This Unit] loses the [30 Remaining Hull Spaces] promotion <hidden from users>"
+        ]
+    },
 
 
 
@@ -244,6 +1600,67 @@
 
 
 
+
+    {
+        "name": "Deduct 1 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 2 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 3 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 4 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 5 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 6 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 7 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 8 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 9 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    },
+    {
+        "name": "Deduct 10 Hull Spaces",
+        "uniques": [
+            "Doing so will consume this opportunity to choose a Promotion"
+        ]
+    }
 
 
 

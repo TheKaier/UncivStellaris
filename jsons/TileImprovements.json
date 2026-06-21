@@ -188,6 +188,7 @@
             "Provides [2] [Iron Ore]",
             "Provides [1] [Iron Ore] <after discovering [Mining Equipment Optimization]>",
             "Provides [1] [Iron Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Iron Ore] <after discovering [Precision Sensor]>",
             "Can only be built to improve a resource",
             
         ]
@@ -203,6 +204,7 @@
             "Provides [1] [Rare Metal Ore]",
             "Provides [1] [Rare Metal Ore] <after discovering [Mining Equipment Optimization]>",
             "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Rare Metal Ore] <after discovering [Precision Sensor]>",
             "Can only be built to improve a resource",
         ]
     },
@@ -233,6 +235,7 @@
             "Costs [2] [Gold] per turn",
             "Provides [1] [Focus Ore]",
             "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Focus Ore] <after discovering [Precision Sensor]>",
             "Can only be built to improve a resource",
         ]
     },
@@ -245,6 +248,8 @@
         "Provides [1] [Territory Scale]",
             "Costs [2] [Gold] per turn",
             "Provides [3] [Helium-3]",
+            "Provides [1] [Helium-3] <after discovering [Artificial Strong Force Field]>",
+            "Provides [1] [Helium-3] <after discovering [Precision Sensor]>",
             "Can only be built to improve a resource",
             
             
@@ -263,9 +268,11 @@
             "Provides [2] [Focus Ore] <in [Focus Ore Enrichment Zone] tiles>",
             
             "Provides [1] [Iron Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Iron Ore] <after discovering [Precision Sensor]>",
             "Provides [1] [Rare Metal Ore] <after discovering [Cosmology]>",
+            "Provides [1] [Rare Metal Ore] <after discovering [Precision Sensor]>",
             "Provides [1] [Focus Ore] <after discovering [Cosmology]>",
-            
+            "Provides [1] [Focus Ore] <after discovering [Precision Sensor]>",
             "Can be built outside your borders",
             "Gain control over [all] tiles in a [0]-tile radius",
             
@@ -416,7 +423,11 @@
             "Unpillagable", "Irremovable", "Unbuildable",
             "Provides [3] [Space Station Division]",
             "Provides [1] [Number of Space Station]",
-            "Provides [2] [Space Station Division] <in [Habitable Planet] tiles>",
+            //"Provides [2] [Space Station Division] <in [Habitable Planet] tiles>",
+            "Provides [2] [Iron Ore] <in [Iron Ore Enrichment Zone] tiles>",
+            "Provides [1] [Rare Metal Ore] <in [Rare Metal Enrichment Zone] tiles>",
+            "Provides [2] [Helium-3] <in [Helium-3 Enrichment Zone] tiles>",
+            "Provides [1] [Focus Ore] <in [Focus Ore Enrichment Zone] tiles>",
             ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},

@@ -59,7 +59,7 @@
     {
         "columnNumber": 2,
         "era": "Space Era",
-        "techCost": 22,
+        "techCost": 25,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -119,7 +119,7 @@
     {
         "columnNumber": 3,
         "era": "Space Era",
-        "techCost": 34,
+        "techCost": 37,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -156,7 +156,7 @@
     {
         "columnNumber": 4,
         "era": "Space Era",
-        "techCost": 56,
+        "techCost": 64,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -211,7 +211,7 @@
     {
         "columnNumber": 5,
         "era": "Space Era",
-        "techCost": 115,
+        "techCost": 130,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -252,7 +252,7 @@
     {
         "columnNumber": 6,
         "era": "Space Era",
-        "techCost": 240,
+        "techCost": 260,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -289,7 +289,7 @@
     {
         "columnNumber": 7,
         "era": "Space Era",
-        "techCost": 350,
+        "techCost": 390,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -308,7 +308,7 @@
                 "uniques": []
             },
             {
-                "name": "Decisive Weapon",
+                "name": "Big Gun Battleship",
                 "row": 4,
                 "quote": "",
                 "prerequisites": ["Space Force Construction","War AI","Cosmic Megastructure"],
@@ -333,7 +333,7 @@
     {
         "columnNumber": 8,
         "era": "Space Era",
-        "techCost": 700,
+        "techCost": 750,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -341,14 +341,14 @@
                 "name": "Artificial Strong Force Field",
                 "row": 2,
                 "quote": "",
-                "prerequisites": ["Blockade Battle Line","Cluster Charging","Decisive Weapon"],
+                "prerequisites": ["Blockade Battle Line","Cluster Charging","Big Gun Battleship"],
                 "uniques": []
             },
             {
                 "name": "Warp Technology",
                 "row": 4,
                 "quote": "",
-                "prerequisites": ["Decisive Weapon","Decisive Weapon","Cosmology"],
+                "prerequisites": ["Big Gun Battleship","Big Gun Battleship","Cosmology"],
                 "uniques": []
             },
             {
@@ -363,7 +363,7 @@
     {
         "columnNumber": 9,
         "era": "Space Era",
-        "techCost": 1000,
+        "techCost": 1200,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [

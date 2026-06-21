@@ -575,7 +575,16 @@
 
 
 
-    
+    {
+		"name": "Courthouse",//法庭
+		"maintenance": 4,
+        "cost": 60,
+		"uniques": [
+            "Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+            "Destroyed when the city is captured"
+        ],
+	},
 	{
         "name": "Loading",
         "cost": 1,
@@ -627,6 +636,17 @@
         "cost": 30,
         "uniques": [
          "Only available <after adopting [A New Life]>",
+         "[+1] population [in this city]",
+         "Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "A New Life",
+        "cost": 0,
+        "specialistSlots": {"Agricultural Zoning Post": 2, "Industrial Zoning Post": 1},
+        "uniques": [
+         "Must be on [Habitable Planet]",
          "[+1] population [in this city]",
          "Unbuildable",
         "Unsellable",

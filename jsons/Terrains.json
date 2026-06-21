@@ -17,8 +17,8 @@
 		"name": "Habitable Planet",//宜居星球
 		"type": "TerrainFeature",
 		"food": 3,
-		"gold": 1,
-		"overrideStats": true,
+		"happiness": 1,
+		//"overrideStats": true,
 		"movementCost": 1,
 		"unbuildable": true,
 		"occursOn": ["Void"],

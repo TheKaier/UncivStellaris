@@ -17,10 +17,10 @@
         "[+900]% Culture cost of natural border growth [in all cities]",
         "[+900]% Gold cost of acquiring tiles [in all cities]",
         
-        //初始化人力
-        "Instantly provides [25] [Manpower]",
-
-
+        //初始化
+        "Instantly provides [20] [Manpower]",
+        "Instantly provides [20] [Alloy]",
+        "Instantly provides [2000] [Refit Capacity]",
 
 
 
@@ -57,8 +57,8 @@
         "Adopt [Ascension]",
         "Adopt [Trait]",
         //人力机制
-        "Provides [1] [Manpower Growth Rate] <for every [Number of Population]>",
-        "Provides [10] [Manpower Max] <for every [Number of Population]>",
+        "Provides [1] [Manpower Growth Rate] <for every [[Number of Population] / 2]>",
+        "Provides [5] [Manpower Max] <for every [Number of Population]>",
         "Provides [1] [Manpower] <for every [Manpower Growth Rate]> <when number of [Manpower] is less than [Manpower Max]>",
         //"Provides [-1] [Manpower] <for every [[Manpower] - [Manpower Max]]> <when number of [Manpower] is more than [Manpower Max]>",
         
@@ -68,7 +68,7 @@
         //帝国规模计算
         "Provides [1] [Empire Scale] <for every [[Population Scale] * [Population Scale Coefficient] / 100 + [Territory Scale] * [Territory Scale Coefficient] / 100 + [City Scale] * [City Scale Coefficient] / 100]>",
         
-        "Provides [2] [Population Scale] <for every [Number of Population]>",//转换人口规模
+        "Provides [3] [Population Scale] <for every [Number of Population]>",//转换人口规模
         
         "Provides [100] [Population Scale Coefficient]",//设置初始值
         "Provides [100] [Territory Scale Coefficient]",
@@ -173,7 +173,7 @@
         
         
         "Provides [2] [Iron Ore] <for every [[Interstellar Debris] / 4]> <for [AI player] Civilizations>",
-        "Provides [1] [Rare Metal Ore] <for every [[Interstellar Debris] / 4]>",
+        "Provides [1] [Rare Metal Ore] <for every [[Interstellar Debris] / 4]> <for [AI player] Civilizations>",
         "Provides [-4] [Interstellar Debris] <for every [[Interstellar Debris] / 4]> <for [AI player] Civilizations>",
         
         
@@ -199,8 +199,8 @@
     "[This Unit] takes [10] damage <upon entering a [Minefield] tile>",
     
     
-    
-    
+    //自定义
+    "[This Unit] gains [30] XP <upon turn start> <in [City center] tiles> <for [Custom Ship] units>",
     
     
     //损伤

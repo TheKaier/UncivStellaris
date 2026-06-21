@@ -495,6 +495,15 @@
             "Not shown on world screen"
         ]
     },
+    {
+        "name": "Refit Capacity",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen <when above [0] [Refit Capacity]>",
+            "Stockpiled",
+        ]
+    },
 ]
 
 
