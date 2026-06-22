@@ -1,5 +1,15 @@
 [
     {
+        "name": "Custom Ship",
+        "cost": 0,
+        "uniques": [
+         
+         
+         "Unbuildable",
+        
+        ]
+    },
+    {
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 2,
@@ -642,7 +652,7 @@
         ]
     },
     {
-        "name": "A New Life",
+        "name": "Habitable Planet",
         "cost": 0,
         "specialistSlots": {"Agricultural Zoning Post": 2, "Industrial Zoning Post": 1},
         "uniques": [

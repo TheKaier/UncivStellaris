@@ -500,7 +500,7 @@
         "resourceType": "Strategic",
         "uniques": [
             "Cannot be traded",
-            "Not shown on world screen <when above [0] [Refit Capacity]>",
+            "Not shown on world screen <when [Custom Ship] Victory is disabled>",
             "Stockpiled",
         ]
     },
