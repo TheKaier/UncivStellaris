@@ -7,7 +7,7 @@
         "wonderCost": 185,
         "techs": [
             {
-                "name": "Stellaris‌",
+                "name": "Stellaris",
                 "row": 4,
                 "quote": "",
                 "uniques": ["Starting tech",
@@ -15,6 +15,58 @@
                 //"Enables Open Borders agreements",
                 ]
             },
+            {
+                "name": "Beyond Transcendence",//超凡之上
+                "row": 9,
+                "quote": "A silent tide has swept through our people. Its origin is untraceable, but they—no, we—have come to hold a certain conviction that our kind is destined for something far greater. We should investigate what has caused this mass hysteria—the whispers that promise we shall rule the stars.",
+                "cost": 750,
+                "uniques": [
+                    "Triggers a [Grand Vision] event",
+                    "Only available <when above [999] [Menace]> <when above [0] [Ascension Progress]>",
+                ]
+            },
+            {
+                "name": "Dark Tide Surging",//暗潮涌动
+                "row": 10,
+                "quote": "The prevailing theory is that our universe and the Shroud are interconnected—that large-scale disturbances or actions in one plane create ripple effects in the other. We should put this theory to the test.",
+                "cost": 1250,
+                "uniques": [
+                    "Triggers a [Fount of Energy] event",
+                    "Only available <when above [1999] [Menace]> <when above [1] [Ascension Progress]>",
+                ]
+            },
+            {
+                "name": "United as One",//万众一心
+                "row": 11,
+                "quote": "Our empire grows ever stronger—and with an undeniable sense of purpose uniting our entire species—our scientists are convinced that we are receiving infusion from the Shroud itself.",
+                "cost": 1750,
+                "uniques": [
+                    "Triggers a [Otherworldly Infusion] event",
+                    "Only available <when above [2999] [Menace]> <when above [2] [Ascension Progress]>",
+                ]
+            },
+            {
+                "name": "Tear the Veil",//撕碎帷幕
+                "row": 12,
+                "quote": "It is time to find a way to unleash the Shroud's energy into reality, and tame this source of power beyond ordinary understanding. According to current theory, a sufficiently large energy surge might tear down the barrier between the two planes, ultimately merging the two universes into one. The Shroud's majesty is vast—and the worthy shall claim it. Let us claim it.",
+                "cost": 2250,
+                "uniques": [
+                    "Triggers a [The End Approaches] event",
+                    "Triggers a [Star-Eater] event",
+                    "Triggers a [Aetherophasic Engine] event",
+                    "Only available <when above [4999] [Menace]> <when above [2] [Ascension Progress]>",
+                ]
+            },
+            /*{
+                "name": "xxxxxxxxx",
+                "row": 13,
+                "quote": "",
+                "cost": 1000,
+                "uniques": [
+                    "Triggers a [xxxxxx] event",
+                    "Only available <when above [999] [Menace]> <when above [0] [Ascension Progress]>",
+                ]
+            },*/
                 ]
     },
     
@@ -30,28 +82,28 @@
                 "name": "Controlled Nuclear Fission",
                 "row": 1,
                 "quote": "",
-                "prerequisites": ["Stellaris‌"],
+                "prerequisites": ["Stellaris"],
                 "uniques": ["Starting tech",]
             },
             {
                 "name": "Life Support System",
                 "row": 3,
                 "quote": "",
-                "prerequisites": ["Stellaris‌"],
+                "prerequisites": ["Stellaris"],
                 "uniques": ["Starting tech",]
             },
             {
                 "name": "Space Orientation Positioning",
                 "row": 5,
                 "quote": "",
-                "prerequisites": ["Stellaris‌"],
+                "prerequisites": ["Stellaris"],
                 "uniques": ["Starting tech",]
             },
             {
                 "name": "Space Capsule Internal Operation",
                 "row": 7,
                 "quote": "",
-                "prerequisites": ["Stellaris‌"],
+                "prerequisites": ["Stellaris"],
                 "uniques": ["Starting tech",]
             }
         ]
@@ -119,7 +171,7 @@
     {
         "columnNumber": 3,
         "era": "Space Era",
-        "techCost": 37,
+        "techCost": 40,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -156,7 +208,7 @@
     {
         "columnNumber": 4,
         "era": "Space Era",
-        "techCost": 64,
+        "techCost": 75,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -211,7 +263,7 @@
     {
         "columnNumber": 5,
         "era": "Space Era",
-        "techCost": 130,
+        "techCost": 150,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -252,7 +304,7 @@
     {
         "columnNumber": 6,
         "era": "Space Era",
-        "techCost": 260,
+        "techCost": 300,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -289,7 +341,7 @@
     {
         "columnNumber": 7,
         "era": "Space Era",
-        "techCost": 390,
+        "techCost": 400,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -327,7 +379,8 @@
                 "quote": "",
                 "prerequisites": ["Cosmic Megastructure"],
                 "uniques": []
-            }
+            },
+            
         ]
     },
     {
@@ -363,7 +416,7 @@
     {
         "columnNumber": 9,
         "era": "Space Era",
-        "techCost": 1200,
+        "techCost": 1300,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [

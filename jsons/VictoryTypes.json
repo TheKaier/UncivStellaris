@@ -27,4 +27,11 @@
         "Build [Custom Ship]"
         ]
     },
+    {
+        "name":"Ascension",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Ascension]"
+        ]
+    },
 ]

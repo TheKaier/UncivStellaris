@@ -134,6 +134,19 @@
         "Unavailable",
 ],
         "policies": [
+        /*{
+        "name": "Gestalt Consciousness",
+        "uniques": [
+            "Only available <when above [2] [Number of Ethos]>",
+            "Provides [-3] [Number of Ethos]",
+            
+            
+            
+            
+        ],
+        "row": 3,
+        "column": 5
+    },*/
     {
         "name": "Authoritarianism",
         "uniques": [
@@ -142,7 +155,7 @@
             "Only available <before adopting [Extreme Authoritarianism]> <before adopting [Extreme Egalitarianism]> <before adopting [Egalitarianism]>",
             
             
-            "[+1 Science] per [3] population [in all cities]",
+            "[+1 Science] per [4] population [in all cities]",
             "[+15]% Unhappiness from [Population] [in all cities]",
         ],
         "row": 2,
@@ -154,7 +167,7 @@
             "Only available <when above [0] [Number of Ethos]>",
             "Provides [-1] [Number of Ethos]",
             "Only available <before adopting [Extreme Egalitarianism]> <before adopting [Extreme Authoritarianism]> <before adopting [Authoritarianism]>",
-            "[+5 Happiness]",
+            "[+4 Happiness]",
             
         ],
         "row": 4,
@@ -166,7 +179,7 @@
             "Only available <when above [0] [Number of Ethos]>",
             "Provides [-1] [Number of Ethos]",
             "Only available <before adopting [Extreme Xenophobia]> <before adopting [Extreme Xenophilia]> <before adopting [Xenophilia]>",
-            "[+17]% growth [in all cities]",
+            "[+15]% growth [in all cities]",
         ],
         "row": 2,
         "column": 5
@@ -177,7 +190,7 @@
             "Only available <when above [0] [Number of Ethos]>",
             "Provides [-1] [Number of Ethos]",
             "Only available <before adopting [Extreme Xenophilia]> <before adopting [Extreme Xenophobia]> <before adopting [Xenophobia]>",
-            "[+17]% [Gold] [in all cities]",
+            "[+15]% [Gold] [in all cities]",
             
         ],
         "row": 4,
@@ -242,7 +255,7 @@
             "Only available <when above [1] [Number of Ethos]>",
             "Provides [-2] [Number of Ethos]",
             "Only available <before adopting [Authoritarianism]> <before adopting [Extreme Egalitarianism]> <before adopting [Egalitarianism]>",
-            "[+2 Science] per [3] population [in all cities]",
+            "[+1 Science] per [2] population [in all cities]",
             "[+30]% Unhappiness from [Population] [in all cities]",
             
         ],
@@ -255,7 +268,7 @@
             "Only available <when above [1] [Number of Ethos]>",
             "Provides [-2] [Number of Ethos]",
             "Only available <before adopting [Egalitarianism]> <before adopting [Extreme Authoritarianism]> <before adopting [Authoritarianism]>",
-            "[+10 Happiness]",
+            "[+8 Happiness]",
             
         ],
         "row": 5,
@@ -268,7 +281,7 @@
             "Provides [-2] [Number of Ethos]",
             "Only available <before adopting [Xenophobia]> <before adopting [Extreme Xenophilia]> <before adopting [Xenophilia]>",
             
-            "[+35]% growth [in all cities]",
+            "[+30]% growth [in all cities]",
             
         ],
         "row": 1,
@@ -280,7 +293,7 @@
             "Only available <when above [1] [Number of Ethos]>",
             "Provides [-2] [Number of Ethos]",
             "Only available <before adopting [Xenophilia]> <before adopting [Extreme Xenophobia]> <before adopting [Xenophobia]>",
-            "[+35]% [Gold] [in all cities]",
+            "[+30]% [Gold] [in all cities]",
             
         ],
         "row": 5,
@@ -410,7 +423,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+2 Science, -1 Gold] from every [Science Zoning Post]",
+            "[+1 Science, -1 Gold] from every [Science Zoning Post]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["To Boldly Go"],
@@ -435,8 +448,8 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
-            
-            "[+2 Science] per [3] population [in this city]",
+            "Provides [1] [Available Ascension Perk Slots]",
+            "[+1 Science] per [3] population [in this city]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Robotic Explorers"],
@@ -510,7 +523,8 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
-            "[+20]% growth [in all cities]",
+            "[+15]% growth [in all cities]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Galactic Ambition"],
@@ -584,6 +598,7 @@
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
             "[+1] Movement <for [Spacecraft] units>",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["War Economy"],
@@ -632,7 +647,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+1 Food, +1 Production, +1 Gold] [in all cities]",
+            "[+1 Production, +1 Gold] [in all cities]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Standardized Patterns"],
@@ -657,6 +672,7 @@
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
             "Provides [1] [Space Station Division]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Refined Profits"],
@@ -705,7 +721,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+15]% [Culture] [in all cities]",
+            "[+10]% [Culture] [in all cities]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Kinship"],
@@ -717,7 +733,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+5 Happiness]",
+            "[+4 Happiness]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Harmonious Directives"],
@@ -729,7 +745,8 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
-            "[+20]% growth [in all cities]",
+            "[+15]% growth [in all cities]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["The Greater Good"],
@@ -778,7 +795,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+2 Production, +1 Gold] [in all cities]",
+            "[+1 Production, +1 Gold] [in all cities]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Judgment Corps"],
@@ -803,6 +820,7 @@
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
             "Provides [-15] [Empire Scale Penalty]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Land Appropriation"],
@@ -872,6 +890,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Direct Diplomacy"],
@@ -910,7 +929,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+2 Gold] from every [Power Generation Zoning Post]",
+            "[+1 Gold] from every [Power Generation Zoning Post]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Marketplace of Better Ideas"],
@@ -949,6 +968,7 @@
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
             "[-10]% maintenance cost for [all] buildings [in all cities]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Adaptive Economic Policies"],
@@ -997,7 +1017,7 @@
         "uniques": [
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [1] [Number of Tradition]",
-            "[+10]% [Happiness] [in all cities]",
+            "[+5]% [Happiness] [in all cities]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Survival of the Fittest"],
@@ -1022,6 +1042,7 @@
             "Only available <when number of [[Culture] + 1] is more than [Value required for the next tradition]>",
             "Provides [2] [Number of Tradition]",
             "[-10]% Unhappiness from [Population] [in all cities]",
+            "Provides [1] [Available Ascension Perk Slots]",
             //"Gain [-1] [Culture] <for every [Value required for the next tradition]>",
         ],
         "requires": ["Adaptive Ecology"],
@@ -1213,14 +1234,14 @@
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
-            "Only available <when above [2] [Number of Ascension]>",
+            "Only available <when above [1] [Number of Ascension]>",//启动慢改成3
             "Provides [1] [Number of Ascension]",
-            "[+50]% Strength <vs [Barbarians] units> <for [All] units>",
+            "[+50]% Strength <vs [Crisis] units> <for [All] units>",
         ],
         "row": 4,
         "column": 1
     },
-    {
+    /*{
         "name": "Galactic Contender",//逐鹿星河
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
@@ -1231,7 +1252,7 @@
         ],
         "row": 4,
         "column": 3
-    },
+    },*/
     /*{
         "name": "Colossus Project",//巨像计划
         "uniques": [
@@ -1242,19 +1263,22 @@
         ],
         "row": 4,
         "column": 5
-    },
+    },*/
     {
-        "name": "Galactic Nemesis",//银河天灾
+        "name": "Galactic Nemesis",//星海天罚
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
-            "Only available <when above [2] [Number of Ascension]>",
+            "Only available <before adopting [Pacifism]> <before adopting [Extreme Pacifism]> <before adopting [Xenophilia]> <before adopting [Extreme Xenophilia]>",
+            //以后要添加不能两个大飞升
+            "Adopt [Cause for Concern]",
+            "Only available <when above [1] [Number of Ascension]>",//4槽太慢了，改成3
             "Provides [1] [Number of Ascension]",
         ],
         "row": 4,
         "column": 7
     },
-    {
+    /*{
         "name": "Cosmogenesis",//宇宙创生
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
@@ -1265,6 +1289,102 @@
         "row": 4,
         "column": 9
     },*/
+
+
+
+
+    {
+        "name": "Cause for Concern",//星海天罚-引人关切
+        "uniques": [
+            "Unavailable",
+            
+            "Triggers a [Stellar Tremor] event",
+            //以后要区分格式塔
+            "Cities are razed [5] times as fast",
+            //星海天罚威慑获取Menace
+        
+        "Comment [Instantly provides [10] [Menace] <upon defeating a [Military] unit> <for [All] units>]",
+        
+        "Instantly provides [100] [Menace] <upon conquering a city>",
+        "Instantly provides [50] [Menace] <upon declaring war on [Major] Civilizations>",
+            "Triggers a [We Are Legion] event <when number of [Ascension Progress] is equal to [0]> <when above [999] [Menace]> <upon turn start> <hidden from users>",
+        ],
+        "row": 7,
+        "column": 7
+    },
+    {
+        "name": "Slight Risk",//星海天罚-略有风险
+        "uniques": [
+            "Unavailable",
+            
+            "[+30]% Strength <vs cities> <when attacking> <for [All] units>",
+            
+            "Triggers a [They Will Kneel] event <when number of [Ascension Progress] is equal to [1]> <when above [1999] [Menace]> <upon turn start> <hidden from users>",
+        ],
+        "row": 8,
+        "column": 7
+    },
+    {
+        "name": "Knife at Throat",//星海天罚-如刃在颈
+        "uniques": [
+            "Unavailable",
+            
+            "Triggers a [Stellar Tremor] event",
+            "[+50]% Production when constructing [Military] units [in all cities]",
+            "[+25]% Strength <for [All] units> <when attacking>",
+            "Triggers a [Supreme Sovereignty] event <when number of [Ascension Progress] is equal to [2]> <when above [2999] [Menace]> <upon turn start> <hidden from users>",
+
+        ],
+        "row": 9,
+        "column": 7
+    },
+    {
+        "name": "Calamity from Above",//星海天罚-灾祸天降
+        "uniques": [
+            "Unavailable",
+            
+            "[+1] Movement <for [Deterrence-class Battleship] units>",
+            "[+25]% Strength <for [All] units> <when attacking>",
+            
+            
+        ],
+        "row": 10,
+        "column": 7
+    },
+    {
+        "name": "Existential Foe",//星海天罚-存亡之敌
+        "uniques": [
+            "Unavailable",
+            
+            "[-30]% maintenance costs",
+            "[+25]% Strength <for [Deterrence-class Cruiser] units> <when defending>",
+        ],
+        "row": 11,
+        "column": 7
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      {
                 "name": "Ascension Complete",
                 "uniques": [
@@ -1290,8 +1410,9 @@
         "name": "Adaptive",
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
+            "Only available <before adopting [Extremely Adaptive]> <before adopting [Nonadaptive]>",
             "Provides [-2] [Trait Points]",
-            "[+10]% [Happiness] [in all cities]",
+            "[+7]% [Happiness] [in all cities]",
         ],
         "row": 1,
         "column": 1
@@ -1300,8 +1421,9 @@
         "name": "Extremely Adaptive",
         "uniques": [
             "Only available <when above [3] [Trait Points]>",
+            "Only available <before adopting [Adaptive]> <before adopting [Nonadaptive]>",
             "Provides [-4] [Trait Points]",
-            "[+20]% [Happiness] [in all cities]",
+            "[+15]% [Happiness] [in all cities]",
         ],
         "row": 1,
         "column": 3
@@ -1311,7 +1433,7 @@
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
             "Provides [-2] [Trait Points]",
-            "[+15]% [Food] [in all cities]",
+            "[+5]% [Food] [in all cities]",
         ],
         "row": 1,
         "column": 5
@@ -1320,8 +1442,9 @@
         "name": "Conservationist",
         "uniques": [
             "Only available <when above [0] [Trait Points]>",
+            "Only available <before adopting [Wasteful]>",
             "Provides [-1] [Trait Points]",
-            "[-10]% Unhappiness from [Population] [in all cities]",
+            "[-5]% Unhappiness from [Population] [in all cities]",
         ],
         "row": 1,
         "column": 7
@@ -1331,6 +1454,7 @@
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
             "Provides [-2] [Trait Points]",
+            "Only available <before adopting [Unruly]>",
             "Provides [-10] [Population Scale Coefficient]",
         ],
         "row": 1,
@@ -1351,7 +1475,7 @@
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
             "Provides [-2] [Trait Points]",
-            "[+10]% [Science] [in all cities]",
+            "[+7]% [Science] [in all cities]",
         ],
         "row": 1,
         "column": 13
@@ -1361,7 +1485,8 @@
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
             "Provides [-2] [Trait Points]",
-            "[+15]% growth [in all cities]",
+            "Only available <before adopting [Slow Breeders]>",
+            "[+10]% growth [in all cities]",
         ],
         "row": 2,
         "column": 1
@@ -1380,6 +1505,7 @@
         "name": "Strong",
         "uniques": [
             "Only available <when above [0] [Trait Points]>",
+            "Only available <before adopting [Very Strong]> <before adopting [Weak]>",
             "Provides [-1] [Trait Points]",
             "[+15]% Strength <when attacking> <vs cities> <for [Melee] units>",
         ],
@@ -1390,6 +1516,7 @@
         "name": "Very Strong",
         "uniques": [
             "Only available <when above [2] [Trait Points]>",
+            "Only available <before adopting [Strong]> <before adopting [Weak]>",
             "Provides [-3] [Trait Points]",
             "[+45]% Strength <when attacking> <vs cities> <for [Melee] units>",
         ],
@@ -1401,7 +1528,7 @@
         "uniques": [
             "Only available <when above [1] [Trait Points]>",
             "Provides [-2] [Trait Points]",
-            "[+20]% [Gold] [in all cities]",
+            "[+12]% [Gold] [in all cities]",
         ],
         "row": 2,
         "column": 9
@@ -1411,7 +1538,8 @@
         "uniques": [
             "Only available <for [Human player] Civilizations>",
             "Provides [2] [Trait Points]",
-            "[-10]% [Happiness] [in all cities]",
+            "Only available <before adopting [Extremely Adaptive]> <before adopting [Adaptive]>",
+            "[-7]% [Happiness] [in all cities]",
         ],
         "row": 3,
         "column": 1
@@ -1421,7 +1549,8 @@
         "uniques": [
             "Only available <for [Human player] Civilizations>",
             "Provides [2] [Trait Points]",
-            "[-15]% growth [in all cities]",
+            "Only available <before adopting [Rapid Breeders]>",
+            "[-10]% growth [in all cities]",
         ],
         "row": 3,
         "column": 3
@@ -1430,6 +1559,7 @@
         "name": "Unruly",
         "uniques": [
             "Only available <for [Human player] Civilizations>",
+            "Only available <before adopting [Docile]>",
             "Provides [2] [Trait Points]",
             "Provides [10] [Population Scale Coefficient]",
         ],
@@ -1440,6 +1570,7 @@
         "name": "Wasteful",
         "uniques": [
             "Only available <for [Human player] Civilizations>",
+            "Only available <before adopting [Conservationist]>",
             "Provides [2] [Trait Points]",
             "[+10]% Unhappiness from [Population] [in all cities]",
         ],
@@ -1450,6 +1581,7 @@
         "name": "Weak",
         "uniques": [
             "Only available <for [Human player] Civilizations>",
+            "Only available <before adopting [Very Strong]> <before adopting [Strong]>",
             "Provides [2] [Trait Points]",
             "[-15]% Strength <when attacking> <vs cities> <for [Melee] units>",
         ],

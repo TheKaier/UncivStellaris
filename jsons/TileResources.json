@@ -504,6 +504,48 @@
             "Stockpiled",
         ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "Menace",//威慑力
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen <when below [1] [Menace]>",
+            "Stockpiled",
+        ]
+    },
+    {
+        "name": "Ascension Progress",//飞升进度
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen",
+            "Stockpiled",
+        ]
+    },
 ]
 
 

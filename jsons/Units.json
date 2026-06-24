@@ -1234,6 +1234,7 @@
         "requiredTech": "Controlled Nuclear Fission",
         "uniques": [
         "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Can carry [20] [Weapon] units",
         "[+100]% production cost <when below [5] [Alloy]>",
         "Instantly consumes [5] [Alloy]",
@@ -1253,6 +1254,7 @@
         "requiredTech": "Space War",
         "uniques": [
         "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Can carry [20] [Weapon] units",
         "[+900]% production cost <when below [10] [Alloy]>",
         "Instantly consumes [10] [Alloy]",
@@ -1272,6 +1274,7 @@
         "requiredTech": "Space Force Construction",
         "uniques": [
         "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Can carry [20] [Weapon] units",
         "[+900]% production cost <when below [15] [Alloy]>",
         "Instantly consumes [15] [Alloy]",
@@ -1292,7 +1295,7 @@
         "requiredTech": "Warp Technology",
         "uniques": [
         "Only available <when [Custom Ship] Victory is enabled>",
-        
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Can carry [20] [Weapon] units",
         "[+900]% production cost <when below [30] [Alloy]>",
         "Instantly consumes [30] [Alloy]",
@@ -1312,7 +1315,7 @@
         "cost": 10,
         "uniques": [
         "Only available <when [Custom Ship] Victory is enabled>",
-        
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "[This Unit] takes [100] damage",
         "Instantly provides [10] [Refit Capacity]",
         ],
@@ -1323,7 +1326,7 @@
         "movement": 1,
         "cost": 30,
         "uniques": [
-
+            "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Only available <when [Custom Ship] Victory is enabled>",
         "[This Unit] takes [100] damage",
         "Instantly provides [30] [Refit Capacity]",
@@ -1335,7 +1338,7 @@
         "movement": 1,
         "cost": 60,
         "uniques": [
-
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Only available <when [Custom Ship] Victory is enabled>",
         "[This Unit] takes [100] damage",
         "Instantly provides [60] [Refit Capacity]",
@@ -1348,7 +1351,8 @@
         "cost": 120,
         "uniques": [
 
-        "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+            "Only available <when [Custom Ship] Victory is enabled>",
         "[This Unit] takes [100] damage",
         "Instantly provides [120] [Refit Capacity]",
         ],
@@ -1359,7 +1363,7 @@
         "movement": 1,
         "cost": 200,
         "uniques": [
-
+            "Unbuildable <for [AI player] Civilizations> <hidden from users>",
         "Only available <when [Custom Ship] Victory is enabled>",
         "[This Unit] takes [100] damage",
         "Instantly provides [200] [Refit Capacity]",
@@ -1379,7 +1383,90 @@
 
 
 
+    {
+        "name": "Deterrence-class Frigate",//威慑级护卫舰
+        "unitType": "Custom Ship",
+        "movement": 1,
+        "strength": 10,
+        "cost": 35,
+        "promotions": ["5 Remaining Hull Spaces"],
+        "uniques": [
+        "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        "Only available <after adopting [Slight Risk]>",
+        "Can carry [20] [Weapon] units",
+        "[+900]% production cost <when below [4] [Iron Ore]>",
+        "Instantly consumes [4] [Iron Ore]",
+        "[+900]% production cost <when below [15] [Manpower]>",
+        "Consumes [15] [Manpower Max]",
+        "Instantly consumes [15] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Deterrence-class Battleship",//威慑级战列舰
+        "unitType": "Custom Ship",
+        "movement": 1,
+        "strength": 15,
+        "cost": 30,
+        "promotions": ["7 Remaining Hull Spaces"],
+        "uniques": [
+        "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        "Only available <after adopting [Knife at Throat]>",
 
+        "Can carry [20] [Weapon] units",
+        "[+900]% production cost <when below [7] [Iron Ore]>",
+        "Instantly consumes [7] [Iron Ore]",
+        
+        "[+900]% production cost <when below [25] [Manpower]>",
+        "Consumes [25] [Manpower Max]",
+        "Instantly consumes [25] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Deterrence-class Cruiser",//威慑级巡洋舰
+        "unitType": "Custom Ship",
+        "movement": 1,
+        "strength": 20,
+        "cost": 50,
+        "promotions": ["10 Remaining Hull Spaces"],
+        "uniques": [
+        "Only available <when [Custom Ship] Victory is enabled>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+        "Only available <after adopting [Calamity from Above]>",
+        "Can carry [20] [Weapon] units",
+        "[+900]% production cost <when below [12] [Iron Ore]>",
+        "Instantly consumes [12] [Iron Ore]",
+        
+        "[+900]% production cost <when below [40] [Manpower]>",
+        "Consumes [40] [Manpower Max]",
+        "Instantly consumes [40] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
+    {
+        "name": "Star-Eater",//焚天神兵
+        "unitType": "Spacecraft",
+        "movement": 7,
+        "strength": 40,
+        "cost": 500,
+        "uniques": [
+
+            "Instantly provides [40] [Dark Matter] <in [Habitable Planet] tiles> <for all movement>",
+
+        "Only available <after adopting [Existential Foe]>",
+        "[+900]% production cost <when below [100] [Alloy]>",
+        "Instantly consumes [100] [Alloy]",
+        "[+900]% production cost <when below [1000] [Dark Matter]>",
+        "Instantly consumes [1000] [Dark Matter]",
+        "[+900]% production cost <when below [120] [Manpower]>",
+        "Consumes [120] [Manpower Max]",
+        "Instantly consumes [120] [Manpower]",
+        ],
+        //"attackSound": "xxxxx"
+    },
 
 
 

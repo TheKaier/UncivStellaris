@@ -10,6 +10,16 @@
         ]
     },
     {
+        "name": "Ascension",
+        "cost": 0,
+        "uniques": [
+         
+         
+         "Unbuildable",
+        
+        ]
+    },
+    {
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 2,
@@ -24,6 +34,16 @@
 		"Provides [3] [Number of Ethos]",
 		"Provides [7] [Number of Tradition Branch]",
         "Provides [2] [Trait Points]",
+        //"Triggers a [Stellar Tremor] event",
+        //"Triggers a [We Are Legion] event",
+        //"Triggers a [Grand Vision] event",
+        //"Triggers a [They Will Kneel] event",
+        //"Triggers a [Fount of Energy] event",
+        //"Triggers a [Supreme Sovereignty] event",
+        //"Triggers a [Otherworldly Infusion] event",
+        //"Triggers a [The End Approaches] event",
+        //"Triggers a [Star-Eater] event",
+        //"Triggers a [Aetherophasic Engine] event",
 		]
 	},
 	{
@@ -85,7 +105,12 @@
         "Provides [48] [Number of Population] <in cities with [48] [Population]> <hidden from users>",
         "Provides [49] [Number of Population] <in cities with [49] [Population]> <hidden from users>",
         "Provides [50] [Number of Population] <in cities with [50] [Population]> <hidden from users>",
-		]
+		
+    
+    
+    
+    
+    ]
 	},
 	{
 	"name": "Industrial Capacity Allocation",
@@ -248,7 +273,7 @@
         "maintenance": 1,
         "requiredTech": "Infrastructure Expansion",
         "uniques": [
-        "[+1 Science] per [2] population [in this city]",
+        "[+1 Science] per [3] population [in this city]",
         
         ]
     },
@@ -386,11 +411,11 @@
         "cost": 90,
         "maintenance": 2,
         "happiness": 2,
-        "percentStatBonus": {"science": 33},
+        "percentStatBonus": {"science": 25},
         "requiredBuilding": "Library",
         "requiredTech": "Space Station Expansion",
         "uniques": [
-        "[+2 Science] per [3] population [in this city]",
+        "[+1 Science] per [3] population [in this city]",
         
         
         ]
@@ -420,7 +445,7 @@
         "name": "Comprehensive Laboratory",
         "cost": 120,
         "maintenance": 3,
-        "percentStatBonus": {"science": 34},
+        "percentStatBonus": {"science": 35},
         "requiredBuilding": "Academy",
         "requiredTech": "Space Species Research",
         "uniques": [
@@ -435,7 +460,7 @@
         "maintenance": 3,
         "culture": 4,
         "happiness": 4,
-        "percentStatBonus": {"science": 33},
+        "percentStatBonus": {"science": 25},
         "requiredBuilding": "Academy",
         "requiredTech": "Cosmology",
         "uniques": [
@@ -579,6 +604,137 @@
     
     
 
+    {
+        "name": "Aetherophasic Engine",//以太相引擎
+        "cost": 2000,
+        "isNationalWonder": true,
+        "uniques": [
+         "Only available <after adopting [Existential Foe]>",
+         "Consumes [4000] [Dark Matter]",
+         "Can only be built <in [Capital] cities>",
+        "Gain a free [Ascension] [in this city] <hidden from users>",
+        ]
+    },
+    {
+        "name": "Purge",//净化人口
+        "cost": 50,
+        "uniques": [
+         "Only available <after adopting [Cause for Concern]>",
+         "Provides [10] [Menace]",
+         "Can only be built <in [Annexed] cities>",
+         "Nullifies Growth [in this city]",
+         "[-1] population [in this city] <upon turn start>",
+        "Remove [Purge] [in this city] <in cities with [1] [Population]> <upon turn start> <hidden from users>",
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -647,7 +803,7 @@
         "uniques": [
          "Only available <after adopting [A New Life]>",
          "[+1] population [in this city]",
-         "Unbuildable",
+         "Automatically built in all cities where it is buildable",
         "Unsellable",
         ]
     },
@@ -657,8 +813,8 @@
         "specialistSlots": {"Agricultural Zoning Post": 2, "Industrial Zoning Post": 1},
         "uniques": [
          "Must be on [Habitable Planet]",
-         "[+1] population [in this city]",
-         "Unbuildable",
+         //"[+1] population [in this city]",
+         "Automatically built in all cities where it is buildable",
         "Unsellable",
         ]
     },

@@ -498,6 +498,271 @@
         },
         ]
     },
+    /*{
+        "name":"Subspace Echoes",
+        "civilopediaText":[
+			{"text":}
+            {"extraImage":"Subspace Echoes", "imageSize":410},
+            {"text":}
+			{"text":"我方的几处跟踪站都截获了一种奇怪的亚空间回声。声音来源于其他星系。回声刚开始时较弱，但后来逐渐变强，似乎有什么正在靠近我方星系……"},
+			{"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"新的风暴即将出现。",//
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },*/
+    {
+        "name":"Stellar Tremor",//星海战栗
+        "civilopediaText":[
+			{"text":"Stellar Tremor", "centered":true, "header":2},
+            {"extraImage":"fleet_from_surface", "imageSize":410},
+            {"text":}
+			{"text":"After a considerable period of time, we have finally come to know the fact that we are destined to shoulder a great responsibility, and that our mission is even more sublime than the fate of this very sea of stars."},
+			{"text":}
+            {"text":"In the past few years, this concept has grown so intense that we cannot deny a grand social reformation is already brewing—or rather, it is already imminent."}
+            {"text":}
+            {"text":"We do not know whether the star sea is ready to accept the destiny of being ruled by us, but we are ready regardless. We will endure misunderstanding, we will face resistance, but we will not stop."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"This is our destiny.",
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },
+    {
+        "name":"We Are Legion",//吾乃军团
+        "civilopediaText":[
+			{"text":"We Are Legion", "centered":true, "header":2},
+            {"extraImage":"victorious_army", "imageSize":410},
+            {"text":}
+			{"text":"We will not be defeated. The profound impact we have as a collective is indelible. The drive and desire for expansion, deeply rooted in our hearts, have permeated every corner of society. They have brought unexpectedly astonishing progress in combat capability and scientific advancement, reaching levels we never anticipated."}
+            {"text":}
+			{"text":"What chance does a galaxy full of differing opinions, chaotic resource distribution, and conflicting interests stand before our unified whole?!"}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"This is our path.",
+            "uniques":[
+            "Instantly provides [1] [Ascension Progress] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Grand Vision",//鸿景
+        "civilopediaText":[
+			{"text":"Grand Vision", "centered":true, "header":2},
+            {"extraImage":"surreal_visions", "imageSize":410},
+            {"text":}
+			{"text":"Our investigation into this universal phenomenon—now named the Grand Vision—has reached its conclusion."}
+            {"text":}
+			{"text":"It appears that this universe possesses some kind of hidden layer—a mysterious, parallel plane connected to our own universe through patterns of thought and neural activity."}
+            {"text":}
+			{"text":"The physics and sociology departments have jointly named this plane the Shroud. According to current theory, our actions and thoughts can indirectly influence this plane, and we also possess the potential to harness its energy."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"Breathtaking!",
+            "uniques":[
+            "Adopt [Slight Risk] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"They Will Kneel",//他们将跪服
+        "civilopediaText":[
+			{"text":"They Will Kneel", "centered":true, "header":2},
+            {"extraImage":"death_from_above", "imageSize":410},
+            {"text":}
+			{"text":"As time flows, the flame of conviction spreads with unshakeable resolve. Our borders continue to expand, and so does the power we invest."}
+            {"text":}
+			{"text":"When encountering other empires, we give them two choices: total allegiance, or annihilation—provided we give them a choice at all."}
+            {"text":}
+			{"text":"Regardless, we continue to expand."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"Forward, conquer.",
+            "uniques":[
+            "Instantly provides [1] [Ascension Progress] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Fount of Energy",//能量之泉
+        "civilopediaText":[
+			{"text":"Fount of Energy", "centered":true, "header":2},
+            {"extraImage":"shrouded_planet", "imageSize":410},
+            {"text":}
+			{"text":"We have conducted comprehensive experiments on the hypothesized ripple effect between planes, and have finally processed the vast data collected from them."}
+            {"text":}
+			{"text":"The results are truly astonishing! There is no doubt that a connection exists between the two planes—and a strong one at that. We have identified clear patterns—how actions in reality cause specific fluctuations in the Shroud—and proven that we can tame this invisible energy, and ultimately harness its power to achieve extraordinary goals!"}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"This is excellent news.",
+            "uniques":[
+            "Adopt [Knife at Throat] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Supreme Sovereignty",//至高主权
+        "civilopediaText":[
+			{"text":"Supreme Sovereignty", "centered":true, "header":2},
+            {"extraImage":"undertaker", "imageSize":410},
+            {"text":"A drastic change is coming. We are on the verge of comprehending our grand purpose. We all feel it from the bottom of our hearts—the mission we are meant to carry."}
+			{"text":}
+            {"text":"We can still learn new ways to conquer enemies and rule this chaotic galaxy from our experiences—no, from our history—a history of military expansion."}
+			{"text":}
+            {"text":"And of course, all efforts of those who dare to oppose us will be in vain."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"One by one, they will all submit.",
+            "uniques":[
+            "Instantly provides [1] [Ascension Progress] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Otherworldly Infusion",//异界注能
+        "civilopediaText":[
+			{"text":"Otherworldly Infusion", "centered":true, "header":2},
+            {"extraImage":"physics_research", "imageSize":410},
+            {"text":}
+			{"text":"It has become clear that our empire's successive expansion successes are due to the strange energy infused into us by the Shroud—energy that reinforces and solidifies our consciousness and matter in the real world."}
+            {"text":}
+			{"text":"If the Shroud can grant us such power even while separate from reality, imagine the godlike potential we would gain if the two planes merged!"}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"We must make this happen!",
+            "uniques":[
+            "Adopt [Calamity from Above] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"The End Approaches",//终焉将临
+        "civilopediaText":[
+			{"text":"The End Approaches", "centered":true, "header":2},
+            {"extraImage":"dyson_sphere", "imageSize":410},
+            {"text":}
+			{"text":"Today marks the beginning of the final chapter. We have planned how to tear down the barrier between the two worlds, and make the Shroud's energy part of our universe, raising our omnipotence to an unrivalled level once and for all."}
+            {"text":}
+			{"text":"We will use our own sun as a focal point, gathering enough energy in this reality to trigger a surge that pierces through the barrier to the Shroud, effectively merging the Shroud with our reality."}
+            {"text":}
+            {"text":"If there is any side effect to the solar harvesting process, it is that surrounding celestial bodies will suffer some integrity stress—that is, total ruin. But compared to the energy we will ultimately gain, such a price is negligible."}
+            {"text":}
+            {"text":"The beginning of the end is upon us."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"Our time has come.",
+            "uniques":[
+            "Adopt [Existential Foe] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Star-Eater",//焚天神兵
+        "civilopediaText":[
+			{"text":"Star-Eater", "centered":true, "header":2},
+            {"extraImage":"binary_stars", "imageSize":410},
+            {"text":}
+			{"text":"Only by detonating an entire star can enough energy be released to produce the vast amounts of dark matter required to power the Aetherophasic Engine. To this end, we have invented the Star-Eater—the most powerful starship ever seen in this galaxy. They can not only directly detonate stars, but are also powerful enough to destroy an entire fleet with a single vessel."}
+            {"text":}
+			{"text":"Currently we have only two such ships, but we can build more. Constructing Star-Eaters requires large amounts of dark matter, so we must balance completing the Aetherophasic Engine with building additional Star-Eaters."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"Each fallen star brings us one step closer to success.",
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },
+    {
+        "name":"Aetherophasic Engine",//以太相引擎
+        "civilopediaText":[
+			{"text":"Aetherophasic Engine", "centered":true, "header":2},
+            {"extraImage":"megastructure_construction", "imageSize":410},
+            {"text":}
+			{"text":"Our mission to subvert the spiritual plane of the Shroud has now reached a critical moment. The grand framework of the Aetherophasic Engine now surrounds the star of our home system."}
+            {"text":}
+			{"text":"Once this megastructure is completed, the barrier of our reality can be easily erased, and we can claim the Shroud as our own."}
+            {"text":}
+            {"text":"Our consciousness will be freed from the shackles of fragile flesh, and the fate of all things in reality will depend on our benevolence."}
+            {"text":}
+            {"text":"Indeed, there will be no higher plane of existence left."}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"Heaven is within reach.",
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },
+    /*{
+        "name":"xxxxxxx",//
+        "civilopediaText":[
+			{"text":"xxxxxxxxx", "centered":true, "header":2},
+            {"extraImage":"xxxxx", "imageSize":410},
+            {"text":}
+			{"text":}
+            {"text":}
+			{"text":}
+            {"text":}
+		],
+        "choices":[
+            
+            {
+            "text":"xxxxxxxxxx",
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },*/
 
 
 

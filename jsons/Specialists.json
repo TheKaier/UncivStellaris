@@ -1,7 +1,7 @@
 [
 	{
 		"name":"Agricultural Zoning Post",//
-		"food":4,
+		"food":3,
 		"gold":-2,
 		"color": [136,255,100]
 	},
@@ -18,7 +18,7 @@
 	},
 	{
 		"name":"Precision Agriculture Zoning Post",//
-		"food":7,
+		"food":5,
 		"gold":-3,
 		"color": [136,255,100]
 	},
