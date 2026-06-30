@@ -498,6 +498,169 @@
         },
         ]
     },
+
+
+
+
+
+
+
+
+    {
+        "name":"Gene Editing",//基因编辑
+        "text":"Select a trait to remove",
+        "choices":[
+            {
+        "text": "Adaptive",
+        "uniques": [
+            "Only available <after adopting [Adaptive]>",
+            "Remove [Adaptive] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Extremely Adaptive",
+        "uniques": [
+            "Only available <after adopting [Extremely Adaptive]>",
+            "Remove [Extremely Adaptive] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Agrarian",
+        "uniques": [
+            "Only available <after adopting [Agrarian]>",
+            "Remove [Agrarian] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Conservationist",
+        "uniques": [
+            "Only available <after adopting [Conservationist]>",
+            "Remove [Conservationist] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Docile",
+        "uniques": [
+            "Only available <after adopting [Docile]>",
+            "Remove [Docile] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Industrious",
+        "uniques": [
+            "Only available <after adopting [Industrious]>",
+            "Remove [Industrious] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Intelligent",
+        "uniques": [
+            "Only available <after adopting [Intelligent]>",
+            "Remove [Intelligent] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Rapid Breeders",
+        "uniques": [
+            "Only available <after adopting [Rapid Breeders]>",
+            "Remove [Rapid Breeders] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Resilient",
+        "uniques": [
+            "Only available <after adopting [Resilient]>",
+            "Remove [Resilient] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Strong",
+        "uniques": [
+            "Only available <after adopting [Strong]>",
+            "Remove [Strong] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Very Strong",
+        "uniques": [
+            "Only available <after adopting [Very Strong]>",
+            "Remove [Very Strong] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Thrifty",
+        "uniques": [
+            "Only available <after adopting [Thrifty]>",
+            "Remove [Thrifty] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Nonadaptive",
+        "uniques": [
+            "Only available <after adopting [Nonadaptive]>",
+            "Remove [Nonadaptive] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Slow Breeders",
+        "uniques": [
+            "Only available <after adopting [Slow Breeders]>",
+            "Remove [Slow Breeders] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Unruly",
+        "uniques": [
+            "Only available <after adopting [Unruly]>",
+            "Remove [Unruly] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Wasteful",
+        "uniques": [
+            "Only available <after adopting [Wasteful]>",
+            "Remove [Wasteful] <hidden from users>"
+        ]
+    },
+    {
+        "text": "Weak",
+        "uniques": [
+            "Only available <after adopting [Weak]>",
+            "Remove [Weak] <hidden from users>"
+        ]
+    },
+            {
+            "text":"Quit",//
+            "uniques":[
+            
+            ],
+        },
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*{
         "name":"Subspace Echoes",
         "civilopediaText":[
@@ -712,7 +875,9 @@
             {
             "text":"Each fallen star brings us one step closer to success.",
             "uniques":[
-            
+            "Free [Star-Eater] appears <hidden from users>",
+            "Free [Star-Eater] appears <hidden from users>",
+            "Instantly provides [1000] [Dark Matter]",
             ],
         },
         ]

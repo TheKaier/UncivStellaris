@@ -19,6 +19,156 @@
         
         ]
     },
+
+
+
+
+    {
+        "name": "Hide Raw Material Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Show Raw Material Resources] [in this city] <hidden from users>",
+        "Only available <in cities without a [Show Raw Material Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Show Raw Material Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Hide Raw Material Resources] [in this city] <hidden from users>",
+        "Only available <in cities with a [Hide Raw Material Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Hide Processed Product Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Show Processed Product Resources] [in this city] <hidden from users>",
+        "Only available <in cities without a [Show Processed Product Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Show Processed Product Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Hide Processed Product Resources] [in this city] <hidden from users>",
+        "Only available <in cities with a [Hide Processed Product Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Hide Manpower Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Show Manpower Resources] [in this city] <hidden from users>",
+        "Only available <in cities without a [Show Manpower Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Show Manpower Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Hide Manpower Resources] [in this city] <hidden from users>",
+        "Only available <in cities with a [Hide Manpower Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Hide Other Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Show Other Resources] [in this city] <hidden from users>",
+        "Only available <in cities without a [Show Other Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Show Other Resources",
+        "cost": 0,
+        "uniques": [
+         "Remove [Hide Other Resources] [in this city] <hidden from users>",
+        "Only available <in cities with a [Hide Other Resources]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    
+    /*{
+        "name": "Hide xxxxx",
+        "cost": 0,
+        "uniques": [
+         "Remove [Show xxxxx] [in this city] <hidden from users>",
+        "Only available <in cities without a [Show xxxxx]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },
+    {
+        "name": "Show xxxxx",
+        "cost": 0,
+        "uniques": [
+         "Remove [Hide xxxxx] [in this city] <hidden from users>",
+        "Only available <in cities with a [Hide xxxxx]>",
+        "Unbuildable <for [AI player] Civilizations> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         
+        
+        ]
+    },*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -34,6 +184,8 @@
 		"Provides [3] [Number of Ethos]",
 		"Provides [7] [Number of Tradition Branch]",
         "Provides [2] [Trait Points]",
+        "Provides [4] [Number of Megastructure]",
+        
         //"Triggers a [Stellar Tremor] event",
         //"Triggers a [We Are Legion] event",
         //"Triggers a [Grand Vision] event",
@@ -507,7 +659,7 @@
     },
     {
         "name": "Stargate",
-        "cost": 400,
+        "cost": 500,
         "maintenance": 4,
         "happiness": 3,
         "requiredTech": "Warp Technology",
@@ -565,16 +717,7 @@
         "Unsellable",
         ]
     },
-    {
-        "name": "Ring World",
-        "cost": 1024,
-        "uniques": [
-        "Provides [5] [Space Station Division] <in this city>",
-        "Provides [2] [Space Station Division] <in this city> <in cities without a [Damaged Ring World]>",
-        "Unbuildable",
-        "Unsellable",
-        ]
-    },
+    
     {
         "name": "Precision Industrial Zone",
         "cost": 120,
@@ -610,7 +753,7 @@
         "isNationalWonder": true,
         "uniques": [
          "Only available <after adopting [Existential Foe]>",
-         "Consumes [4000] [Dark Matter]",
+         "Consumes [2000] [Dark Matter]",
          "Can only be built <in [Capital] cities>",
         "Gain a free [Ascension] [in this city] <hidden from users>",
         ]
@@ -646,7 +789,115 @@
 
 
 
-
+    {
+        "name": "Ring World",
+        "cost": 1250,
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+            "Megastructure",
+        "Consumes [1] [Number of Megastructure] <in cities without a [Damaged Ring World]>",
+        "Provides [5] [Space Station Division] <in this city>",
+        "Provides [2] [Space Station Division] <in this city> <in cities without a [Damaged Ring World]>",
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },
+    /*{
+        "name": "Hyper Relay Network",//超空间中继器网络
+        "cost": 1250,
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+        "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },*/
+    /*{
+        "name": "Quantum Catapult",//量子弹弓
+        "cost": 1250,
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+        "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },*/
+    {
+        "name": "Science Nexus",//科学枢纽
+        "cost": 1250,
+        "happiness": 4,
+        "culture": 4,
+        "percentStatBonus": {"science": 100},
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+            "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "Matter Decompressor",//物质解压器
+        "cost": 1250,
+        "happiness": 4,
+        "culture": 4,
+        "percentStatBonus": {"production": 33},
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+            "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        "Provides [25] [Alloy]",
+            "Provides [15] [Rare Metal]",
+            "Provides [15] [Focus Crystal]",
+            "Provides [25] [Helium-3]",
+            "Provides [10] [Dark Matter]",
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "Arc Furnace",//电弧熔炉
+        "cost": 1250,
+        "happiness": 4,
+        "culture": 4,
+        "percentStatBonus": {"production": 100},
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+            "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },
+    {
+        "name": "Grand Archive",//博物天枢
+        "cost": 1250,
+        "happiness": 4,
+        "culture": 8,
+        "percentStatBonus": {"culture": 100},
+        "requiredTech": "Galactic Wonders",
+        "isNationalWonder": true,
+        "uniques": [
+            "Megastructure",
+        "Consumes [1] [Number of Megastructure]",
+        
+        //"Unbuildable",
+        "Unsellable",
+        ]
+    },
+    
 
 
 

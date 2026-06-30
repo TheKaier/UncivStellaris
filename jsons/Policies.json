@@ -1185,18 +1185,20 @@
         "row": 3,
         "column": 1
     },
-    /*{
+    {
         "name": "Master Builders",//建筑大师
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
             "Only available <when above [1] [Number of Ascension]>",
             "Provides [1] [Number of Ascension]",
+            "[+50]% Production when constructing [All] wonders [in all cities]",
+            "Provides [1] [Number of Megastructure]",
         ],
         "row": 3,
         "column": 3
     },
-    {
+    /*{
         "name": "Mind Over Matter",//心胜于物
         "uniques": [
             "Only available <when above [0] [Available Ascension Perk Slots]>",
@@ -1235,6 +1237,7 @@
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
             "Only available <when above [1] [Number of Ascension]>",//启动慢改成3
+            "Only available <before adopting [Galactic Nemesis]>",//大飞升互斥
             "Provides [1] [Number of Ascension]",
             "[+50]% Strength <vs [Crisis] units> <for [All] units>",
         ],
@@ -1267,10 +1270,12 @@
     {
         "name": "Galactic Nemesis",//星海天罚
         "uniques": [
+            "Triggers the following global alert: [A new Crisis empire has been born!]",
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
             "Only available <before adopting [Pacifism]> <before adopting [Extreme Pacifism]> <before adopting [Xenophilia]> <before adopting [Extreme Xenophilia]>",
             //以后要添加不能两个大飞升
+            "Only available <before adopting [Defender of the Galaxy]>",//大飞升互斥
             "Adopt [Cause for Concern]",
             "Only available <when above [1] [Number of Ascension]>",//4槽太慢了，改成3
             "Provides [1] [Number of Ascension]",
@@ -1281,6 +1286,7 @@
     /*{
         "name": "Cosmogenesis",//宇宙创生
         "uniques": [
+        "Triggers the following global alert: [A new Crisis empire has been born!]",
             "Only available <when above [0] [Available Ascension Perk Slots]>",
             "Provides [-1] [Available Ascension Perk Slots]",
             "Only available <when above [2] [Number of Ascension]>",
@@ -1303,7 +1309,7 @@
             "Cities are razed [5] times as fast",
             //星海天罚威慑获取Menace
         
-        "Comment [Instantly provides [10] [Menace] <upon defeating a [Military] unit> <for [All] units>]",
+        //"Comment [Instantly provides [10] [Menace] <upon defeating a [Military] unit> <for [All] units>]",
         
         "Instantly provides [100] [Menace] <upon conquering a city>",
         "Instantly provides [50] [Menace] <upon declaring war on [Major] Civilizations>",
@@ -1316,7 +1322,7 @@
         "name": "Slight Risk",//星海天罚-略有风险
         "uniques": [
             "Unavailable",
-            
+            "Triggers the following global alert: [The Crisis has entered Stage 2]",
             "[+30]% Strength <vs cities> <when attacking> <for [All] units>",
             
             "Triggers a [They Will Kneel] event <when number of [Ascension Progress] is equal to [1]> <when above [1999] [Menace]> <upon turn start> <hidden from users>",
@@ -1328,8 +1334,8 @@
         "name": "Knife at Throat",//星海天罚-如刃在颈
         "uniques": [
             "Unavailable",
+            "Triggers the following global alert: [The Crisis has entered Stage 3]",
             
-            "Triggers a [Stellar Tremor] event",
             "[+50]% Production when constructing [Military] units [in all cities]",
             "[+25]% Strength <for [All] units> <when attacking>",
             "Triggers a [Supreme Sovereignty] event <when number of [Ascension Progress] is equal to [2]> <when above [2999] [Menace]> <upon turn start> <hidden from users>",
@@ -1342,7 +1348,7 @@
         "name": "Calamity from Above",//星海天罚-灾祸天降
         "uniques": [
             "Unavailable",
-            
+            "Triggers the following global alert: [The Crisis has entered Stage 4]",
             "[+1] Movement <for [Deterrence-class Battleship] units>",
             "[+25]% Strength <for [All] units> <when attacking>",
             
@@ -1355,7 +1361,7 @@
         "name": "Existential Foe",//星海天罚-存亡之敌
         "uniques": [
             "Unavailable",
-            
+            "Triggers the following global alert: [The Crisis has entered Stage 5]",
             "[-30]% maintenance costs",
             "[+25]% Strength <for [Deterrence-class Cruiser] units> <when defending>",
         ],

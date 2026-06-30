@@ -13,6 +13,9 @@
                 "uniques": ["Starting tech",
                 //"Enables Defensive Pacts",
                 //"Enables Open Borders agreements",
+                "Enables establishment of embassies",
+                "Enables Open Borders agreements",
+                "Enables Defensive Pacts",
                 ]
             },
             {
@@ -225,9 +228,7 @@
                 "quote": "",
                 "prerequisites": ["Space Exploration"],
                 "uniques": [
-                "Enables establishment of embassies",
-                "Enables Open Borders agreements",
-                "Enables Defensive Pacts",
+                "Instantly provides [1] [Diplomatic Possibilities]",
                 ]
             },
             {
@@ -421,6 +422,13 @@
         "wonderCost": 185,
         "techs": [
             {
+                "name": "Galactic Wonders",
+                "row": 1,
+                "quote": "",
+                "prerequisites": ["Artificial Strong Force Field","Artificial Ecology"],
+                "uniques": []
+            },
+            {
                 "name": "Shield Generator",
                 "row": 2,
                 "quote": "",
@@ -434,16 +442,32 @@
                 "prerequisites": ["Artificial Strong Force Field","Warp Technology"],
                 "uniques": []
             },
+            /*{
+                "name": "Wolf Pack Tactics",
+                "row": 4,
+                "quote": "",
+                "prerequisites": ["Warp Technology"],
+                "uniques": []
+            },*/
             {
                 "name": "Precision Sensor",
                 "row": 5,
                 "quote": "",
                 "prerequisites": ["Artificial Ecology","Warp Technology"],
                 "uniques": []
+            },
+            {
+                "name": "Gene Editing",
+                "row": 6,
+                "quote": "",
+                "prerequisites": ["Artificial Ecology"],
+                "uniques": [
+                    "Can be continually researched",
+                    "Triggers a [Gene Editing] event",
+                ]
             }
         ]
     },
-    
 
     /*{
         "columnNumber": 1,
@@ -505,7 +529,7 @@
                 ]
     },*/
 
-
+    
 
 
 

@@ -1454,13 +1454,13 @@
         "cost": 500,
         "uniques": [
 
-            "Instantly provides [40] [Dark Matter] <in [Habitable Planet] tiles> <for all movement>",
+            "Instantly provides [20] [Dark Matter] <in [Habitable Planet] tiles> <for all movement>",
 
         "Only available <after adopting [Existential Foe]>",
         "[+900]% production cost <when below [100] [Alloy]>",
         "Instantly consumes [100] [Alloy]",
-        "[+900]% production cost <when below [1000] [Dark Matter]>",
-        "Instantly consumes [1000] [Dark Matter]",
+        "[+900]% production cost <when below [500] [Dark Matter]>",
+        "Instantly consumes [500] [Dark Matter]",
         "[+900]% production cost <when below [120] [Manpower]>",
         "Consumes [120] [Manpower Max]",
         "Instantly consumes [120] [Manpower]",

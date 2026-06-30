@@ -5,6 +5,7 @@
     {
         "name": "Nuclear Fission Engine",
         "uniques": [
+            "Only available <after discovering [Controlled Nuclear Fission]>",
         "Engine",
         "[+2] Movement",
         "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -20,6 +21,7 @@
     {
         "name": "Dual Nuclear Fission Engine",
         "uniques": [
+            "Only available <after discovering [Cosmic Megastructure]>",
         "Engine",
         "[+5] Movement",
         "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
@@ -35,6 +37,7 @@
     {
         "name": "Nuclear Fusion Engine",
         "uniques": [
+            "Only available <after discovering [Nuclear Fusion Device]>",
         "Engine",
         "[+4] Movement",
         "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
@@ -52,6 +55,7 @@
     {
         "name": "Dual Nuclear Fusion Engine",
         "uniques": [
+            "Only available <after discovering [Artificial Strong Force Field]>",
         "Engine",
         "[+8] Movement",
         "[This Unit] gains the [Deduct 5 Hull Spaces] promotion",
@@ -69,7 +73,7 @@
     {
         "name": "Warp Engine",
         "uniques": [
-        
+        "Only available <after discovering [Warp Technology]>",
         "Engine",
         "[+5] Movement",
         "[This Unit] gains the [Loading Warp] status for [1] turn(s) <for all movement> <for units without [Loading Warp]> <for units without [Loading Warp]> <hidden from users>",
@@ -91,6 +95,7 @@
     {
         "name": "Light Artillery",
         "uniques": [
+            "Only available <after discovering [Space Warfare]>",
             "Weapon",
             "Free [Light Artillery] appears <for [1] movement>",
             "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
@@ -106,6 +111,7 @@
     {
         "name": "Medium Artillery",
         "uniques": [
+            "Only available <after discovering [Space Warfare]>",
             "Weapon",
             "Free [Medium Artillery] appears <for [1] movement>",
             "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
@@ -121,6 +127,7 @@
     {
         "name": "Heavy Artillery",
         "uniques": [
+            "Only available <after discovering [Hull Improvement]>",
             "Weapon",
             "Free [Heavy Artillery] appears <for [2] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -136,6 +143,7 @@
     {
         "name": "Rapid-Fire Artillery",
         "uniques": [
+            "Only available <after discovering [Hull Improvement]>",
             "Weapon",
             "Free [Rapid-Fire Artillery] appears <for [1] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -151,6 +159,7 @@
     {
         "name": "Piercing Artillery",
         "uniques": [
+            "Only available <after discovering [Hull Improvement]>",
             "Weapon",
             "Free [Piercing Artillery] appears <for [3] movement>",
             "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
@@ -168,6 +177,7 @@
     {
         "name": "Line-of-Sight Artillery",
         "uniques": [
+            "Only available <after discovering [Hull Improvement]>",
             "Weapon",
             "Free [Line-of-Sight Artillery] appears <for [2] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -183,6 +193,7 @@
     {
         "name": "Lock-on Artillery",
         "uniques": [
+            "Only available <after discovering [Space Force Construction]>",
             "Weapon",
             "Free [Lock-on Artillery] appears <for [3] movement>",
             "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
@@ -200,6 +211,7 @@
     {
         "name": "Gravity Artillery",
         "uniques": [
+            "Only available <after discovering [Artificial Strong Force Field]>",
             "Weapon",
             "Free [Gravity Artillery] appears <for [4] movement>",
             "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
@@ -217,6 +229,7 @@
     {
         "name": "Stasis Artillery",
         "uniques": [
+            "Only available <after discovering [Battlefield Modification]>",
             "Weapon",
             "Free [Stasis Artillery] appears <for [4] movement>",
             "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
@@ -245,6 +258,7 @@
     {
         "name": "Early Laser",
         "uniques": [
+            "Only available <after discovering [Laser Technology]>",
             "Weapon",
             "Free [Early Laser] appears <for [3] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -260,6 +274,7 @@
     {
         "name": "Rapid Laser",
         "uniques": [
+            "Only available <after discovering [Cluster Charging]>",
             "Weapon",
             "Free [Rapid Laser] appears <for [2] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -277,6 +292,7 @@
     {
         "name": "Focus Laser",
         "uniques": [
+            "Only available <after discovering [Cluster Charging]>",
             "Weapon",
             "Free [Focus Laser] appears <for [4] movement>",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -294,6 +310,7 @@
     {
         "name": "Lock-on Laser",
         "uniques": [
+            "Only available <after discovering [Precision Sensor]>",
             "Weapon",
             "Free [Lock-on Laser] appears <for [3] movement>",
             "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
@@ -316,6 +333,7 @@
     {
         "name": "Radar",
         "uniques": [
+            "Only available <after discovering [Space Exploration]>",
             "Components",
             "[+2] Sight",
             "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
@@ -331,6 +349,7 @@
     {
         "name": "Deep Radar",
         "uniques": [
+            "Only available <after discovering [Space War]>",
             "Components",
             "[+4] Sight",
             "Can see over obstacles",
@@ -347,6 +366,7 @@
     {
         "name": "Mining Equipment",
         "uniques": [
+            "Only available <after discovering [Unmanned Mining Station]>",
             "Components",
             "[This Unit] gains the [Mining Iron Ore] status for [4] turn(s) <for all movement> <in [Iron Ore Enrichment Zone] tiles> <for units without [Full Load Iron Ore]> <for units without [Mining Iron Ore]>",
         "[This Unit] gains the [Mining Rare Metal Ore] status for [5] turn(s) <for all movement> <in [Rare Metal Enrichment Zone] tiles> <for units without [Full Load Rare Metal Ore]> <for units without [Mining Rare Metal Ore]>",
@@ -371,6 +391,7 @@
     {
         "name": "Early Interceptor",
         "uniques": [
+            "Only available <after discovering [Space Force Construction]>",
             "Components",
             "[25]% chance to intercept air attacks",
             "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
@@ -388,6 +409,7 @@
     {
         "name": "Interceptor",
         "uniques": [
+            "Only available <after discovering [Big Gun Battleship]>",
             "Components",
             "[50]% chance to intercept air attacks",
             "[This Unit] gains the [Deduct 1 Hull Spaces] promotion",
@@ -405,6 +427,7 @@
     {
         "name": "4-Slot Hangar",
         "uniques": [
+            "Only available <after discovering [War AI]>",
             "Components",
             "Can carry [4] [Carrier-based Aircraft] units",
             "[This Unit] gains the [Deduct 4 Hull Spaces] promotion",
@@ -420,6 +443,7 @@
     {
         "name": "Sentinel Array Core",
         "uniques": [
+            "Only available <after discovering [Cosmic Megastructure]>",
             "Components",
             "[+20] Sight",
         "Can see over obstacles",
@@ -439,6 +463,7 @@
     {
         "name": "Mine-Laying Equipment",
         "uniques": [
+            "Only available <after discovering [Blockade Battle Line]>",
             "Components",
             "Can build [Minefield] improvements on tiles",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -456,6 +481,7 @@
     {
         "name": "Minesweeping Equipment",
         "uniques": [
+            "Only available <after discovering [Blockade Battle Line]>",
             "Components",
             "Can build [Remove Minefield] improvements on tiles",
             "[This Unit] gains the [Deduct 2 Hull Spaces] promotion",
@@ -509,7 +535,7 @@
         "uniques": [
         "[+25]% Strength <when defending>",
         "Armor",
-        
+        "Only available <after discovering [xxxxxxx]>",
         "Only available <when above [4] [Tough Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
         "Instantly consumes [5] [Tough Alloy]",
         
@@ -523,7 +549,7 @@
         "uniques": [
         "[+1] Movement",
         "Armor",
-        
+        "Only available <after discovering [xxxxxxx]>",
         "Only available <when above [4] [Light Alloy]> <in [City center] tiles> <for [non-[Armor]] units>",
         "Instantly consumes [5] [Light Alloy]",
         
@@ -538,7 +564,7 @@
         "uniques": [
         "[+33]% Strength <when defending> <vs [Artillery] units>",
         "Shield",
-
+        "Only available <after discovering [xxxxxxx]>",
         "[This Unit] gains the [Deduct 3 Hull Spaces] promotion",
         "Only available <in [City center] tiles> <for [non-[Shield]] units>",
         "Only available <for [{non-[0 Remaining Hull Spaces]} {non-[1 Remaining Hull Spaces]} {non-[2 Remaining Hull Spaces]}] units> <hidden from users>",

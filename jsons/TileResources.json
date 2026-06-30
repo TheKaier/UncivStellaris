@@ -91,7 +91,7 @@
             //"Not shown on world screen"
             "Generated on every [300] tiles <in [Void] tiles>",
             
-            
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
             
             
         ]
@@ -109,7 +109,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Raw Material Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -118,7 +118,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Raw Material Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -127,7 +127,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -136,7 +136,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Raw Material Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -145,7 +145,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Raw Material Resources] is constructed> <hidden from users>",
         ]
     },
     
@@ -163,7 +163,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -172,7 +172,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -181,7 +181,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     
@@ -194,7 +194,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -203,7 +203,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Processed Product Resources] is constructed> <hidden from users>",
         ]
     },
     
@@ -220,7 +220,7 @@
         "uniques": [
             "Cannot be traded",
             //"Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Other Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -302,7 +302,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Manpower Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -311,7 +311,7 @@
         "uniques": [
             "Cannot be traded",
             //"Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Manpower Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -320,7 +320,7 @@
         "uniques": [
             "Cannot be traded",
             //"Stockpiled",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Manpower Resources] is constructed> <hidden from users>",
         ]
     },
     
@@ -413,6 +413,7 @@
         "uniques": [
             "Cannot be traded",
             "Stockpiled",
+            "Not shown on world screen <if [Hide Other Resources] is constructed> <hidden from users>",
         ]
     },
 	{
@@ -428,7 +429,7 @@
         "resourceType": "Strategic",
         "uniques": [
             "Cannot be traded",
-            //"Not shown on world screen"
+            "Not shown on world screen <if [Hide Other Resources] is constructed> <hidden from users>",
         ]
     },
     {
@@ -513,6 +514,43 @@
 
 
 
+    {
+        "name": "Number of Megastructure",//可建造的巨构数量
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen",
+            
+        ]
+    },
+
+
+
+
+
+    {
+        "name": "Diplomatic Possibilities",//外交可能性
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen",
+            "Stockpiled",
+        ]
+    },
+    {
+        "name": "Galactic Community Time",//星海共同体运行时间
+        "resourceType": "Strategic",
+        "uniques": [
+            "Cannot be traded",
+            "Not shown on world screen",
+            "Stockpiled",
+        ]
+    },
+
+
+
+
+
 
 
 
@@ -534,6 +572,7 @@
         "uniques": [
             "Cannot be traded",
             "Not shown on world screen <when below [1] [Menace]>",
+            "Not shown on world screen <if [Hide Other Resources] is constructed> <hidden from users>",
             "Stockpiled",
         ]
     },
